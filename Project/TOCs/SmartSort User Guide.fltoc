@@ -1,0 +1,1590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Getting Started"
+    Link="/Content/SmartSort User Guide/Getting Started.htm"
+    conditions="Default.PrintOnly"
+    ReplaceMergeNode="false"></TocEntry>
+  <TocEntry
+    Title="System Overview"
+    Link="/Content/SmartSort User Guide/System Overview.htm"
+    conditions="Default.PrintOnly" />
+  <TocEntry
+    Title="SmartSuite Enterprise Web Client Overview"
+    Link="/Content/SmartSort User Guide/smartsuite Enterprise Web Client Overview.htm">
+    <TocEntry
+      Title="Web Client Navigation"
+      Link="/Content/SmartSort User Guide/web client Navigation.htm">
+      <TocEntry
+        Title="Main Menu"
+        Link="/Content/SmartSort User Guide/main Menu.htm" />
+      <TocEntry
+        Title="Tooltips"
+        Link="/Content/SmartSort User Guide/tooltips.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="SmartSuite Login"
+      Link="/Content/SmartSort User Guide/smartsuite login.htm">
+      <TocEntry
+        Title="Account"
+        Link="/Content/SmartSort User Guide/account.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Sortation Control"
+    Link="/Content/SmartSort User Guide/sortation Control.htm">
+    <TocEntry
+      Title="Understanding Bag History"
+      Link="/Content/SmartSort User Guide/understanding Bag History.htm" />
+    <TocEntry
+      Title="Virtual to Physical Mapping"
+      Link="/Content/SmartSort User Guide/virtual to physical mapping.htm" />
+    <TocEntry
+      Title="Configuring Default Carrier Piers "
+      Link="/Content/SmartSort User Guide/Configuring Carrier Make Up.htm" />
+    <TocEntry
+      Title="Flight Schedule Management"
+      Link="/Content/SmartSort User Guide/flight schedule Management.htm">
+      <TocEntry
+        Title="Flight Times"
+        Link="/Content/SmartSort User Guide/flight times.htm" />
+      <TocEntry
+        Title="Active Flight Schedule"
+        Link="/Content/SmartSort User Guide/active flight Schedule.htm">
+        <TocEntry
+          Title="Screen Layout"
+          Link="/Content/SmartSort User Guide/screen Layout.htm" />
+        <TocEntry
+          Title="Modifying Display Settings"
+          Link="/Content/SmartSort User Guide/modifying Display Filters.htm" />
+        <TocEntry
+          Title="Temporarily Overriding the Time Range"
+          Link="/Content/SmartSort User Guide/Temporarily Overriding the Time Range.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Modifying the Display Filters"
+          Link="/Content/SmartSort User Guide/Modifying Display Filters_1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="List View"
+          Link="/Content/SmartSort User Guide/list view.htm"
+          conditions="Default.PrintOnly"></TocEntry>
+        <TocEntry
+          Title="Gantt View"
+          Link="/Content/SmartSort User Guide/gantt View.htm"
+          conditions="Default.PrintOnly" />
+        <TocEntry
+          Title="Editor View"
+          Link="/Content/SmartSort User Guide/editor view.htm"
+          conditions="Default.PrintOnly" />
+        <TocEntry
+          Title="Grid Basics"
+          Link="/Content/SmartSort User Guide/Grid Basics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Saving Changes to the Active Flight Schedule"
+          Link="/Content/SmartSort User Guide/Saving Changes to the Active Flight Schedule.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Adding a Flight to the Active Flight Schedule"
+          Link="/Content/SmartSort User Guide/Adding a Flight to the Active Flight Schedule.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          MarkAsNew="false" />
+        <TocEntry
+          Title="Editing a Flight in the Active Flight Schedule"
+          Link="/Content/SmartSort User Guide/Editing a Flight in the Active Flight Schedule.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Duplicating a Flight in the Active Flight Schedule"
+          Link="/Content/SmartSort User Guide/Duplicating a Flight in the Active Flight Schedule.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Deleting a Flight from the Active Flight Schedule"
+          Link="/Content/SmartSort User Guide/Deleting a Flight from the Active Flight Schedule.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Shifting Flight Times in the Active Flight Schedule"
+          Link="/Content/SmartSort User Guide/Shifting Flight Times in the Active Flight Schedule.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Holding All Flights in the Active Flight Schedule"
+          Link="/Content/SmartSort User Guide/Holding All Flights in the Active Flight Schedule.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Editing the Flight Schedule Using an Excel Worksheet"
+          Link="/Content/SmartSort User Guide/Editing the Flight Schedule Using an Excel Worksheet.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Overall Flight Schedule Information and Statistics"
+          Link="/Content/SmartSort User Guide/Overall Flight Schedule Information and Statistics.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Template Management"
+        Link="/Content/SmartSort User Guide/template management.htm">
+        <TocEntry
+          Title="List of Flight Schedule Template"
+          Link="/Content/SmartSort User Guide/List of Flight Schedule Templates.htm"></TocEntry>
+        <TocEntry
+          Title="Template Properties"
+          Link="/Content/SmartSort User Guide/Template Properties.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Adding a New Flight Schedule Template"
+          Link="/Content/SmartSort User Guide/Adding a New Flight Schedule Template.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Editing a Flight Schedule Template"
+          Link="/Content/SmartSort User Guide/Editing a Flight Schedule Template.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Duplicating a Flight Schedule Template"
+          Link="/Content/SmartSort User Guide/Duplicating a Flight Schedule Template.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Deleting a Flight Schedule Template"
+          Link="/Content/SmartSort User Guide/Deleting a Flight Schedule Template.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Managing Flights Within a Template"
+          Link="/Content/SmartSort User Guide/Managing Flights Within a Template.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        <TocEntry
+          Title="Edit Individual Flight Schedule Template"
+          Link="/Content/SmartSort User Guide/Edit Individual Flight Schedule Template.htm"></TocEntry>
+        <TocEntry
+          Title="Template Properties"
+          Link="/Content/SmartSort User Guide/Template Properties_1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Modifying Display Filters"
+          Link="/Content/SmartSort User Guide/Modifying Display Filters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Editing the Flight Schedule Template Using an Excel Worksheet"
+          Link="/Content/SmartSort User Guide/Editing the Flight Schedule Template Using an Excel Worksheet.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Statistics"
+          Link="/Content/SmartSort User Guide/Statistics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Grid Basics"
+          Link="/Content/SmartSort User Guide/Grid Basics_1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Saving Changes to the Flight Schedule Template"
+          Link="/Content/SmartSort User Guide/Saving Changes to the Flight Schedule Template.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Adding a Flight to the Flight Schedule Template"
+          Link="/Content/SmartSort User Guide/Adding a Flight to the Flight Schedule Template.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Editing a Flight in the Flight Schedule Template"
+          Link="/Content/SmartSort User Guide/Editing a Flight in the Flight Schedule Template.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Duplicating a Flight in the Flight Schedule Template"
+          Link="/Content/SmartSort User Guide/Duplicating a Flight in the Flight Schedule Template.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Deleting a Flight in the Flight Schedule Template"
+          Link="/Content/SmartSort User Guide/Deleting a Flight from the Flight Schedule Template.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Shifting Flight Times in the Flight Schedule Template"
+          Link="/Content/SmartSort User Guide/Shifting Flight Times in the Flight Schedule Template.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Sending Flights to the Active Flight Schedule"
+          Link="/Content/SmartSort User Guide/Sending Flights to the Active Flight Schedule.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Activating the Flight Schedule"
+          Link="/Content/SmartSort User Guide/activating the Flight Schedule.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Flight Properties"
+        Link="/Content/SmartSort User Guide/flight properties.htm"
+        conditions="Default.PrintOnly" />
+    </TocEntry>
+    <TocEntry
+      Title="Reroute Control"
+      Link="/Content/SmartSort User Guide/reroute Control.htm"
+      conditions="Default.ScreenOnly">
+      <TocEntry
+        Title="Reroute Modes"
+        Link="/Content/SmartSort User Guide/reroute modes.htm"
+        conditions="Default.ScreenOnly" />
+      <TocEntry
+        Title="Reroute Search Window"
+        Link="/Content/SmartSort User Guide/reroute search Window.htm"
+        conditions="Default.ScreenOnly" />
+      <TocEntry
+        Title="Flight Options"
+        Link="/Content/SmartSort User Guide/flight options.htm"
+        conditions="Default.ScreenOnly" />
+      <TocEntry
+        Title="Additional Reroute Settings"
+        Link="/Content/SmartSort User Guide/additional Reroute Settings.htm"
+        conditions="Default.ScreenOnly" />
+      <TocEntry
+        Title="Reroute Logic"
+        Link="/Content/SmartSort User Guide/reroute logic.htm"
+        conditions="Default.ScreenOnly" />
+      <TocEntry
+        Title="Managing Reroute Groups"
+        Link="/Content/SmartSort User Guide/managing reroute Groups.htm"
+        conditions="Default.ScreenOnly" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Manually Encoding Bags"
+    Link="/Content/SmartSort User Guide/manually Encoding Bags.htm">
+    <TocEntry
+      Title="Encoding Bags"
+      Link="/Content/SmartSort User Guide/encoding bags.htm">
+      <TocEntry
+        Title="Bag Tag Scanned"
+        Link="/Content/SmartSort User Guide/bag tag scanned.htm">
+        <TocEntry
+          Title="Carrier Default Pier Auto-Release"
+          Link="/Content/SmartSort User Guide/carrier Default Pier Auto Release.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Manually Keyed Bag Tag"
+        Link="/Content/SmartSort User Guide/manually keyed Bag Tag.htm" />
+      <TocEntry
+        Title="Flight Mode"
+        Link="/Content/SmartSort User Guide/flight mode.htm" />
+      <TocEntry
+        Title="Pier Mode"
+        Link="/Content/SmartSort User Guide/pier mode.htm" />
+      <TocEntry
+        Title="Quick Release"
+        Link="/Content/SmartSort User Guide/Quick Release.htm" />
+      <TocEntry
+        Title="Carrier Default Pier Mode"
+        Link="/Content/SmartSort User Guide/carrier default pier mode.htm" />
+      <TocEntry
+        Title="Backup Sortation Mode"
+        Link="/Content/SmartSort User Guide/backup sortation Mode.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Pseudo BSMs"
+      Link="/Content/SmartSort User Guide/Pseudo BSMs.htm"></TocEntry>
+    <TocEntry
+      Title="Inquiry Mode"
+      Link="/Content/SmartSort User Guide/Inquiry mode.htm"></TocEntry>
+    <TocEntry
+      Title="Line Switching"
+      Link="/Content/SmartSort User Guide/Line Switching.htm" />
+    <TocEntry
+      Title="Re-Tagging Bags"
+      Link="/Content/SmartSort User Guide/re Tagging Bags.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="CBRA Inspection (BSDs)"
+    Link="/Content/SmartSort User Guide/CBRA Inspection BSDs.htm">
+    <TocEntry
+      Title="Baggage Status Display (BSD)"
+      Link="/Content/SmartSort User Guide/baggage status Display BSD.htm">
+      <TocEntry
+        Title="Using a BSD"
+        Link="/Content/SmartSort User Guide/Using a BSD.htm" />
+      <TocEntry
+        Title="Bag Waiting Alerts"
+        Link="/Content/SmartSort User Guide/Bag Waiting Alerts.htm" />
+      <TocEntry
+        Title="BSD Tag Printer"
+        Link="/Content/SmartSort User Guide/BSD Tag Printer.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="CBRA Inspection (BITs and BRPs)"
+    Link="/Content/SmartSort User Guide/CBRA Inspection_BITs and BRPs.htm">
+    <TocEntry
+      Title="Removing a Bag"
+      Link="/Content/SmartSort User Guide/Removing a Bag.htm">
+      <TocEntry
+        Title="Using a BRP"
+        Link="/Content/SmartSort User Guide/Using a BRP.htm" />
+      <TocEntry
+        Title="Reinserting a Bag"
+        Link="/Content/SmartSort User Guide/Reinserting a Bag.htm" />
+      <TocEntry
+        Title="BRP Tag Printer"
+        Link="/Content/SmartSort User Guide/BRP Tag Printer.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Inspecting a Bag"
+      Link="/Content/SmartSort User Guide/Inspecting a Bag.htm">
+      <TocEntry
+        Title="Using a BIT"
+        Link="/Content/SmartSort User Guide/Using a BIT.htm" />
+      <TocEntry
+        Title="BIT Hand Scanners"
+        Link="/Content/SmartSort User Guide/BIT Hand Scanners.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="HMI Overview"
+    Link="/Content/SmartSort User Guide/hmi overview.htm">
+    <TocEntry
+      Title="HMI Navigation"
+      Link="/Content/SmartSort User Guide/hmi navigation.htm">
+      <TocEntry
+        Title="Title/Navigation Bar"
+        Link="/Content/SmartSort User Guide/title Navigation Bar.htm" />
+      <TocEntry
+        Title="Navigating HMI Graphical Screens"
+        Link="/Content/SmartSort User Guide/navigating HMI Graphical Screens.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Monitoring Real-Time System Performance"
+    Link="/Content/SmartSort User Guide/Monitoring Real Time System Performance.htm">
+    <TocEntry
+      Title="Monitoring Equipment Status"
+      Link="/Content/SmartSort User Guide/monitoring equipment Status.htm">
+      <TocEntry
+        Title="HMI Display Conventions"
+        Link="/Content/SmartSort User Guide/hmi display Conventions.htm">
+        <TocEntry
+          Title="Conveyor Animation"
+          Link="/Content/SmartSort User Guide/conveyor Animation.htm" />
+        <TocEntry
+          Title="ATR Animation"
+          Link="/Content/SmartSort User Guide/atr animation.htm" />
+        <TocEntry
+          Title="Diverter Animation"
+          Link="/Content/SmartSort User Guide/diverter Animation.htm" />
+        <TocEntry
+          Title="Fire/Security Door Animation"
+          Link="/Content/SmartSort User Guide/Fire Security Door Animation.htm" />
+        <TocEntry
+          Title="Make Up Unit Animation"
+          Link="/Content/SmartSort User Guide/Make Up Unit Animation.htm" />
+        <TocEntry
+          Title="ISD Machine Animation"
+          Link="/Content/SmartSort User Guide/isd Machine Animation.htm" />
+        <TocEntry
+          Title="MCP Animation"
+          Link="/Content/SmartSort User Guide/MCP Animation.htm" />
+        <TocEntry
+          Title="Manual Encode (MEC)"
+          Link="/Content/SmartSort User Guide/Manual Encode MEC.htm" />
+        <TocEntry
+          Title="E-Stop Animation"
+          Link="/Content/SmartSort User Guide/E-Stop Animation.htm" />
+        <TocEntry
+          Title="Photo Eye Animation"
+          Link="/Content/SmartSort User Guide/Photo Eye Animation.htm" />
+        <TocEntry
+          Title="Dimensioner Animation"
+          Link="/Content/SmartSort User Guide/Dimensioner Animation.htm" />
+        <TocEntry
+          Title="Vertical Sorter/Vertical Merge Animation"
+          Link="/Content/SmartSort User Guide/Vertical Sorter_Vertical Merge Animation.htm" />
+        <TocEntry
+          Title="Baggage Removal Point (BRP)/Baggage Inspection Table (BIT)"
+          Link="/Content/SmartSort User Guide/Baggage Removal Point (BRP)_Baggage Inspection Table (BIT).htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Viewing Equipment Pop-Up Windows"
+        Link="/Content/SmartSort User Guide/viewing equipment Pop Up Windows.htm">
+        <TocEntry
+          Title="Conveyor Pop-Up Window"
+          Link="/Content/SmartSort User Guide/conveyor pop Up Window.htm" />
+        <TocEntry
+          Title="Conveyor Line Pop-Up Window"
+          Link="/Content/SmartSort User Guide/conveyor line Pop Up Window.htm" />
+        <TocEntry
+          Title="MCP Pop-Up Window"
+          Link="/Content/SmartSort User Guide/MCP pop Up Window.htm" />
+        <TocEntry
+          Title="Make-Up Unit/Claim Device Pop-Up Window"
+          Link="/Content/SmartSort User Guide/Make Up Unit Claim Device.htm" />
+        <TocEntry
+          Title="Diverter (HSD) Pop-Up Window"
+          Link="/Content/SmartSort User Guide/diverter HSD Pop Up Window.htm" />
+        <TocEntry
+          Title="ATR Pop-Up Window"
+          Link="/Content/SmartSort User Guide/ATR pop Up Window.htm" />
+        <TocEntry
+          Title="Manual Encode Pop-Up Window"
+          Link="/Content/SmartSort User Guide/manual encode pop Up Window.htm" />
+        <TocEntry
+          Title="Fire Door Pop-Up Window"
+          Link="/Content/SmartSort User Guide/fire door Pop Up Window.htm" />
+        <TocEntry
+          Title="CTX Pop-Up Window"
+          Link="/Content/SmartSort User Guide/CTX Pop Up Window.htm" />
+        <TocEntry
+          Title="Server Status - State Pop-Up Window"
+          Link="/Content/SmartSort User Guide/server Status State Pop Up Window.htm" />
+        <TocEntry
+          Title="Pusher Pop-Up Window"
+          Link="/Content/SmartSort User Guide/Pusher Pop-Up Window.htm" />
+        <TocEntry
+          Title="VMU_VSU Pop-Up Window"
+          Link="/Content/SmartSort User Guide/VMU and VSU Pop-Up Window.htm" />
+        <TocEntry
+          Title="Dimensioner Pop-Up Window"
+          Link="/Content/SmartSort User Guide/Dimensioner Pop-Up Window.htm" />
+        <TocEntry
+          Title="BRP Pop-Up Window"
+          Link="/Content/SmartSort User Guide/BRP Pop-Up Window.htm" />
+        <TocEntry
+          Title="BIT Pop-Up Window"
+          Link="/Content/SmartSort User Guide/BIT Pop-Up Window.htm" />
+        <TocEntry
+          Title="BSD Pop-Up Window"
+          Link="/Content/SmartSort User Guide/BSD Pop-Up Window.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Viewing System Status Screens"
+        Link="/Content/SmartSort User Guide/Viewing system Status Screens.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Monitoring Alarms and Fault Modes"
+      Link="/Content/SmartSort User Guide/monitoring alarms and Fault.htm">
+      <TocEntry
+        Title="Monitoring Alarms with the HMI"
+        Link="/Content/SmartSort User Guide/Monitoring Alarms with the HMI.htm"></TocEntry>
+      <TocEntry
+        Title="Alarm Monitoring and History"
+        Link="/Content/SmartSort User Guide/Monitoring Alarms with the HMI.htm">
+        <TocEntry
+          Title="Alarms Pop-Up"
+          Link="/Content/SmartSort User Guide/Alarms Pop-Up.htm" />
+        <TocEntry
+          Title="Alarm History Screen"
+          Link="/Content/SmartSort User Guide/Alarm History Screen.htm" />
+        <TocEntry
+          Title="Problem Resolution Text"
+          Link="/Content/SmartSort User Guide/problem resolution Text.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Fault Mode Pop-Up Window"
+        Link="/Content/SmartSort User Guide/fault mode Pop Up Window.htm" />
+      <TocEntry
+        Title="Monitoring Alarms with the Web Client"
+        Link="/Content/SmartSort User Guide/monitoring alarms with the web Client.htm">
+        <TocEntry
+          Title="Upper-Level Alarms"
+          Link="/Content/SmartSort User Guide/Upper-Level Alarms.htm" />
+        <TocEntry
+          Title="Alarm Emails"
+          Link="/Content/SmartSort User Guide/Alarm Emails.htm" />
+        <TocEntry
+          Title="Alarm Searches and Reports"
+          Link="/Content/SmartSort User Guide/Alarm searches and Reports.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/SmartSort User Guide/Alarms Dashboard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Monitoring Communication Status"
+      Link="/Content/SmartSort User Guide/Monitoring Communication Status.htm">
+      <TocEntry
+        Title="Monitoring Communication Status with the HMI"
+        Link="/Content/SmartSort User Guide/Monitoring Communication Status with the HMI.htm">
+        <TocEntry
+          Title="PLC Status"
+          Link="/Content/SmartSort User Guide/PLC Status.htm" />
+        <TocEntry
+          Title="Fault Mode"
+          Link="/Content/SmartSort User Guide/Fault Mode.htm" />
+        <TocEntry
+          Title="Upper Level Status"
+          Link="/Content/SmartSort User Guide/upper Level Status.htm" />
+        <TocEntry
+          Title="Server UPS Status"
+          Link="/Content/SmartSort User Guide/server upS Status.htm" />
+        <TocEntry
+          Title="HMI Clients"
+          Link="/Content/SmartSort User Guide/hmi clients.htm" />
+        <TocEntry
+          Title="Host Interfaces"
+          Link="/Content/SmartSort User Guide/host interfaces.htm" />
+        <TocEntry
+          Title="Factory Talk System Status"
+          Link="/Content/SmartSort User Guide/factory Talk System Status.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Monitoring Live Statistics"
+      Link="/Content/SmartSort User Guide/monitoring live Statistics.htm">
+      <TocEntry
+        Title="Monitoring Statistical Information in the HMI"
+        Link="/Content/SmartSort User Guide/Monitoring Statistical Information in the HMI.htm">
+        <TocEntry
+          Title="System Throughput"
+          Link="/Content/SmartSort User Guide/system throughput.htm"
+          conditions="Default.PrintOnly" />
+      </TocEntry>
+      <TocEntry
+        Title="Monitoring Statistical Information with the Web Client"
+        Link="/Content/SmartSort User Guide/monitoring statistical Information with the web client.htm">
+        <TocEntry
+          Title="BHS Map Dashboard"
+          Link="/Content/SmartSort User Guide/BHS Map.htm" />
+        <TocEntry
+          Title="Navigation Tools"
+          Link="/Content/SmartSort User Guide/Navigation Tools.htm" />
+        <TocEntry
+          Title="BHS Map Tray"
+          Link="/Content/SmartSort User Guide/BHS Map Tray.htm">
+          <TocEntry
+            Title="Settings Pane"
+            Link="/Content/SmartSort User Guide/Settings Pane.htm" />
+          <TocEntry
+            Title="KPIs Pane"
+            Link="/Content/SmartSort User Guide/KPIs Pane.htm" />
+          <TocEntry
+            Title="Bags Pane"
+            Link="/Content/SmartSort User Guide/Bags Pane.htm" />
+          <TocEntry
+            Title="Flights Pane"
+            Link="/Content/SmartSort User Guide/Flights Pane.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Bag Tag Search"
+          Link="/Content/SmartSort User Guide/Bag Tag Search_1.htm" />
+        <TocEntry
+          Title="Bags En Route Dashboard"
+          Link="/Content/SmartSort User Guide/Bags en Route Dashboard.htm">
+          <TocEntry
+            Title="Overriding the Departure Window"
+            Link="/Content/SmartSort User Guide/Overriding the Departure Window.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Current System Activity"
+          Link="/Content/SmartSort User Guide/Current system Activity.htm" />
+        <TocEntry
+          Title="SmartConnect Dashboard"
+          Link="/Content/SmartSort User Guide/SmartConnect Dashboard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Controlling the System Using the HMI"
+    Link="/Content/SmartSort User Guide/Controlling the System Using the HMI.htm">
+    <TocEntry
+      Title="Device Status"
+      Link="/Content/SmartSort User Guide/Device Status.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Understanding Web Client Reports"
+    Link="/Content/SmartSort User Guide/Understanding WEb Client Reports.htm">
+    <TocEntry
+      Title="Generating Web Client Reports"
+      Link="/Content/SmartSort User Guide/Generating Web Client Reports.htm">
+      <TocEntry
+        Title="Working with Report Results"
+        Link="/Content/SmartSort User Guide/Working with Report Results.htm" />
+      <TocEntry
+        Title="Printing/Exporting Reports"
+        Link="/Content/SmartSort User Guide/Printing Exporting Reports.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Business Analytics Report Editor"
+      Link="/Content/SmartSort User Guide/business Analytics Report Editor.htm">
+      <TocEntry
+        Title="Business Analytics"
+        Link="/Content/SmartSort User Guide/Business Analytics.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Flight Schedule Report"
+      Link="/Content/SmartSort User Guide/Flight schedule Report.htm" />
+    <TocEntry
+      Title="Flight Sort Summary Report"
+      Link="/Content/SmartSort User Guide/Flight sort Summary Report.htm" />
+    <TocEntry
+      Title="Individual Flight Summary Report"
+      Link="/Content/SmartSort User Guide/individual Flight Summary Report.htm" />
+    <TocEntry
+      Title="Bag Tag Printer Report"
+      Link="/Content/SmartSort User Guide/bag tag Printer Report.htm" />
+    <TocEntry
+      Title="BSM Summary Report"
+      Link="/Content/SmartSort User Guide/BSM Tag Summary Report.htm" />
+    <TocEntry
+      Title="Carrier Summary Report"
+      Link="/Content/SmartSort User Guide/Carrier summary Report.htm" />
+    <TocEntry
+      Title="SmartSort Default Make-Up Report"
+      Link="/Content/SmartSort User Guide/smartsort default Make Up Report.htm" />
+    <TocEntry
+      Title="Shaft Encoder Report"
+      Link="/Content/SmartSort User Guide/shaft Encoder Report.htm" />
+    <TocEntry
+      Title="Failed to Sort Report"
+      Link="/Content/SmartSort User Guide/failed to Sort Report.htm" />
+    <TocEntry
+      Title="Problem BSM Report"
+      Link="/Content/SmartSort User Guide/problem BSM Report.htm" />
+    <TocEntry
+      Title="Bag Transit Time Report"
+      Link="/Content/SmartSort User Guide/bag transit Time Report.htm" />
+    <TocEntry
+      Title="System Throughput Report"
+      Link="/Content/SmartSort User Guide/system throughput Report.htm" />
+    <TocEntry
+      Title="Day End Report"
+      Link="/Content/SmartSort User Guide/Day End Report.htm" />
+    <TocEntry
+      Title="Equipment Operational Summary Report"
+      Link="/Content/SmartSort User Guide/Equipment Operational Summary.htm" />
+    <TocEntry
+      Title="Equipment Malfunction Report"
+      Link="/Content/SmartSort User Guide/equipment Malfunction Report.htm" />
+    <TocEntry
+      Title="Equipment Malfunction Summary Report"
+      Link="/Content/SmartSort User Guide/equipment malfunction summary.htm" />
+    <TocEntry
+      Title="Dimensioner Performance Report"
+      Link="/Content/SmartSort User Guide/Dimensioner Performance Report.htm" />
+    <TocEntry
+      Title="Laser Array Report"
+      Link="/Content/SmartSort User Guide/laser Activity Report.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SmartSort User Guide/Laser Activity Report.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SmartSort User Guide/Network Status Report.htm" />
+    <TocEntry
+      Title="Manual Encode Console Report"
+      Link="/Content/SmartSort User Guide/manual Encode Console Report.htm" />
+    <TocEntry
+      Title="Virtual to Physical Mapping Report"
+      Link="/Content/SmartSort User Guide/Virtual to Physical Mapping Report.htm" />
+    <TocEntry
+      Title="CBIS Executive Summary Report"
+      Link="/Content/SmartSort User Guide/CBIS Executive Summary Report.htm" />
+    <TocEntry
+      Title="CBIS Bag Volume Report"
+      Link="/Content/SmartSort User Guide/CBIS Bag Volume Report.htm" />
+    <TocEntry
+      Title="CBIS Daily Summary Report"
+      Link="/Content/SmartSort User Guide/CBIS Daily Summary Report.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SmartSort User Guide/Photo Eye Cell Tracking Report.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SmartSort User Guide/Critical Photo Eye Report.htm" />
+    <TocEntry
+      Title="CBIS ISD (Level 1) Performance Report"
+      Link="/Content/SmartSort User Guide/CBIS ISD (Level 1) Performance Report.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SmartSort User Guide/OSR Performance Report.htm" />
+    <TocEntry
+      Title="CBRA Performance Report"
+      Link="/Content/SmartSort User Guide/CBRA Performance Report.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SmartSort User Guide/CBRA Executive Summary Report.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SmartSort User Guide/CBRA Bag Report.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/SmartSort User Guide/CBRA Baggage Processing Timer Report.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Understanding Search Results"
+    Link="/Content/SmartSort User Guide/understanding search Results.htm">
+    <TocEntry
+      Title="Using Global Search"
+      Link="/Content/SmartSort User Guide/Using Global Search.htm" />
+    <TocEntry
+      Title="Viewing Details Screens"
+      Link="/Content/SmartSort User Guide/viewing Details Screens.htm" />
+    <TocEntry
+      Title="Using Advanced Searches"
+      Link="/Content/SmartSort User Guide/Using advanced Searches.htm">
+      <TocEntry
+        Title="Working with Advanced Search Results"
+        Link="/Content/SmartSort User Guide/working with Advanced Search.htm"
+        conditions="Default.PrintOnly" />
+      <TocEntry
+        Title="Printing/Exporting Search Results"
+        Link="/Content/SmartSort User Guide/printing exporting search.htm"
+        conditions="Default.PrintOnly" />
+      <TocEntry
+        Title="Activity Log Search"
+        Link="/Content/SmartSort User Guide/activity Log Search.htm" />
+      <TocEntry
+        Title="Alarm History Search"
+        Link="/Content/SmartSort User Guide/smartsort Alarm History Search.htm" />
+      <TocEntry
+        Title="Bag Tag Search"
+        Link="/Content/SmartSort User Guide/bag tag search.htm" />
+      <TocEntry
+        Title="Bag Transaction Search"
+        Link="/Content/SmartSort User Guide/bag transaction Search.htm" />
+      <TocEntry
+        Title="Raw Message Search"
+        Link="/Content/SmartSort User Guide/raw message Search.htm" />
+      <TocEntry
+        Title="Audit Log Search"
+        Link="/Content/SmartSort User Guide/audit Log Search.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/SmartSort User Guide/SmartConnect Event Log Search.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="System Administration"
+    Link="/Content/SmartSort System Administration Manual/System Administration Overview.htm">
+    <TocEntry
+      Title="System Administration Overview"
+      Link="/Content/SmartSort System Administration Manual/system Administration Overview.htm">
+      <TocEntry
+        Title="Assumptions and Dependencies"
+        Link="/Content/SmartSort System Administration Manual/assumptions and Dependencies.htm" />
+      <TocEntry
+        Title="Manual Contents"
+        Link="/Content/SmartSort System Administration Manual/manual Contents.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="SmartSuite Web Client Administration"
+      Link="/Content/SmartSort System Administration Manual/smartsuite Web Client Administration.htm">
+      <TocEntry
+        Title="Users and Groups"
+        Link="/Content/SmartSort System Administration Manual/users and Groups.htm">
+        <TocEntry
+          Title="Managing Groups"
+          Link="/Content/SmartSort System Administration Manual/managing groups.htm" />
+        <TocEntry
+          Title="Managing Users"
+          Link="/Content/SmartSort System Administration Manual/managing users.htm" />
+        <TocEntry
+          Title="Email Recipient Configuration"
+          Link="/Content/SmartSort System Administration Manual/email recipient Configuration.htm" />
+        <TocEntry
+          Title="Email Accounts"
+          Link="/Content/SmartSort System Administration Manual/email accounts.htm" />
+        <TocEntry
+          Title="Alarm Distribution"
+          Link="/Content/SmartSort System Administration Manual/Alarm Distribution.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Workstation Setup"
+        Link="/Content/SmartSort System Administration Manual/workstation setup.htm">
+        <TocEntry
+          Title="Managing Workstations"
+          Link="/Content/SmartSort System Administration Manual/managing workstations.htm" />
+        <TocEntry
+          Title="Managing Workstation Groups"
+          Link="/Content/SmartSort System Administration Manual/managing workstation Groups.htm" />
+        <TocEntry
+          Title="Location Settings"
+          Link="/Content/SmartSort System Administration Manual/Location Settings.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/SmartSort System Administration Manual/Kiosk Mode.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="General Administration"
+        Link="/Content/SmartSort System Administration Manual/General Administration.htm">
+        <TocEntry
+          Title="System Settings"
+          Link="/Content/SmartSort System Administration Manual/system settings.htm" />
+        <TocEntry
+          Title="Generating Automatic Reports"
+          Link="/Content/SmartSort System Administration Manual/Automatic Reports.htm">
+          <TocEntry
+            Title="Creating Automatic Report Jobs"
+            Link="/Content/SmartSort System Administration Manual/Creating Automatic Report Jobs.htm" />
+          <TocEntry
+            Title="Managing Automatic Report Jobs"
+            Link="/Content/SmartSort System Administration Manual/Managing Automatic Report.htm" />
+          <TocEntry
+            Title="Editing an Automatic Report Job"
+            Link="/Content/SmartSort System Administration Manual/Editing an Automatic Report.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Deleting an Automatic Report Job"
+            Link="/Content/SmartSort System Administration Manual/Deleting an Automatic Report.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Airline Codes"
+          Link="/Content/SmartSort System Administration Manual/Airline Codes.htm" />
+        <TocEntry
+          Title="Airport Codes"
+          Link="/Content/SmartSort System Administration Manual/Airport Codes.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="SmartSort Management"
+        Link="/Content/SmartSort System Administration Manual/smartsort management.htm">
+        <TocEntry
+          Title="Aircraft Types"
+          Link="/Content/SmartSort System Administration Manual/aircraft types.htm" />
+        <TocEntry
+          Title="Airline Settings"
+          Link="/Content/SmartSort System Administration Manual/airline settings.htm" />
+        <TocEntry
+          Title="Bag Tag Printers"
+          Link="/Content/SmartSort System Administration Manual/bag tag Printers.htm" />
+        <TocEntry
+          Title="Flight Markets"
+          Link="/Content/SmartSort System Administration Manual/flight markets.htm" />
+        <TocEntry
+          Title="Laser Array Rates"
+          Link="/Content/SmartSort System Administration Manual/laser array Rates.htm" />
+        <TocEntry
+          Title="Reroute Groups"
+          Link="/Content/SmartSort System Administration Manual/reroute Groups.htm">
+          <TocEntry
+            Title="Managing Reroute Groups"
+            Link="/Content/SmartSort System Administration Manual/managing reroute Groups.htm" />
+          <TocEntry
+            Title="Reroute Modes"
+            Link="/Content/SmartSort System Administration Manual/Reroute Modes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Retag Configuration"
+          Link="/Content/SmartSort System Administration Manual/retag Configuration.htm" />
+        <TocEntry
+          Title="Tag Priorities"
+          Link="/Content/SmartSort System Administration Manual/tag Priorities.htm" />
+        <TocEntry
+          Title="Virtual Piers"
+          Link="/Content/SmartSort System Administration Manual/Virtual Makeup Units.htm" />
+        <TocEntry
+          Title="Virtual to Physical Mapping Configuration"
+          Link="/Content/SmartSort System Administration Manual/Virtual to Physical Mapping.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/SmartSort System Administration Manual/Message Routing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="HMI Alarm Problem Resolution"
+          Link="/Content/SmartSort System Administration Manual/HMI Alarm Problem Resolution.htm#_Toc518389819" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="System Hardware Administration"
+      Link="/Content/SmartSort System Administration Manual/system hardware Administration.htm">
+      <TocEntry
+        Title="System Architecture"
+        Link="/Content/SmartSort System Administration Manual/system hardware Administration.htm">
+        <TocEntry
+          Title="Host Hardware"
+          Link="/Content/SmartSort System Administration Manual/Server Hardware.htm" />
+        <TocEntry
+          Title="VMware High Availability Solution"
+          Link="/Content/SmartSort System Administration Manual/vmware High Availability Solution.htm">
+          <TocEntry
+            Title="VMware vSphere vCenter"
+            Link="/Content/SmartSort System Administration Manual/VMware vSphere.htm" />
+          <TocEntry
+            Title="Logging In"
+            Link="/Content/SmartSort System Administration Manual/Logging In.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="View Information about a VM"
+            Link="/Content/SmartSort System Administration Manual/View Information about a VM.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Alarms"
+            Link="/Content/SmartSort System Administration Manual/Alarms.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="VM Migration"
+            Link="/Content/SmartSort System Administration Manual/VM Migration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Troubleshooting"
+            Link="/Content/SmartSort System Administration Manual/Troubleshooting.htm" />
+          <TocEntry
+            Title="Power On/Off, Startup/Shutdown"
+            Link="/Content/SmartSort System Administration Manual/power on off startup shutdown.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Replace a SAN Hard Drive"
+            Link="/Content/SmartSort System Administration Manual/replace a SAN Hard Drive.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Restore a VMWare Server"
+            Link="/Content/SmartSort System Administration Manual/Restore a VMware Server.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Maintenance Server"
+          Link="/Content/SmartSort System Administration Manual/Maintenance Server.htm" />
+        <TocEntry
+          Title="Network Attached Storage (NAS)"
+          Link="/Content/SmartSort System Administration Manual/network attached Storage NAS.htm" />
+        <TocEntry
+          Title="Manual Encoding Consoles (MEC)"
+          Link="/Content/SmartSort System Administration Manual/Manual Encoding Consoles MEC.htm" />
+        <TocEntry
+          Title="BSD Workstation Architecture"
+          Link="/Content/SmartSort System Administration Manual/bsd workstation Architecture.htm" />
+        <TocEntry
+          Title="Workstations"
+          Link="/Content/SmartSort System Administration Manual/workstations.htm">
+          <TocEntry
+            Title="Operator Workstation Architecture"
+            Link="/Content/SmartSort System Administration Manual/operator Workstation.htm" />
+          <TocEntry
+            Title="Remote TSA Workstation Architecture"
+            Link="/Content/SmartSort System Administration Manual/remote tsA Workstation Architecture.htm" />
+          <TocEntry
+            Title="Remote HMI Workstation Architecture"
+            Link="/Content/SmartSort System Administration Manual/Remote HMI Workstation Architecture.htm" />
+          <TocEntry
+            Title="Large Screen Display Architecture"
+            Link="/Content/SmartSort System Administration Manual/large Screen Display Architecture.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Operating Systems and Security"
+          Link="/Content/SmartSort System Administration Manual/operating Systems and Security.htm">
+          <TocEntry
+            Title="Servers"
+            Link="/Content/SmartSort System Administration Manual/Servers.htm" />
+          <TocEntry
+            Title="Workstations"
+            Link="/Content/SmartSort System Administration Manual/workstations_1.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Networks"
+          Link="/Content/SmartSort System Administration Manual/networks.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Application Overview"
+        Link="/Content/SmartSort System Administration Manual/application Overview.htm">
+        <TocEntry
+          Title="Sort Allocation Controller (SAC)"
+          Link="/Content/SmartSort System Administration Manual/sort allocation Controller SAC.htm" />
+        <TocEntry
+          Title="Data Historian Server (DHS)"
+          Link="/Content/SmartSort System Administration Manual/data historian Server DHS.htm" />
+        <TocEntry
+          Title="Maintenance Server and NAS"
+          Link="/Content/SmartSort System Administration Manual/maintenance server and NAS.htm" />
+        <TocEntry
+          Title="SmartVision HMI Servers"
+          Link="/Content/SmartSort System Administration Manual/smartvision HMI Servers.htm" />
+        <TocEntry
+          Title="Domain Controllers"
+          Link="/Content/SmartSort System Administration Manual/domain Controllers.htm" />
+        <TocEntry
+          Title="APC PowerChute Management"
+          Link="/Content/SmartSort System Administration Manual/APC PowerChute Management.htm" />
+        <TocEntry
+          Title="Maintenance Laptop"
+          Link="/Content/SmartSort System Administration Manual/Maintenance Laptop.htm" />
+        <TocEntry
+          Title="Workstations"
+          Link="/Content/SmartSort System Administration Manual/workstations_2.htm">
+          <TocEntry
+            Title="Operator Workstation"
+            Link="/Content/SmartSort System Administration Manual/operator workstation.htm" />
+          <TocEntry
+            Title="Remote HMI Workstation"
+            Link="/Content/SmartSort System Administration Manual/Remote HMI Workstation.htm" />
+          <TocEntry
+            Title="Remote HMI Tablet"
+            Link="/Content/SmartSort System Administration Manual/remote HMI Tablet.htm" />
+          <TocEntry
+            Title="Manual Encode Consoles (MEC)"
+            Link="/Content/SmartSort System Administration Manual/Manual Encode Consoles MEC.htm" />
+          <TocEntry
+            Title="Baggage Status Displays (BSDs)"
+            Link="/Content/SmartSort System Administration Manual/baggage Status Displays BSDs.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Upper Level Software System"
+        Link="/Content/SmartSort System Administration Manual/Upper Level Software System.htm">
+        <TocEntry
+          Title="SAC Database Functionality"
+          Link="/Content/SmartSort System Administration Manual/SAC Database Functionality.htm">
+          <TocEntry
+            Title="Sorting Database Design"
+            Link="/Content/SmartSort System Administration Manual/sorting Database Design.htm" />
+          <TocEntry
+            Title="Bag Records"
+            Link="/Content/SmartSort System Administration Manual/bag records.htm" />
+          <TocEntry
+            Title="Bag Transactions"
+            Link="/Content/SmartSort System Administration Manual/bag transactions.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Airline Host Communication"
+          Link="/Content/SmartSort System Administration Manual/carrier Host Communication.htm">
+          <TocEntry
+            Title="BSM (Bag Source Messages)"
+            Link="/Content/SmartSort System Administration Manual/BSM Bag Source Messages.htm" />
+          <TocEntry
+            Title="BPM (Bag Processed Messages)"
+            Link="/Content/SmartSort System Administration Manual/BPM Bag Processed Messages.htm" />
+          <TocEntry
+            Title="FIDS Messages"
+            Link="/Content/SmartSort System Administration Manual/FIDS Messages.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Flight Schedule Activation"
+          Link="/Content/SmartSort System Administration Manual/Flight Schedule Activation.htm" />
+        <TocEntry
+          Title="DHS Database Functionality"
+          Link="/Content/SmartSort System Administration Manual/DHS Database Functionality.htm">
+          <TocEntry
+            Title="Reporting Database Design"
+            Link="/Content/SmartSort System Administration Manual/reporting Database Design.htm" />
+          <TocEntry
+            Title="Report Data Acquisition and Storage"
+            Link="/Content/SmartSort System Administration Manual/Report Data Acquisition and Storage.htm" />
+          <TocEntry
+            Title="Server Hardware Monitoring"
+            Link="/Content/SmartSort System Administration Manual/server hardware Monitoring.htm" />
+          <TocEntry
+            Title="SmartSort Service Heartbeats"
+            Link="/Content/SmartSort System Administration Manual/smartsort service Heartbeats.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="SmartSort Services"
+          Link="/Content/SmartSort System Administration Manual/smartSort Services.htm">
+          <TocEntry
+            Title="Restarting a Service"
+            Link="/Content/SmartSort System Administration Manual/restarting a Service.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="SAC Services"
+          Link="/Content/SmartSort System Administration Manual/SAC Services.htm">
+          <TocEntry
+            Title="SmartConnect Configuration"
+            Link="/Content/SmartSort System Administration Manual/smartconnect Configuration.htm" />
+          <TocEntry
+            Title="Flight Activator"
+            Link="/Content/SmartSort System Administration Manual/flight activator.htm" />
+          <TocEntry
+            Title="Sort Allocation Manager (SAM)"
+            Link="/Content/SmartSort System Administration Manual/sort allocation manager SAM.htm" />
+          <TocEntry
+            Title="Status Message Handler (SMH)"
+            Link="/Content/SmartSort System Administration Manual/status Message Handler SMH.htm" />
+          <TocEntry
+            Title="Job Processor"
+            Link="/Content/SmartSort System Administration Manual/Job Processor.htm" />
+          <TocEntry
+            Title="ATR Monitor"
+            Link="/Content/SmartSort System Administration Manual/ATR Monitor.htm" />
+          <TocEntry
+            Title="BHS Status Monitor"
+            Link="/Content/SmartSort System Administration Manual/BHS Status Monitor.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="DHS Services"
+          Link="/Content/SmartSort System Administration Manual/DHS Services.htm">
+          <TocEntry
+            Title="Alarm Distribution Service"
+            Link="/Content/SmartSort System Administration Manual/Alarm Distribution Service.htm" />
+          <TocEntry
+            Title="Automatic Reports Service"
+            Link="/Content/SmartSort System Administration Manual/Automatic reports Service.htm" />
+          <TocEntry
+            Title="Counter Collection Service (CoCoS)"
+            Link="/Content/SmartSort System Administration Manual/counter Collection Service.htm" />
+          <TocEntry
+            Title="Database Download Service"
+            Link="/Content/SmartSort System Administration Manual/database download Service.htm" />
+          <TocEntry
+            Title="PRTG Monitor"
+            Link="/Content/SmartSort System Administration Manual/PRTG Monitor.htm" />
+          <TocEntry
+            Title="Business Analytics Service"
+            Link="/Content/SmartSort System Administration Manual/Business Analytics Service.htm" />
+          <TocEntry
+            Title="IPC2OPC Service"
+            Link="/Content/SmartSort System Administration Manual/IPC2OPC Service.htm" />
+          <TocEntry
+            Title="Network Monitor"
+            Link="/Content/SmartSort System Administration Manual/network Monitor.htm" />
+          <TocEntry
+            Title="ETL Service"
+            Link="/Content/SmartSort System Administration Manual/ETL Service.htm" />
+          <TocEntry
+            Title="ETL Scheduler Service"
+            Link="/Content/SmartSort System Administration Manual/ETL Scheduler Service.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Log Files"
+          Link="/Content/SmartSort System Administration Manual/Log Files.htm" />
+        <TocEntry
+          Title="Cleanup Utilities (SQL Jobs)"
+          Link="/Content/SmartSort System Administration Manual/cleanup utilities SQL Jobs.htm">
+          <TocEntry
+            Title="Replication Jobs"
+            Link="/Content/SmartSort System Administration Manual/replication Jobs.htm" />
+          <TocEntry
+            Title="Cleanup Jobs"
+            Link="/Content/SmartSort System Administration Manual/cleanup Jobs.htm" />
+          <TocEntry
+            Title="Miscellaneous Jobs"
+            Link="/Content/SmartSort System Administration Manual/miscellaneous Jobs.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Replication"
+          Link="/Content/SmartSort System Administration Manual/replication.htm">
+          <TocEntry
+            Title="Publishers, Distributors, Subscribers"
+            Link="/Content/SmartSort System Administration Manual/publishers Distributors Subscribers.htm" />
+          <TocEntry
+            Title="Monitoring Replication Activity"
+            Link="/Content/SmartSort System Administration Manual/monitoring Replication Activity.htm" />
+          <TocEntry
+            Title="Reinitializing the Publication"
+            Link="/Content/SmartSort System Administration Manual/reinitializing the Publication.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Database Backups"
+          Link="/Content/SmartSort System Administration Manual/database Backups.htm" />
+        <TocEntry
+          Title="Contec Imaging Procedure"
+          Link="/Content/SmartSort System Administration Manual/contec Imaging Procedure.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Shut-Down and Restart Procedures"
+        Link="/Content/SmartSort System Administration Manual/shut Down and Restart Procedures.htm">
+        <TocEntry
+          Title="Workstations"
+          Link="/Content/SmartSort System Administration Manual/workstations_3.htm" />
+        <TocEntry
+          Title="Hardened Computers"
+          Link="/Content/SmartSort System Administration Manual/formsClient Computers.htm" />
+        <TocEntry
+          Title="Servers"
+          Link="/Content/SmartSort System Administration Manual/servers_1.htm" />
+        <TocEntry
+          Title="UPS Shutdown"
+          Link="/Content/SmartSort System Administration Manual/UPS Shutdown.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="System Maintenance and Troubleshooting"
+      Link="/Content/SmartSort System Administration Manual/system maintenance and Troubleshooting.htm">
+      <TocEntry
+        Title="Maintenance"
+        Link="/Content/SmartSort System Administration Manual/maintenance.htm">
+        <TocEntry
+          Title="Preventative Maintenance"
+          Link="/Content/SmartSort System Administration Manual/maintenance.htm" />
+        <TocEntry
+          Title="Computer Equipment Maintenance"
+          Link="/Content/SmartSort System Administration Manual/computer Equipment Maintenance.htm" />
+        <TocEntry
+          Title="Periodic System Audit"
+          Link="/Content/SmartSort System Administration Manual/periodic System Audit.htm" />
+        <TocEntry
+          Title="Windows Updates"
+          Link="/Content/SmartSort System Administration Manual/windows updates.htm" />
+        <TocEntry
+          Title="Manufacturer Warranty Support"
+          Link="/Content/SmartSort System Administration Manual/manufacturer Warranty Support.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Anti-Virus Software"
+        Link="/Content/SmartSort System Administration Manual/anti Virus Software.htm" />
+      <TocEntry
+        Title="Troubleshooting Guide"
+        Link="/Content/SmartSort System Administration Manual/troubleshooting Guide.htm">
+        <TocEntry
+          Title="Sortation"
+          Link="/Content/SmartSort System Administration Manual/sortation.htm">
+          <TocEntry
+            Title="Bags Not Sorted to Correct Locations"
+            Link="/Content/SmartSort System Administration Manual/bags not Sorted to Correct Locations.htm" />
+          <TocEntry
+            Title="High Number of Bags Sent to MEC (Bags Not Automatically Sorting)"
+            Link="/Content/SmartSort System Administration Manual/high number of Bags Sent to MEC Bags Not Automatically Sorting.htm" />
+          <TocEntry
+            Title="High Amount of Unknown Status Bags"
+            Link="/Content/SmartSort System Administration Manual/high amount of Unknown Status Bags.htm" />
+          <TocEntry
+            Title="Bags for One or More Flights Not Sorting to Correct Destination"
+            Link="/Content/SmartSort System Administration Manual/bags for One or More Flights Not Sorting to Correct Destination.htm" />
+          <TocEntry
+            Title="All Bags or All Unknown Bags Sorted to One Location"
+            Link="/Content/SmartSort System Administration Manual/All bags or All Unknown Bags Sorted to One Location.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="CBRA/CBIS"
+          Link="/Content/SmartSort System Administration Manual/cbra CBIS.htm">
+          <TocEntry
+            Title="High Number of Unknown Bags Sorted to CBRA"
+            Link="/Content/SmartSort System Administration Manual/high number of unknown Bags Sorted to CBRA.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Flight Schedules"
+          Link="/Content/SmartSort System Administration Manual/Flight schedules.htm">
+          <TocEntry
+            Title="Can't See Flights in Active Schedule"
+            Link="/Content/SmartSort System Administration Manual/Can t See Flights in Active Schedule.htm" />
+          <TocEntry
+            Title="Incorrect Active Flight Schedule Data"
+            Link="/Content/SmartSort System Administration Manual/incorrect Active Flight Schedule Data.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Manual Encode Console"
+          Link="/Content/SmartSort System Administration Manual/manual encode Console.htm">
+          <TocEntry
+            Title="MEC Releases Bags from Wrong Encoding Location"
+            Link="/Content/SmartSort System Administration Manual/MEC Releases Bags from Wrong Encoding Location.htm" />
+          <TocEntry
+            Title="MEC Appears Stuck or Frozen"
+            Link="/Content/SmartSort System Administration Manual/MEC Appears Stuck or Frozen.htm" />
+          <TocEntry
+            Title="PLC Connection Icon is Red and Bags Cannot Be Released"
+            Link="/Content/SmartSort System Administration Manual/PLC Connection Icon is Red and Bags Cannot Be Released.htm" />
+          <TocEntry
+            Title="Server Connection is Red (&quot;Backup Mode&quot;)"
+            Link="/Content/SmartSort System Administration Manual/server connection is Red Backup Mode.htm" />
+          <TocEntry
+            Title="Can't Release Bag at MEC Scan"
+            Link="/Content/SmartSort System Administration Manual/Can t Release Bag at MEC Scan.htm" />
+          <TocEntry
+            Title=" Error Message &quot;BSM Not Found&quot;"
+            Link="/Content/SmartSort System Administration Manual/Error Message BSM Not Found.htm" />
+          <TocEntry
+            Title="&quot;Release to Carrier Default Makeup unit&quot; Dialog Does Not Appear for Some Bags"
+            Link="/Content/SmartSort System Administration Manual/release to Carrier Default Makeup Unit Dialog Does Not Appear for Some Bags.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="HMI/Workstation"
+          Link="/Content/SmartSort System Administration Manual/HMI WOrkstation.htm">
+          <TocEntry
+            Title="Colors Not Appearing on HMI (Wireframe)"
+            Link="/Content/SmartSort System Administration Manual/Colors not Appearing on HMI.htm" />
+          <TocEntry
+            Title="Some Standard HMI Functions Not Working"
+            Link="/Content/SmartSort System Administration Manual/Some Standard HMI Functions Not Working.htm" />
+          <TocEntry
+            Title="HMI Not Displayed on the Correct Screens"
+            Link="/Content/SmartSort System Administration Manual/HMI not Displayed on the Correct Screens.htm" />
+          <TocEntry
+            Title="Workstation Screens Are Blank"
+            Link="/Content/SmartSort System Administration Manual/Workstation Screens Are Blank.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Web Client"
+          Link="/Content/SmartSort System Administration Manual/WEb Client.htm">
+          <TocEntry
+            Title="Can't View Web Client On Workstations"
+            Link="/Content/SmartSort System Administration Manual/Can t View Web Client On Workstations.htm" />
+          <TocEntry
+            Title="Can't Print Reports or Search Results"
+            Link="/Content/SmartSort System Administration Manual/Can t Print Reports or Search.htm" />
+          <TocEntry
+            Title="Can't Open Excel Documents On Workstations"
+            Link="/Content/SmartSort System Administration Manual/Can t Open Excel Documents.htm" />
+          <TocEntry
+            Title="Can't Access Web Client Menus"
+            Link="/Content/SmartSort System Administration Manual/Can t Access Web Client Menus.htm" />
+          <TocEntry
+            Title="Can't Access Web Client (404 Error)"
+            Link="/Content/SmartSort System Administration Manual/Can t Access Web Client 404.htm" />
+          <TocEntry
+            Title="Can't Generate Web Client Reports"
+            Link="/Content/SmartSort System Administration Manual/Can t Generate Web Client.htm" />
+          <TocEntry
+            Title="Bag Data in Reports Not Up-To-Date"
+            Link="/Content/SmartSort System Administration Manual/Bag Data in Reports Not Up to Date.htm" />
+        </TocEntry>
+        <TocEntry
+          Title=" Network"
+          Link="/Content/SmartSort System Administration Manual/Network.htm">
+          <TocEntry
+            Title="Lost Connection to Single Device On Network"
+            Link="/Content/SmartSort System Administration Manual/Lost Connection to Single Device On Network.htm" />
+          <TocEntry
+            Title="Lost Connection to Multiple Devices"
+            Link="/Content/SmartSort System Administration Manual/Lost connection to Multiple.htm" />
+          <TocEntry
+            Title="General Network Communications Faults (One or More Devices)"
+            Link="/Content/SmartSort System Administration Manual/General Network Communications Faults One or More Devices.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Servers and Databases"
+          Link="/Content/SmartSort System Administration Manual/Servers and Databases.htm">
+          <TocEntry
+            Title="Data Gaps in Reports with PLC Statistics"
+            Link="/Content/SmartSort System Administration Manual/Data Gaps in Reports with PLC Statistics.htm" />
+          <TocEntry
+            Title="DHS Communication to PLC is Intermittent or Unstable"
+            Link="/Content/SmartSort System Administration Manual/DHS Communication to PLC is Intermittent or Unstable.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Hardware Alarms"
+          Link="/Content/SmartSort System Administration Manual/hardware alarms.htm">
+          <TocEntry
+            Title="Hardware Alarm"
+            Link="/Content/SmartSort System Administration Manual/hardware Alarm.htm" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/SmartSort System Administration Manual/Virtual Machine Alarm.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Service or SmartSort Heartbeat Alarm"
+            Link="/Content/SmartSort System Administration Manual/smartsort Alarm.htm" />
+          <TocEntry
+            Title="Temperature Alarm"
+            Link="/Content/SmartSort System Administration Manual/temperature Alarm.htm" />
+          <TocEntry
+            Title="Network or Connectivity Alarm"
+            Link="/Content/SmartSort System Administration Manual/Network Alarm.htm" />
+          <TocEntry
+            Title="Resources Alarm"
+            Link="/Content/SmartSort System Administration Manual/resources Alarm.htm" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/SmartSort System Administration Manual/Ping Alarm.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/SmartSort System Administration Manual/SAN  Alarm.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Host Connections (BSM/FIDS)"
+          Link="/Content/SmartSort System Administration Manual/host Connections BSM FIDS.htm">
+          <TocEntry
+            Title="BSM Connection Alarm"
+            Link="/Content/SmartSort System Administration Manual/BSM connection Alarm.htm"
+            conditions="Default.PrintOnly" />
+          <TocEntry
+            Title="No Bag Data Arriving for Sortation"
+            Link="/Content/SmartSort System Administration Manual/no bag Data Arriving for Sortation.htm"
+            conditions="Default.PrintOnly" />
+          <TocEntry
+            Title="BPMs Aren't Being Sent"
+            Link="/Content/SmartSort System Administration Manual/BPMS Aren t Being Sent.htm"
+            conditions="Default.PrintOnly" />
+        </TocEntry>
+        <TocEntry
+          Title="ATR Communications"
+          Link="/Content/SmartSort System Administration Manual/ATR Communications.htm">
+          <TocEntry
+            Title="No Reads at ATR"
+            Link="/Content/SmartSort System Administration Manual/No Reads at ATR.htm"
+            conditions="Default.PrintOnly" />
+        </TocEntry>
+        <TocEntry
+          Title="Windows/Domain"
+          Link="/Content/SmartSort System Administration Manual/Windows Domain.htm">
+          <TocEntry
+            Title="Can't Log onto Computer"
+            Link="/Content/SmartSort System Administration Manual/Can t Log onto Computer.htm"
+            conditions="Default.PrintOnly" />
+          <TocEntry
+            Title="Time Synchronization"
+            Link="/Content/SmartSort System Administration Manual/Time Synchronization.htm"
+            conditions="Default.PrintOnly" />
+          <TocEntry
+            Title="Automatic Login Not Functioning"
+            Link="/Content/SmartSort System Administration Manual/Automatic Login Not Functioning.htm"
+            conditions="Default.PrintOnly" />
+          <TocEntry
+            Title="Named Computers Not Responding When Pinged"
+            Link="/Content/SmartSort System Administration Manual/named Computers Not Responding When Pinged.htm"
+            conditions="Default.PrintOnly" />
+          <TocEntry
+            Title="General Windows Problems"
+            Link="/Content/SmartSort System Administration Manual/General Windows Problems.htm"
+            conditions="Default.PrintOnly" />
+        </TocEntry>
+        <TocEntry
+          Title="Other Resources"
+          Link="/Content/SmartSort System Administration Manual/Other Resources.htm" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Business Analytics User Guide"
+    Link="/Content/Business Analytics User Guide/Business Analytics User Guide.htm">
+    <TocEntry
+      Title="SmartSuite Business Analytics Report Editor Overview"
+      Link="/Content/Business Analytics User Guide/SmartSuite Business Analytics.htm">
+      <TocEntry
+        Title="Analyzer"
+        Link="/Content/Business Analytics User Guide/Analyzer.htm"
+        conditions="Default.PrintOnly" />
+      <TocEntry
+        Title="Dashboard Designer"
+        Link="/Content/Business Analytics User Guide/Dashboard Designer.htm" />
+      <TocEntry
+        Title="Web Browsers"
+        Link="/Content/Business Analytics User Guide/Web Browsers.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Getting Started with Analysis Reports and Dashboards"
+      Link="/Content/Business Analytics User Guide/Getting Started with Analysis.htm">
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/Business Analytics User Guide/Introduction.htm" />
+      <TocEntry
+        Title="Quick Tour of the Report Editor"
+        Link="/Content/Business Analytics User Guide/Quick Tour of the Report Editor.htm">
+        <TocEntry
+          Title="Log-in to the Business Analytics Report Editor"
+          Link="/Content/Business Analytics User Guide/Log in to the Business Analytics.htm" />
+        <TocEntry
+          Title="Home"
+          Link="/Content/Business Analytics User Guide/Home.htm" />
+        <TocEntry
+          Title="Browse Files"
+          Link="/Content/Business Analytics User Guide/Browse Files.htm" />
+        <TocEntry
+          Title="Opened"
+          Link="/Content/Business Analytics User Guide/Opened.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Get Started with Analyzer Reports"
+        Link="/Content/Business Analytics User Guide/Get Started with Analyzer.htm">
+        <TocEntry
+          Title="View an Analyzer Report Sample"
+          Link="/Content/Business Analytics User Guide/View an Analyzer Report Sample.htm" />
+        <TocEntry
+          Title="Tour the Analyzer Panels"
+          Link="/Content/Business Analytics User Guide/Tour the Analyzer Panels.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Get Started with Dashboard Designer"
+        Link="/Content/Business Analytics User Guide/Get Started with Dashboard.htm">
+        <TocEntry
+          Title="Tour the Dashboard Panels"
+          Link="/Content/Business Analytics User Guide/Tour the Dashboard Panels.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Create Analysis Reports and Dashboards"
+      Link="/Content/Business Analytics User Guide/Create Analysis Reports and.htm">
+      <TocEntry
+        Title="Using Analyzer"
+        Link="/Content/Business Analytics User Guide/Using Analyzer.htm">
+        <TocEntry
+          Title="Create a New Analyzer Report"
+          Link="/Content/Business Analytics User Guide/Create a New Analyzer Report.htm" />
+        <TocEntry
+          Title="Visualizations for Analyzer"
+          Link="/Content/Business Analytics User Guide/Visualizations for Analyzer.htm">
+          <TocEntry
+            Title="Column and Bar Charts"
+            Link="/Content/Business Analytics User Guide/Column and Bar Charts.htm" />
+          <TocEntry
+            Title="Line and Area Charts"
+            Link="/Content/Business Analytics User Guide/Line and Area Charts.htm" />
+          <TocEntry
+            Title="Pie and Sunburst Charts"
+            Link="/Content/Business Analytics User Guide/Pie and Sunburst Charts.htm" />
+          <TocEntry
+            Title="Scatter Chart Visualization"
+            Link="/Content/Business Analytics User Guide/Scatter Chart Visualization.htm" />
+          <TocEntry
+            Title="Heat Grid Visualization"
+            Link="/Content/Business Analytics User Guide/Heat Grid Visualization.htm" />
+          <TocEntry
+            Title="Bullet Charts"
+            Link="/Content/Business Analytics User Guide/Bullet Charts.htm" />
+          <TocEntry
+            Title="Gauge Visualization"
+            Link="/Content/Business Analytics User Guide/Gauge Visualization.htm" />
+          <TocEntry
+            Title="Number Charts"
+            Link="/Content/Business Analytics User Guide/Number Charts.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Chart Options for Analyzer Reports"
+          Link="/Content/Business Analytics User Guide/Chart Options for Analyzer.htm">
+          <TocEntry
+            Title="General Tab"
+            Link="/Content/Business Analytics User Guide/General Tab.htm" />
+          <TocEntry
+            Title="Axis Tab"
+            Link="/Content/Business Analytics User Guide/Axis Tab.htm" />
+          <TocEntry
+            Title="Legend Tab"
+            Link="/Content/Business Analytics User Guide/Legend Tab.htm" />
+          <TocEntry
+            Title="Other Tab"
+            Link="/Content/Business Analytics User Guide/Other Tab.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Add Filters to an Analyzer Report"
+          Link="/Content/Business Analytics User Guide/Add Filters to an Analyzer.htm">
+          <TocEntry
+            Title="Create Date Range Filters"
+            Link="/Content/Business Analytics User Guide/Create Date Range Filters.htm" />
+          <TocEntry
+            Title="Enable Drill-Through Links"
+            Link="/Content/Business Analytics User Guide/Enable Drill Through Links.htm" />
+          <TocEntry
+            Title="Add Query Parameters to Analyzer Reports"
+            Link="/Content/Business Analytics User Guide/Add Query Parameters to Analyzer.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Define Hyperlinks"
+          Link="/Content/Business Analytics User Guide/Define Hyperlinks.htm">
+          <TocEntry
+            Title="Create Hyperlinks to another Report"
+            Link="/Content/Business Analytics User Guide/Create Hyperlinks to another.htm" />
+          <TocEntry
+            Title="Hyperlinking to a URL"
+            Link="/Content/Business Analytics User Guide/Hyperlinking to a URL.htm" />
+          <TocEntry
+            Title="Display Member Properties"
+            Link="/Content/Business Analytics User Guide/Display Member Properties.htm" />
+          <TocEntry
+            Title="Simple Conditional Formatting of Measures"
+            Link="/Content/Business Analytics User Guide/Simple Conditional Formatting.htm" />
+          <TocEntry
+            Title="Conditional Formatting Types"
+            Link="/Content/Business Analytics User Guide/Conditional Formatting Types.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Export an Analyzer Report"
+          Link="/Content/Business Analytics User Guide/Export an Analyzer Report.htm" />
+        <TocEntry
+          Title="Using Calculated Measures in an Analyzer Report"
+          Link="/Content/Business Analytics User Guide/Using Calculated Measures.htm">
+          <TocEntry
+            Title="Creating a Calculated Measure in a Report"
+            Link="/Content/Business Analytics User Guide/Creating a Calculated Measure.htm" />
+          <TocEntry
+            Title="Editing a Calculated Measure in the Report"
+            Link="/Content/Business Analytics User Guide/Editing a Calculated Measure.htm" />
+          <TocEntry
+            Title="Opening the New Calculated Measure Dialog Box"
+            Link="/Content/Business Analytics User Guide/Opening the New Calculated.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Working with Measures in Analyzer"
+          Link="/Content/Business Analytics User Guide/Working with Measures in Analyzer.htm">
+          <TocEntry
+            Title="Updating Measure Properties"
+            Link="/Content/Business Analytics User Guide/Updating Measure Properties.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Using Dashboard Designer"
+        Link="/Content/Business Analytics User Guide/Using Dashboard Designer.htm">
+        <TocEntry
+          Title="Create a New Dashboard"
+          Link="/Content/Business Analytics User Guide/Create a New Dashboard.htm" />
+        <TocEntry
+          Title="Add Content to a Dashboard Using Drag-a-Drop"
+          Link="/Content/Business Analytics User Guide/Add Content to a Dashboard.htm" />
+        <TocEntry
+          Title="Set the Refresh Interval"
+          Link="/Content/Business Analytics User Guide/Set the Refresh Interval.htm" />
+        <TocEntry
+          Title="Add an Analyzer Report to a Dashboard"
+          Link="/Content/Business Analytics User Guide/Add an Analyzer Report to.htm" />
+        <TocEntry
+          Title="Add a Web Site to a Dashboard"
+          Link="/Content/Business Analytics User Guide/Add a Web Site to a Dashboard.htm" />
+        <TocEntry
+          Title="Use Prompts on Dashboards"
+          Link="/Content/Business Analytics User Guide/Use Prompts on Dashboards.htm">
+          <TocEntry
+            Title="Add a Prompt to a Dashboard"
+            Link="/Content/Business Analytics User Guide/Add a Prompt to a Dashboard.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Create a Metadata List"
+          Link="/Content/Business Analytics User Guide/Create a Metadata List.htm" />
+        <TocEntry
+          Title="Create a Cascading Prompt"
+          Link="/Content/Business Analytics User Guide/Create a Cascading Prompt.htm">
+          <TocEntry
+            Title="Use Case: Creating a Country-City Cascading Prompt"
+            Link="/Content/Business Analytics User Guide/Use Case Creating a Country.htm" />
+          <TocEntry
+            Title="Edit Prompts"
+            Link="/Content/Business Analytics User Guide/Edit Prompts.htm" />
+          <TocEntry
+            Title="Link Dashboard Prompts to Analyzer Parameters"
+            Link="/Content/Business Analytics User Guide/Link Dashboard Prompts to.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Using Dynamic Dashboard Titles"
+          Link="/Content/Business Analytics User Guide/Using Dynamic Dashboard Titles.htm" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/SmartSort User Guide/System Help Links.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    conditions="Default.ScreenOnly" />
+  <TocEntry
+    Title="Appendix A: Glossary of Terms"
+    Link="/Content/SmartSort User Guide/Appendix A Glossary of Terms.htm" />
+</CatapultToc>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">
+            <MadCap:annotation MadCap:createDate="2019-10-02T07:36:40.9974283-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Project specific" MadCap:editor="JBerwick" MadCap:editDate="2019-10-02T07:36:48.4810462-04:00">UPS Shutdown </MadCap:annotation>
+        </h3>
+        <p class="BodyText">There is an Eaton 9355 UPS on the floor against the wall directly in front of the door as you walk into the BHS control server room. All BHS computers in that room are connected to it for power and automatically shut down in the event of prolonged power loss.</p>
+        <p class="BodyText">For reference, here are the steps for UPS shutdown in the server room: (shutdown is managed by the Intelligent Power Manager VM Appliance)</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">At 25 minutes of battery power remaining, all the BHS VMs shut down.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">vCenter puts all hosts in maintenance mode.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">The vCenter VM then shuts down.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">The hosts power off. The IPM VM does not shut down gracefully. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">The maintenance server and workstations in the control room use separate timers for shutdown (between 5 and 15 minutes of battery time remaining). </li>
+        </ul>
+        <p class="BodyText">On reboot:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Power on the computers using the power buttons on the front (two hosts, maintenance server, workstations).</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">The IPM VM starts automatically because it crashed. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">IPM takes the hosts out of maintenance mode. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">IPM tries to start vCenter. This will probably fail because the domain is not available. Log on to a local vSphere client to power on DFW-D-DC01 manually. (See details in the preceding section.)</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Once the domain is up, vCenter should start and then all the other VMs will start up. (If they do not, they can be started manually from the vSphere web or thick client.) </li>
+        </ul>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Shut Down and Restart Procedures.htm">3.4 Shut-Down and Restart Procedures </MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Workstations_3.htm">3.4.1 Workstations</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="FormsClient Computers.htm">3.4.2 FormsClient Computers</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Servers_1.htm">3.4.3 Servers</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

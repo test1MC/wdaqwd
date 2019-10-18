@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">Equipment Operational Summary Report</h2>
+        <p class="BodyText">The Equipment Operational Summary Report is a single report with sub-sections for each type of equipment that was selected (e.g. Photo Eyes, Diverters, etc.). By default, the report will show details for all devices; however, the operator can select which types of devices should be included in the report. For certain devices, the operator can also select the subsystems for which statistics will be displayed. The operator can also configure thresholds for certain data (to exclude zero counts and/or low counts for certain devices.</p>
+        <p class="Subheading">The following selection criteria are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Start Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">End Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Include Photo eyes with Zero Jams </span>– If selected, the statistics for all jam photo eyes will be displayed even if no jams were detected.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Threshold Values</span> – Entering a number in the <span class="Bold">Threshold</span> field will set the maximum statistics that will be displayed for the selected equipment. By default, no thresholds are selected (so that there are no limits on the results).</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Equipment Type and Equipment Subsystem Filters</span> – Breaks up the equipment in the report by type of equipment and by zone/conveyor line.</li>
+        </ul>
+        <p class="Image_1">
+            <img src="../Resources/Images/Sample Equipment Operational Summary Report.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;" MadCap:mediastyle="@media print { width: 7in; }" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 9&#8209;18: </MadCap:conditionalText>
+            <MadCap:annotation MadCap:createDate="2019-09-24T15:32:08.5629211-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Updated screenshot required. I simply replaced the header and used the old report. Confirm that all the data shown on the report matches. " MadCap:editor="JBerwick" MadCap:editDate="2019-10-11T08:24:11.5388581-04:00">Sample Equipment Operational Summary Report</MadCap:annotation>
+        </p>
+        <p class="Subheading">The following information is included in this report:</p>
+        <p class="Subheading">
+            <MadCap:annotation MadCap:createDate="2019-10-11T07:45:55.1675847-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="There should be one table for each section of the Equipment Operational Summary Report" MadCap:editor="JBerwick" MadCap:editDate="2019-10-11T07:46:22.8487451-04:00">Diverters (HCD)</MadCap:annotation>
+        </p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Diverter</p>
+                </td>
+                <td class="td_4">
+                    <p>The name of the Diverter for this row of data</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Cycle Count</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of times the Diverter cycled to divert a bag or return to home</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Verified Diverts</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags that diverted successfully.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Proximity Failure</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of times a proximity sensor fault was detected for the diverter.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Failed to Extend</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the diverter failed to extend</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Failed to Retract</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the diverter did not properly retract</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Failed at Home</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the diverter did not properly extend</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Overlength</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags that could not be diverted because they were too long (e.g. two bags were pushed together or the bag was oversized).</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Close to Bag</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the bags were too close</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Makeup Unit Full</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags that could not be diverted because the destination Make-Up unit was full.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Switched Off</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags that could not be diverted because the diverter was switched off.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Manual Mode</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the selector switch on the HCD was not in the Auto position</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Out of Service</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the diverter was not in service (set in the HMI)</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Motor Overload</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the diverter motor was overloaded</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Failed to Divert</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags that failed to divert for a reason not covered by the divert fault categories in this report.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>E-Stopped</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of times a bag could not be diverted due to an E-Stop</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Divert All</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags that diverted because the diverted was in Divert All mode.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Unknown</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of unknown bags that were diverted.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Diverters (HSD)</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Diverter</p>
+                </td>
+                <td class="td_4">
+                    <p>The name of the Diverter for this row of data</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Cycle Count</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of times the Diverter cycled to divert a bag or return to home</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Verified Diverts</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags that diverted successfully.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Proximity Failure</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of times a proximity sensor fault was detected for the diverter.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Failed to Extend</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the diverter failed to extend</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Failed to Retract</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the diverter did not properly retract</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Failed at Home</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the diverter did not properly extend</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Overlength</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags that could not be diverted because they were too long (e.g. two bags were pushed together or the bag was oversized).</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Close to Bag</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the bags were too close</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Makeup Unit Full</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags that could not be diverted because the destination Make-Up unit was full.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Switched Off</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags that could not be diverted because the diverter was switched off.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Manual Mode</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the selector switch on the HCD was not in the Auto position</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Out of Service</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the diverter was not in service (set in the HMI)</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Motor Overload</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that could not be diverted because the diverter motor was overloaded</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Failed to Divert</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags that failed to divert for a reason not covered by the divert fault categories in this report.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>E-Stopped</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of times a bag could not be diverted due to an E-Stop</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Divert All</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags that diverted because the diverted was in Divert All mode.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Unknown</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of unknown bags that were diverted.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Vertical Sorter</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">Vertical Sorter ID</td>
+                <td class="td_4">The name of the Vertical Sorter for this row of data.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Total Cycles</td>
+                <td class="td_4">Total number of times the Vertical Sorter cycled to sort a bag.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Bags Sent Up</td>
+                <td class="td_4">Number of bags sorted to the upper line.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Bags Sent Down</td>
+                <td class="td_4">Number of bags sorted to the lower line.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Failed to Switch Up</td>
+                <td class="td_4">Number of times the Vertical Sorter failed to switch up for a bag.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Failed to Switch Down</td>
+                <td class="td_4">Number of times the Vertical Sorter failed to switch down for a bag.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Total Bags</td>
+                <td class="td_4">Total number of bags sent through each sorter.</td>
+            </tr>
+        </table>
+        <p class="Subheading">Vertical Merge</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">Vertical Merge ID</td>
+                <td class="td_4">The name of the Vertical Merge for this row of data.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Total Cycles</td>
+                <td class="td_4">Number of times the Vertical Merge cycled to merge a bag.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Bags from Up</td>
+                <td class="td_4">Number of bags merged from the upper line.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Bags from Down</td>
+                <td class="td_4">Number of bags merged from the lower line.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Failed to Switch Up</td>
+                <td class="td_4">Number of times the Vertical Merge failed to switch up for a bag.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Failed to Switch Down</td>
+                <td class="td_4">Number of times the Vertical Merge failed to switch down for a bag.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Total Bags</td>
+                <td class="td_4">Total number of bags sent through each sorter.</td>
+            </tr>
+        </table>
+        <p class="Subheading">Pushers</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">Pusher ID</td>
+                <td class="td_4">The name of the Pusher for this row of data.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Too Close</td>
+                <td class="td_4">Number of bags that could not be pushed because the bags were too close.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Cycle Faults</td>
+                <td class="td_4">Number of bags that could not be pushed because the pusher reported an internal fault.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Line Faults</td>
+                <td class="td_4">Number of bags that could not be pushed because the pusher reported a line fault.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Cycle Count</td>
+                <td class="td_4">Number of times the Pusher cycled to push a bag or return to home.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Unverified Divert</td>
+                <td class="td_4">Number of unverified diverts.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Verified Push</td>
+                <td class="td_4">Number of verified pushes.</td>
+            </tr>
+            <tr>
+                <td class="td_3">E-Stop Count</td>
+                <td class="td_4">Number of E-Stops that occurred.</td>
+            </tr>
+        </table>
+        <p class="Subheading">Jam Photo eyes</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Jam PE</p>
+                </td>
+                <td class="td_4">
+                    <p>The name of the Tracking Photo eye for this row of data</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Jams</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of Jams that occurred at this Photo eye</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Tracking Photo eyes</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Tracking PE</p>
+                </td>
+                <td class="td_4">
+                    <p>The name of the Tracking Photo eye for this row of data</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Unknown Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of times a bag appeared at this Photo eye but was not expected </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Missing Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of times a bag was expected at this Photo eye but did not arrive within its window</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Missing Bag Jams</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of times a Missing Bag Jam occurred at this Photo eye. Three missing bags in a row causes a missing bag jam.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Total Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>Number of bags that passed by this Photo eye</p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Understanding Web Client Reports.htm">9 Understanding Web Client Reports</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Generating Web Client Reports.htm">9.1 Generating Web Client Reports</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

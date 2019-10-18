@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Tag Priorities</h3>
+        <p class="BodyText">The priority of the different barcode types that can be read by the ATRs in the system is configured using the <span class="Bold">Tag Priorities</span> screen. This information directly impacts the sort logic because it determines which barcode types will be used by the system, and how the system will sort a bag that has more than one barcode type.</p>
+        <p class="Image">
+            <img src="../Resources/Images/Tag priorities screen.png" style="mc-thumbnail: none;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 2&#8209;20: </MadCap:conditionalText>Tag Priorities Screen</p>
+        <p class="BodyText">Tag types cannot be added or deleted. Likewise, the description and pattern of a tag cannot be altered. When a tag type is selected from the Tag Priority List, its details are displayed in the Tag Type Details section on the right side of the screen, and the following configurations are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Tag Priority</span> – The priority in which tag data is processed can be configured. If there is more than one tag on a bag, the tags that have been configured with the highest priority are used to determine the bag's sort destination. The lower the priority number, the higher the priority (i.e. setting the "Priority" field to 1 will cause that tag type to be of the highest priority).</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Enable/Disable Tag Types</span> – Tags that are enabled will be read by the ATR and the data from the barcode will be used to determine the bag's sort destination. If the <span class="Bold">Enabled</span> checkbox is not checked for that tag type, however, those tags will be ignored by the sortation logic.</li>
+        </ul>
+        <p class="BodyText">Making a change to the tag priority settings sends a message to the SAM service on the SAC and to the MEC application that a change has been made to the tag priority list. The list will automatically be reloaded from the database.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="SmartSort Management.htm">2.4 SmartSort Management</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

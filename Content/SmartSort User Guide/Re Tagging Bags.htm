@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">
+            <MadCap:annotation MadCap:createDate="2019-09-19T11:59:13.1929967-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Custom per site. Often excluded." MadCap:editor="JBerwick" MadCap:editDate="2019-09-19T11:59:25.1244843-04:00">Re-Tagging Bags</MadCap:annotation>
+        </h2>
+        <p class="BodyText">Re-tagging bags reduces the number of bags that are sorted to the correct make-up unit with outdated human readable information on the bag tag. It is meant to reduce the number of bags where the baggage handler may question whether the bag is at the correct location. </p>
+        <p class="BodyText">Bags will be sent to re-tagging stations in the following scenarios:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Flag is set in BSM indicating the bag needs to be re-tagged (.E/RUSH element in a SABRE BSM) </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Flight has changed since the initial BSM (either flight number or destination)</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Bag is being rerouted by Dynamic Reroute<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="Reroute Modes.htm#_Ref334529984" class="ParaTextOnly">4.4.1 Reroute Modes</MadCap:xref>)</MadCap:conditionalText></li>
+        </ul>
+        <p class="BodyText">Bags requiring a re-tag will be sent to a manual re-tagging station consisting of an MEC with a DYMO Printer.</p>
+        <p class="Subheading">To re-tag a bag using a re-tagging station:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Scan the bag tag using the MEC hand scanner. Instead of the bag being released to its destination, it will remain at the MEC so that a new overlay can be applied.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Once scanned, a new overlay will print and a pop-up message with instructions will appear on the MEC screen. </li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Follow the instructions on the MEC screen to apply the new overlay on the bag tag. If the tag did not print or was damaged, the <span class="Bold">Reprint </span>button can be used to make another tag. </li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="List">Once the new overlay has been applied, press the <span class="Bold">Done</span> button on the pop-up. This will release the bag and it will sort to its destination.</li>
+        </ol>
+        <p class="Image">
+            <img src="../Resources/Images/TL6015 SmartSort User Guide/Re Tagging Bags.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 5&#8209;10: </MadCap:conditionalText>MEC Station Retag Instructions</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Manually Encoding Bags.htm">5 Manually Encoding Bags</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Encoding Bags.htm">5.1 Encoding Bags</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Pseudo BSMs.htm">5.2 Pseudo BSMs</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Inquiry Mode.htm">5.3 Inquiry Mode</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Line Switching.htm">5.4 Line Switching</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Reroute Modes.htm">4.4.1 Reroute Modes</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

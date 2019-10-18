@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">Bag Tag Printer Report</h2>
+        <p class="BodyText">The Bag Tag Printer Report provides statistics on the Bag Tag Printers used to send BSM data and print bag tags at the ticket counters for the BHS. This report requires the BSM hosts to send printer information (the .T field) or it will not be populated.</p>
+        <p class="Subheading">The following selection criteria are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Start Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">End Date and Time</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Bag Tag Printer Report.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 920px;height: 336px;" MadCap:mediastyle="@media print { width: 7in; }" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 9&#8209;8:</MadCap:conditionalText> <MadCap:annotation MadCap:createDate="2019-09-24T14:39:47.0484752-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Updated screenshot required. Need one that contains data. " MadCap:editor="JBerwick" MadCap:editDate="2019-10-09T08:37:51.4439257-04:00">Sample Bag Tag Printer Report</MadCap:annotation></p>
+        <p class="Subheading">The following information is included in this report:</p>
+        <p class="BodyText">Tags that are seen only at an MEC, but not an ATR are assumed to have poor print quality. Printers that are particularly bad are highlighted in red on the report. </p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px" />
+            <col style="width: 849px" />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Row</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Bag Type</p>
+                </td>
+                <td class="td_4">
+                    <p>(L)ocal or (T)ransfer</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Printer</p>
+                </td>
+                <td class="td_4">
+                    <p>The ID (as given by the Airline in the .T element of the BSM) of the printer that produced the tag.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Carrier</p>
+                </td>
+                <td class="td_4">
+                    <p>The Airline associated with the bag tag that needed to be printed.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Station</p>
+                </td>
+                <td class="td_4">
+                    <p>The station the tag was printed at. Note that for tags printed at other stations other than the local station, the Inbound flight information is used to determine the station. This may not be 100% accurate as it is possible that a bag tag was printed at another station prior to the direct Inbound station.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>ATR Count</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of tags from the printer successfully scanned by any ATR.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>MEC Count</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of tags from the printer scanned by any MEC.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Error Ratio</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of tags from the printer scanned by any MEC over the number of tags successfully scanned by any ATR.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Understanding Web Client Reports.htm">9 Understanding Web Client Reports</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Generating Web Client Reports.htm">9.1 Generating Web Client Reports</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Contec Imaging Procedure</h3>
+        <p class="BodyText">Each of the FormsClient machines in the BHS is created from the same image (located on the NAS at <span class="Hyperlink">\\DFW-D-NAS\DFW\FormsClient\</span>). For a fresh computer, or to repair an existing one, the process is described below.</p>
+        <p class="BodyText">Hardware requirements:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">USB Drive with the Redo software on it (either supplied by Brock Solutions, or make your own using the instructions at <a href="http://www.redobackup.org/download.php"><span class="Hyperlink">www.redobackup.org/download.php</span></a>).</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Another USB Drive containing the Image from the NAS (no special instructions for this drive). You can also image from the NAS, but this is much slower and requires setting up the IP address within the Redo software. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">ELO touch screen and USB keyboard. If no touchscreen is available, connect a USB mouse as well for convenience. </li>
+        </ul>
+        <p class="Subheading">The Imaging Process</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Turn off the unit or do not connect power to it.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Plug in the ELO monitor (DVI), USB key with Redo, USB drive with image, touchscreen USB, and a USB keyboard. Then connect power and the machine will boot. Leave the network cable unplugged. </li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Press <span class="Bold">DEL</span> as it boots to get to the BIOS as you need the five beeps on start up. This needs to be done quickly or it will boot into Windows. The default delay is only one second. </li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="List">Right arrow key over to the Boot Options Tab (4th) and navigate down to the last item (Hard Drive BBS Priorities).</li>
+        </ol>
+        <ol start="5" class="ol_1">
+            <li class="List">Change the Hard Disk Boot Priority to put the local Contec SATA SM: SanDisk drive last (or at least move the Redo USB higher in the list). </li>
+        </ol>
+        <ol start="6" class="ol_1">
+            <li class="List">Press F4 to save and exit. The machine will boot to Redo.</li>
+        </ol>
+        <ol start="7" class="ol_1">
+            <li class="List">Choose to run the Redo software within 10s (second option).</li>
+        </ol>
+        <ol start="8" class="ol_1">
+            <li class="List">After Redo loads, Restore an image (Red option). Follow the prompts to select the source and target drives. </li>
+        </ol>
+        <ol start="9" class="ol_1">
+            <li class="List">The machine will be imaged in about five minutes. </li>
+        </ol>
+        <ol start="10" class="ol_1">
+            <li class="List">Choose to reboot from within Redo. As the machine is powering off/on, remove the USB drives to avoid booting into Redo again. </li>
+        </ol>
+        <p class="Subheading">Post-Image Customization</p>
+        <p class="BodyText">Make sure to connect a network cable for this process. </p>
+        <ol start="1" class="ol_1">
+            <li class="List">As the freshly-imaged computer is booting, hold down the left Shift key to prevent automatic logon to the operator account (password is operator). If this doesn’t work, log out of the operator account after it loads.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Log in as administrator (password is .brock86).</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Let Windows install whatever device drivers it has to (usually the monitor is rediscovered).</li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="List">Using an ELO monitor (each time a new physical monitor is connected to the machine this process may need to be followed): </li>
+        </ol>
+        <ul class="ul_2">
+            <li class="SubBullet_1">Calibrate the Touch Screen using the ELO shortcut on the desktop. After Windows detects the hardware, the calibration will probably be off. </li>
+        </ul>
+        <ul class="ul_2">
+            <li class="SubBullet_1">The resolution may need to be changed to 1024x768 for BSDs (15" screen) or 1280x1024 for MECs (17" screen) if it isn't set to that automatically. </li>
+        </ul>
+        <ol start="5" class="ol_1">
+            <li class="List">Run the Setup Computer Script from the Desktop shortcut (file is located at C:\SmartSuite\Utilities) to set the correct IP address and computer name for the station when prompted. </li>
+        </ol>
+        <ol start="6" class="ol_1">
+            <li class="List">If on the BHS network, reboot now and make sure the application launches correctly. If not, shut down and reboot when appropriate.</li>
+        </ol>
+        <ol start="7" class="ol_1">
+            <li class="List">Check the local Folder C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup and ensure that the formsclient shortcut is contained in that folder. If it is not, copy it into that folder from the desktop.</li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Upper Level Software System.htm">3.3 Upper Level Software System</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

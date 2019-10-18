@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">Miscellaneous Jobs</h4>
+        <p class="BodyText">The remaining jobs do not fit into the previous categories and are described independently here.</p>
+        <p class="Subheading">Purge BHS Tracking</p>
+        <p class="BodyText">One table on the SAC (DYN_BHS_TRACKING) is used by SmartSort services to track the status of bags as they pass through the system. Although bag data should clean itself out after a successful push, lost bags will stay in this table. This job zeros out old bag data to avoid incorrect reports and transactions caused by mismatched data. This job runs every few hours to account for the rollover of PLC sequence IDs.</p>
+        <p class="Subheading">Shift Manager</p>
+        <p class="BodyText">This job generates and cleans up the shifts that are available from the Shift drop-down list in the General Criteria section of report and search pages.</p>
+        <p class="Subheading">Clean PDF Reports</p>
+        <p class="BodyText">This job cleans up old PDF files that were generated when a user chose to view a report as a PDF instead of in the Report Viewer.</p>
+        <p class="Subheading">SSRS Recycle</p>
+        <p class="BodyText">This job restarts the SmartSuite Web Client service daily.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Cleanup Utilities SQL Jobs.htm">3.3.8 Cleanup Utilities (SQL Jobs)</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Cleanup Jobs.htm">3.3.8.2 Cleanup Jobs</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Replication Jobs.htm">3.3.8.1 Replication Jobs</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

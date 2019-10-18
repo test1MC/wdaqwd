@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h4 class="Heading4">Upper Level Status</h4>
+        <p class="BodyText">The Upper Level Status section of the Connection Status screen displays the status of the upper level services in the system.</p>
+        <p class="Image">
+            <img src="../Resources/Images/TL6015 SmartSort User Guide/Upper Level Status.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 7&#8209;29: </MadCap:conditionalText>Connection Status Screen - Upper Level Status</p>
+        <p class="BodyText">The PRTG monitoring application is installed on the DHS. This software uses Simple Network Management Protocol (SNMP) and other technologies to interrogate devices in the BHS to determine their status. These statuses are then displayed on the HMI as red or green indicator lights on the Watchdog portion of the Communication Status screen. This status information is by no means exhaustive (its only states are Failed and Working), but it serves as an early problem indicator for troubleshooting. The monitored devices include:</p>
+        <ul class="ul_2">
+            <li class="Bullet_1"><span class="Bold">SmartSort</span> – Monitors the General Health of all the SmartSort Services on the SAC and DHS. If any service is not running, the associated indicator will display red and an alarm will be displayed. </li>
+        </ul>
+        <ul class="ul_2">
+            <li class="Bullet_1"><span class="Bold">Resources</span> – Monitors the Hard Drive Space, CPU Usage, and Free Memory on all the Servers. If the usage is less than the threshold, an alarm will be displayed.</li>
+        </ul>
+        <ul class="ul_2">
+            <li class="Bullet_1"><span class="Bold">Power</span> – Monitors the two server rack UPSs. If the system loses power and uses the battery, the associated indicator will display red and an alarm will be displayed. The current load percentage and battery time remaining are also periodically updated for each UPS. </li>
+        </ul>
+        <ul class="ul_2">
+            <li class="Bullet_1"><span class="Bold">Network</span> – Monitors the Network Switches and the server NICs. If a network device fails or is unplugged, the associated indicator will display red and an alarm will be displayed.</li>
+        </ul>
+        <ul class="ul_2">
+            <li class="Bullet_1"><span class="Bold">VMware</span> – Monitors the Health of the VMware Hot Backup Solution. If server redundancy is compromised, the associated indicator will display red and an alarm will be displayed.</li>
+        </ul>
+        <ul class="ul_2">
+            <li class="Bullet_1"><span class="Bold">Hardware</span> – If any of the physical servers experience a failure detected by the HP on-board software, the associated indicator will display red and an alarm will be displayed.</li>
+        </ul>
+        <ul class="ul_2">
+            <li class="Bullet_1"><span class="Bold">Connectivity</span> – If PRTG detects that a device loses connectivity, it will stop monitoring the sensors associated with the device and display a PING fault. This will raise the connectivity alarm on the HMI. </li>
+        </ul>
+        <ul class="ul_2">
+            <li class="Bullet_1"><span class="Bold">SAN</span> – The SAN storage device is monitored for hard drive and other internal failures. Faults with the SAN will be shown as an HMI alarm. </li>
+        </ul>
+        <p class="BodyText">All the HMI Watchdog alarms have a note to see the Dashboard. Each fault that occurs is only one indicator of a problem. The System Dashboard displays details of the servers that are affected by the problem. From there, troubleshooting can continue to that server or the software that monitors the device. </p>
+        <p class="BodyText">The PRTG application itself also has a web application that can be reached from the Links screen. This page shows the current status of all sensors in the system. </p>
+        <p class="BodyText">Some servers may have duplicate monitoring for faults if they are shut down for an extended period of time (e.g. servers other than the SAC and DHS that don't have built-in alarms). </p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Monitoring Communication Status.htm">7.3 Monitoring Communication Status</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Monitoring Communication Status with the HMI.htm">7.3.1 Monitoring Communication Status with the HMI</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="../SmartSort System Administration Manual/DHS Database Functionality.htm">3.3.3 DHS Database Functionality</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="../SmartSort System Administration Manual/Reporting Database Design.htm">3.3.3.1 Reporting Database Design</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="../SmartSort System Administration Manual/Report Data Acquisition and Storage.htm">3.3.3.2 Report Data Acquisition and Storage</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="../SmartSort System Administration Manual/SmartSort Service Heartbeats.htm">3.3.3.4 SmartSort Service Heartbeats</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="../SmartSort System Administration Manual/Hardware Alarms.htm">4.3.9 Hardware Alarms</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

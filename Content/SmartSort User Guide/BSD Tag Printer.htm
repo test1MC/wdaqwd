@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h3 class="Heading3">BSD Tag Printer</h3>
+        <p class="BodyText">In Contingency Mode, the operational staff has determined that the system is not operating correctly but is still somewhat usable. This might be the case when the ISDs are not correctly identifying bags and too many are proceeding to CBRA. In Contingency Mode, the print enable status should be turned on from the HMI (using an appropriately-privileged account).</p>
+        <p class="BodyText">A single tag printer is provided and is installed on the first BSD on each conveyor line entering CBRA. The printer is intended to be used for contingency purposes only. The CBRA tag printer is enabled or disabled via the HMI workstation in the master control room<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="BSD Pop-Up Window.htm">8.1.2.16 BSD Pop-Up Window</MadCap:xref>)</MadCap:conditionalText>.</p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BSD - Print Mode Enabled.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 64:&#160;</MadCap:conditionalText>BSD -<MadCap:annotation MadCap:createDate="2019-10-10T09:44:56.1854259-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="New screenshot to be provided by Audrey M. " MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T09:45:11.2778442-04:00"> Print Mode Enabled</MadCap:annotation></p>
+        <p class="BodyText">When tag printing is enabled, all bags must be initially processed from the first BSD. Bags will be allowed to proceed to downstream BSDs or to be removed manually from the conveyor when the <span class="Bold">Advance</span> button on the BSD is pressed.</p>
+        <p class="BodyText">An identifying tag can be printed from the BSD workstation when in this mode. This tag will contain the bag's pseudo ID, security status, and the time the tag was printed. Tapping the <span class="Bold">Print</span> button prints the tag (and can be used multiple times if the printer is not fully supplied with tags).</p>
+        <p class="BodyText">The data and barcode on the tag should allow users to properly screen the bag (or at least identify it) when the contingency mode problems have cleared.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics:</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="CBRA Inspection BSDs.htm">6 CBRA Inspection</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Baggage Status Display BSD.htm">6.1 Baggage Status Display (BSD)</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Using a BSD.htm">6.1.1 Using a BSD</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Bag Waiting Alerts.htm">Bag Waiting Alerts</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

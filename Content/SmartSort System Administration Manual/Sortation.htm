@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Sortation</h3>
+        <p class="BodyText">The following <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">sections  outline </MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">outlines the </MadCap:conditionalText>common sortation issues, and the probable causes and remedies for those issues.<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> Click one of the links below to navigate to the appropriate sortation issue. </MadCap:conditionalText></p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="#BagsNotSortedToCorrectLocations">Bags Not Sorted to Correct Locations</MadCap:xref>
+            </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="#HighNumberOfBagsSentToMEC">High Number of Bags Sent to MEC (Bags Not Automatically Sorting)</MadCap:xref>
+            </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="#HighAmountOfUnknownStatusBags">High Amount of Unknown Status Bags</MadCap:xref>
+            </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="#BagsForOneOrMoreFlightsNotSortingToTheCorrectDestination">Bags for One or More Flights Not Sorting to the Correct Destination</MadCap:xref>
+            </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="#AllBagsOrAllUnknownBagsSortedToOneLocation">All Bags or All Unknown Bags Sorted to One Location</MadCap:xref>
+            </li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly"><a name="BagsNotSortedToCorrectLocations"></a>Bags Not Sorted to Correct Locations</h5>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">Note that this excludes the MEC.</p>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Makeup units in the Virtual to Physical Mapping not mapped properly:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the Web Client <span class="Bold">Virtual to Physical Mapping</span> screen or generate a report to confirm that all virtual makeup units are properly mapped.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Most virtual makeup units should be in a one-to-one mapping with the physical ones.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">No virtual makeup units should be unmapped.</li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">For information about Virtual to Physical Makeup Unit Mapping, refer to <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">section </MadCap:conditionalText><MadCap:xref href="Virtual to Physical Mapping.htm#_Ref455064481" class="ParaTextOnly">2.4.10 Virtual to Physical Mapping Configuration</MadCap:xref><MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> or the <span class="Italics">SmartSort User Guide Chapter 4: Sortation Control</span></MadCap:conditionalText>.</p>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Makeup unit assignments for the flight incorrect in the flight schedule:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Confirm that the flight is located on the correct makeup unit in the Web Client flight schedule screens.</li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">For information about flight schedules, refer to <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">section </MadCap:conditionalText><MadCap:xref href="Virtual to Physical Mapping.htm#_Ref517355260" class="ParaTextOnly">2.4.10 Virtual to Physical Mapping Configuration</MadCap:xref><MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> or <span class="Italics">SmartSort User Guide Chapter 4: Sortation Control</span>.</MadCap:conditionalText>.</p>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly"><a name="HighNumberOfBagsSentToMEC"></a>High Number of Bags Sent to MEC (Bags Not Automatically Sorting)</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">BSM connectivity issue:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Check the SmartConnect Message Broker Service service(s).</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Check connectivity to the BSM provider and contact them to investigate the problem.</li>
+        </ol>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">BSMs not received for a subset of Carriers:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Depending on BSM configuration, a subset of services could be down.</li>
+        </ol>
+        <ol start="2" class="ol_1" MadCap:conditions="Default.ScreenOnly">
+            <li class="List">If some BSMs are not being received, contact the BSM provider to investigate the problem. This may be a problem outside of the scope of the BHS control (e.g. problems at SITA or ARINC).</li>
+        </ol>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly"><a name="HighAmountOfUnknownStatusBags"></a>High Amount of Unknown Status Bags</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Bad/misaligned photo eye or ATR misreads:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the <MadCap:xref href="../SmartSort User Guide/Equipment Operational Summary.htm">9.16 Equipment Operational Summary Report</MadCap:xref> to isolate trouble areas/devices.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Fix or realign photo eye.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check ATRs.</li>
+        </ul>
+        <ul class="ul_1" MadCap:conditions="Default.ScreenOnly">
+            <li class="Bullet_1">Search for impacted bag tags.</li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly"><a name="BagsForOneOrMoreFlightsNotSortingToTheCorrectDestination"></a>Bags for One or More Flights Not Sorting to the Correct Destination</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">The Carrier not sending BSMs:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Request that the Carrier enable BSM messaging.</li>
+        </ul>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Flight information not entered correctly:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Correct the flight information in the flight schedule. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Ensure the Carrier code and flight number are correct and match the BSM information found in the Web Client search screens.</li>
+        </ul>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Flight not assigned to the correct makeup unit or correct time:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Correct the makeup unit mapping.</li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">For information about Virtual to Physical Makeup Unit Mapping, refer to <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">section </MadCap:conditionalText><MadCap:xref href="Virtual to Physical Mapping.htm#_Ref455064555" class="ParaTextOnly">2.4.10 Virtual to Physical Mapping Configuration</MadCap:xref> or <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="../SmartSort User Guide/Sortation Control.htm">4 Sortation Control</MadCap:xref></MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.PrintOnly">the <span class="Italics">SmartSort User Guide Chapter 4: Sortation Control</span></MadCap:conditionalText>.</p>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">ATR not sending data, or reading data incorrectly:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Confirm that no alarms are present on the HMI (see <MadCap:xref href="../SmartSort User Guide/Monitoring Real Time System Performance.htm">7 Monitoring Real-Time System Performance</MadCap:xref><span class="Italics" MadCap:conditions="Default.PrintOnly">SmartSort User Guide Chapter 7: Monitoring Real-Time System Performance</span>). Fix any that may be causing the problem.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Clean the ATR heads to improve the read rate.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Cycle power on the active (green) ATR controller to cause a failover to the secondary controller.</li>
+        </ol>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly"><a name="AllBagsOrAllUnknownBagsSortedToOneLocation"></a>All Bags or All Unknown Bags Sorted to One Location</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Bag tag stuck to a conveyor belt:</p>
+        <ul class="ul_1" MadCap:conditions="Default.ScreenOnly">
+            <li class="Bullet_1">Check conveyor belt to ensure no bag tags are stuck to a belt.</li>
+        </ul>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Troubleshooting Guide.htm">4.3 Troubleshooting Guide</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

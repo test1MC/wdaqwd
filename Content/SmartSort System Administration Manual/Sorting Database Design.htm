@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">Sorting Database Design</h4>
+        <p class="BodyText">The SAC employs the Microsoft SQL Server RDBMS (Relational Database Management System). The Sorting Database stores all the sortation control information for the system including flight schedules and bag data. </p>
+        <p class="BodyText">The most important tables on the Sorting Database are as follows: </p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">DYN_BAG</span> – These tables contain the information for each IATA barcode that is used during the sort decision process. It includes one row for every Bag Tag that arrived in a BSM over the past three days and has not yet been used. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">CFG_MAKEUP UNIT_MAPPING_VIRTUAL_TO_PHYSICAL</span> – All sort destinations in the system are Logical. This table defines the mapping that takes place to correspond a Logical destination to an Actual one.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">CFG_FLIGHT_SCHEDULE_TEMPLATE</span> – A Flight Schedule template consists of a group of flights and their assigned sortation makeup units. Each flight in the template can be configured to fly on one or multiple days of the week. A template is valid over the period defined by the Start and End dates, which can be a single day. This scheme allows the flexibility to have templates defined for specific periods of the year.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">DYN_FLIGHT, DYN_FLIGHT_MAKEUP UNIT</span> – This table contains the flight information and flight makeup unit assignments for the active schedule. The Active Flight Schedule is loaded from the Templates every morning at rollover time (02:00) by the Flight Activator service.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">LOG_BAG_TRANSACTION</span> – This table contains information about bag events as they occur in the BHS. The transactions are stored in this table based on Bag ID. Every time a transaction occurs for a bag, it is recorded in this table. This means multiple entries of the same transaction type can exist for each bag.</li>
+        </ul>
+        <p class="BodyText">Flight schedule templates are based on data imported into the system through the Web Client Flight Template interface. However, flight information is inserted or updated from the AA BOSS feed or DFW AODB Interface. It is the responsibility of the Control Room Operators to set up and modify the corresponding Makeup unit assignments for new flights since this information is not received through AA BOSS or DFW AODB Interface (an alarm will be shown on the HMI when unassigned makeup units exist).</p>
+        <p class="BodyText">The DYN_BAG_TAG and LOG_BAG_TRANSACTION tables are important on the DHS for reporting purposes. On the SAC, these tables are cleaned up on a regular basis. On the DHS, they contain an extended history<MadCap:conditionalText MadCap:conditions="Default.PrintOnly">(see section <MadCap:xref href="Reporting Database Design.htm#_Ref455065796" class="ParaTextOnly">3.3.3.1 Reporting Database Design</MadCap:xref>)</MadCap:conditionalText>.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="SAC Database Functionality.htm">3.3.1 SAC Database Functionality</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Reporting Database Design.htm">3.3.3.1 Reporting Database Design</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Bag Records.htm">3.3.1.2 Bag Records</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Bag Transactions.htm">3.3.1.3 Bag Transactions</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

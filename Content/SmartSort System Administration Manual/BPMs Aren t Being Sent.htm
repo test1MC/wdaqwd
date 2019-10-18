@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:conditions="Default.PrintOnly">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">BPMs Aren't Being Sent</h4>
+        <p class="BodyText">The BHS operators will not notice this problem, but it may be reported to them.</p>
+        <p class="Subheading">BPMs for an Carrier have been configured to be turned off:</p>
+        <ul class="ul_2">
+            <li class="Bullet_1">Check the <span class="Bold">Carrier Settings</span> screen <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">(see section <MadCap:xref href="Airline Settings.htm#_Ref455064707" class="ParaTextOnly">2.4.2 Carrier Settings</MadCap:xref>)</MadCap:conditionalText>to confirm that BPMs are enabled for the appropriate Carriers.</li>
+        </ul>
+        <p class="Subheading">A service has encountered an error:</p>
+        <ul class="ul_2">
+            <li class="Bullet_1">Restart the Bag Message Service on the SAC. </li>
+        </ul>
+        <ul class="ul_2">
+            <li class="Bullet_1">Some queued BPMs may be lost, but processing will resume.</li>
+        </ul>
+        <p class="Subheading">The Carrier Host is not accepting messages from the BHS (rare):</p>
+        <ul class="ul_2">
+            <li class="Bullet_1">Contact BPM receiver for help. </li>
+        </ul>
+        <ul class="ul_2">
+            <li class="Bullet_1">Queued BPMs will be held by the Smart Connect Message Broker Service until the queue fills up or the service is stopped.</li>
+        </ul>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Host Connections BSM FIDS.htm">4.3.10 Host Connections (BSM/FIDS)</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Airline Settings.htm">2.4.2 Airline Settings</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Servers and Databases</h3>
+        <p class="BodyText">The following <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">sections</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> outlines the</MadCap:conditionalText> common server and database issues, and the probable causes and remedies for those issues.</p>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Data Gaps in Reports with PLC Statistics</h5>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">This issue may occur in reports related to equipment or throughput.</p>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">CoCoS service not communicating/running:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Check HMI for SmartSort service alarms.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Restart DHS.</li>
+        </ol>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">DHS&#160;Communication to PLC is Intermittent or Unstable</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Kepware having difficulties communicating with the PLCs:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Confirm that PLC communication is functional for the rest of the system (HMI and MEC).</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Shutdown Kepware on the DHS. If the services are functioning correctly, Kepware will automatically restart within 30 seconds.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Open a Kepware Quick Client to verify that the server has connectivity to the PLC tags. Sometimes leaving the Quick Client open helps with initial connection problems.</li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Troubleshooting Guide.htm">4.3 Troubleshooting Guide</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

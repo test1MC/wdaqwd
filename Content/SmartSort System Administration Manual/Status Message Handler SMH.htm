@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">Status Message Handler (SMH)</h4>
+        <p class="BodyText">The Status Message Handler receives all status update messages (non-Sort) from the system PLCs. Messages sent to the SMH are used to generate bag transactions that allow the operator to follow bag flow using the Web Client Bag Transaction search or a variety of reports. Types of messages include: </p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Divert Message – this message indicates that a bag was successfully sorted, or failed to sort, or was lost/unknown at a tracking photo eye. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">ISD Entry/Exit Message – this message is sent for a bag entering an ISD. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">ISD Result Message – this message is sent when a security decision is bag in screening. </li>
+        </ul>
+        <p class="BodyText">Messages are generally sent by the PLC as bag events occur in the system. The PLC maintains a small queue of messages so that data is not lost during brief outages or loss of connection to the server. Messages are not generally explicitly acknowledged. Each instance of this service communicates to the PLCs over Ethernet, but it is the PLC's responsibility to initiate the connection. </p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="SAC Services.htm">3.3.5 SAC Services</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="SmartConnect Configuration.htm">3.3.5.1 SmartConnect Message Broker Service</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Flight Activator.htm">3.3.5.2 Flight Activator</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Sort Allocation Manager SAM.htm">3.3.5.3 Sort Allocation Manager (SAM)</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

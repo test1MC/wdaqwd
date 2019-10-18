@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Alarm Distribution</h3>
+        <p class="BodyText">When certain alarms are detected in the system, email notifications can be sent to one of the Email Groups that have been configured<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="Email Accounts.htm#_Ref350513775" class="ParaTextOnly">2.1.4 Email Group Configuration</MadCap:xref>)</MadCap:conditionalText>. The conditions under which these emails are sent, and the email group to which the email notification is sent is configured using the <span class="Bold">Alarm Distribution</span> setup screen.</p>
+        <p class="Image">
+            <img src="../Resources/Images/Alarm Distribution Configuration Screen.png" style="mc-thumbnail: none;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 2&#8209;4: </MadCap:conditionalText>Alarm Distribution Configuration Screen</p>
+        <p class="BodyText">Three alarm categories are available: ATR Read Activity, HMI Alarms, and Host Connection Activity. Alarm Distribution is managed through Alarm Distribution Groups. Each Alarm Distribution Group is configured to monitor the system for one of the aforementioned Alarm Categories. Certain criteria must be met before an email alert is sent to the group. The user can configure several different alarm criteria settings. Alerts can be sent when any one of these conditions is detected, or only when all conditions are present simultaneously.</p>
+        <p class="BodyText">The user can configure the following for each Alarm Distribution Group:</p>
+        <ul class="ul_2">
+            <li class="Bullet_1">The Alarm Criteria required to trigger an alert (e.g. all alarms with the word "Failsafe", a BSM connection with no activity for 10 minutes, or a particular ATR for which no bags have passed through for 15 minutes).</li>
+        </ul>
+        <ul class="ul_2">
+            <li class="Bullet_1">The times of the day during which email alerts are distributed to the selected group (e.g. from 08:00 until 17:00). If no time is entered, email notifications will always be sent out regardless of what time the alarm criteria are met.</li>
+        </ul>
+        <ul class="ul_2">
+            <li class="Bullet_1">If an alert is sent when the alarm first occurs and/or when the alarm is cleared.</li>
+        </ul>
+        <p class="BodyText">Alarm Distribution Groups can be added, deleted, and edited. Alarm criteria can also be added, deleted, or edited.</p>
+        <p class="Subheading">To add an alarm distribution group:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Click <span class="Bold">Add New Alarm Group</span>. The <span class="Bold">Group Details</span> section is populated with blank fields and checkboxes.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Use the fields and checkboxes in the <span class="Bold">Alarm Distribution Information </span>section to configure the Alarm Distribution Group as appropriate.</li>
+        </ol>
+        <ul>
+            <li class="SubBullet_1">Enter a brief description of the new group in the <span class="Bold">Description</span> field.</li>
+            <li class="SubBullet_1">Select the alarm category.</li>
+            <li class="SubBullet_1">Enter the alarm trigger time (i.e. the number of minutes the condition must be active to trigger an alarm).</li>
+            <li class="SubBullet_1">Select which distribution group will receive the email alarm notification.</li>
+            <li class="SubBullet_1">Use the <span class="Bold">Notify on Start</span> and <span class="Bold">Notify on Stop</span> checkboxes to determine whether or not alerts are sent when the alarm starts and/or is cleared.</li>
+            <li class="SubBullet_1">Enter the appropriate start and stop time for alarm notifications (i.e. the hours during which email alarm notifications will be delivered; if no time is entered, emails will be sent out regardless of when alarms conditions are met).</li>
+        </ul>
+        <ol start="3" class="ol_1">
+            <li class="List">In the <span class="Bold">Alarm Criteria</span> section, use the drop-down lists and fields to edit the alarm criteria as necessary. <br /><img src="../Resources/Images/Add criteria.png" style="mc-thumbnail: none;" /></li>
+        </ol>
+        <ul>
+            <li class="SubBullet_1">If all alarm criteria must be met in order to trigger an alarm notification, check the <span class="Bold">Alerts require All Criteria to be matched</span> checkbox.</li>
+            <li class="SubBullet_1">Use the fields and drop-down lists to enter the criteria information, and then click <span class="Bold">Add New Criterion</span>.</li>
+            <li class="SubBullet_1">To add a new alarm criteria, click <span class="Bold">Add New</span>.</li>
+            <li class="SubBullet_1">To delete alarm criteria, click the <span class="Bold">Delete</span> button in next to the desired criteria in the <span class="Bold">Criteria</span> table. A confirmation dialog is displayed. Click <span class="Bold">OK</span> to confirm the deletion. Click the <span class="Bold">Cancel</span> button to abort the deletion.</li>
+        </ul>
+        <ol start="4" class="ol_1">
+            <li class="List">From the list of <span class="Bold">Alarm Distribution Groups</span>, select the group that will receive these alarm emails.</li>
+        </ol>
+        <ol start="5" class="ol_1">
+            <li class="List">Click <span class="Bold">Save Changes</span> to save the new Alarm Distribution Group.</li>
+        </ol>
+        <p class="Subheading">To delete an alarm distribution group:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Click the appropriate checkboxes in the <span class="Bold">Delete</span> column for the appropriate group(s). Alternately, click the group's name so its details are displayed on the right side of the screen.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Click <span class="Bold">Delete Selected Alarm Groups</span>. A confirmation dialog is displayed.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Click <span class="Bold">OK</span> to confirm the deletion. Click <span class="Bold">Cancel</span> to abort the deletion.</li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Users and Groups.htm">2.1 User Administration</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Managing Groups.htm">2.1.1 Managing Groups</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Managing Users.htm">2.1.2 Managing Users</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Email Accounts.htm">2.1.4 Email Group Configuration</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Email Recipient Configuration.htm">2.1.3 Email Recipient Configuration</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText">&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h4 class="Heading4"> Job Processor</h4>
+        <p class="BodyText">Data is transferred from the SAC database to the DHS by three mechanisms: SQL Replication<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (described fully in section 3.4.8)</MadCap:conditionalText>, data transfer by ETL<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section 3.4.5.7)</MadCap:conditionalText>, and directly by the Job Processor. Some components of the system create events, which are recorded in the SAC database, and are then read by the Job Processor to create or update records on the DHS database.</p>
+        <p class="BodyText">The Job Processor Service must continue to run for the information in the DHS database to remain up to date. Event records will still be created and queued if the service is not running, but the Jobs need to run their processes to get the data to transfer to the DHS.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="SAC Services.htm">3.3.5 SAC Services</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="SmartConnect Configuration.htm">3.3.5.1 SmartConnect Configuration Message Broker Service</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Sort Allocation Manager SAM.htm">3.3.5.3 Sort Allocation Manager (SAM)</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Status Message Handler SMH.htm">3.3.5.4 Status Message Handler (SMH)</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="ATR Monitor.htm">3.4.4.6 ATR Monitor</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="BHS Status Monitor.htm">3.4.4.7 BHS Status Monitor</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

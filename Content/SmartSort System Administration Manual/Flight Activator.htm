@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">Flight Activator</h4>
+        <p class="BodyText">The Flight Activator service is responsible for populating the active flight schedule that the SAM and MEC use to determine bag destinations from BSM information. The Flight Activator performs the activation process on all enabled and valid flight schedule templates by moving the data from the templates into the Active Schedule at the day rollover time (02:00). At the same time as loading the new data, past flight information is purged.</p>
+        <p class="BodyText">The active schedule contains three days of information – yesterday, today, and tomorrow – so that bags can match the correct flight date when sorting. This service is responsible for keeping that data up to date. It also checks to see whether any active flights in today's schedule have no makeup unit assignments, and sends an alarm to the HMI whenever this is the case. </p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="SAC Services.htm">3.3.5 SAC Services</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="SmartConnect Configuration.htm">3.3.5.1 SmartConnect Message Broker Service</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Sort Allocation Manager SAM.htm">3.3.5.3 Sort Allocation Manager (SAM)</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Status Message Handler SMH.htm">3.3.5.4 Status Message Handler (SMH)</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

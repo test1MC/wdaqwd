@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h4 class="Heading4"> <MadCap:annotation MadCap:createDate="2019-06-07T14:39:26.2830589-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Add related topics once they have all been brough in from core. Will need to revisit" MadCap:editor="JBerwick" MadCap:editDate="2019-06-07T14:43:21.2147383-04:00">Reroute Modes</MadCap:annotation></h4>
+        <p class="BodyText">The flights assigned to each reroute group can be dynamically rerouted in one of three ways. The reroute method is selected from the Reroute Mode drop-down list. The available reroute modes are:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Immediate Destination</span> - Looks for a flight whose first flight leg matches the bag's immediate destination (the .F flight in the BSM).</li>
+            <li class="Bullet_1"><span class="Bold">Direct Final Destination</span> - Looks for a flight whose first flight leg is the same as the bag's final destination (last .F or .O airport in the BSM).</li>
+            <li class="Bullet_1"><span class="Bold">Indirect Final Destination</span> - Looks for a flight that has any leg that is the same as the bag's final destination (last .F or .O airport in the BSM).</li>
+        </ul>
+        <p class="BodyText">Bags can be rerouted in one of four ways:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Dynamic Reroute</span> - Dynamically looks for the next available flight using the configured rules and sends the bag to the appropriate time-based pier.</li>
+            <li class="Bullet_1"><span class="Bold">Flight Missed Pier</span> - Sends the bag to the missed pier defined for the original flight or the global missed pier if it is mapped. This only applies to flights that have been cancelled.</li>
+            <li class="Bullet_1"><span class="Bold">Group Default Pier</span> - Sends the bag to the default sort destination configured for the reroute group on this screen. </li>
+            <li class="Bullet_1"><span class="Bold">Regular Pier</span> - Sends the bag to the time-based pier based on the regular sortation parameters (if the bag has missed its flight, it will be sent to the missed pier). This reroute option is essentially the same as not using dynamic reroute at all.</li>
+        </ul>
+        <p class="BodyText">If the configured reroute method cannot be used to reroute a bag (for example, if a dynamic reroute flight cannot be found), the system will attempt to reroute the bag using the other reroute options. The sequence in which the reroute options will be attempted is listed below.</p>
+        <p class="BodyText">If a flight is configured for dynamic reroute, and a reroute destination cannot be determined using the configured reroute method, the system will try to reroute the bag using the next reroute method in the sequence below. The system will continue to attempt reroute methods until it is able to successfully reroute the bag, or until the last method in the sequence is reached.</p>
+        <p class="BodyText">For Missed Bags</p>
+        <ol>
+            <li class="List">Dynamic Reroute</li>
+            <li class="List">Reroute Group Pier</li>
+            <li class="List">Regular Pier</li>
+        </ol>
+        <p class="BodyText">For Cancelled Bags</p>
+        <ol>
+            <li class="List">Dynamic Reroute</li>
+            <li class="List">Flight Missed Pier</li>
+            <li class="List">Reroute Group Pier</li>
+            <li class="List">Regular Pier</li>
+        </ol>
+        <p class="BodyText">For Early Bags (no cascading logic between 1 and 2)</p>
+        <ol>
+            <li class="List">Dynamic Reroute</li>
+            <li class="List">Reroute Group Pier</li>
+            <li class="List">Regular Pier</li>
+        </ol>
+        <p class="BodyText">For example, with a bag on a cancelled flight, if dynamic reroute is configured and no next available flight can be found, the system will attempt to send the bag to the original flight's missed pier. If no missed pier is defined for the flight, the system will attempt to send the bag to the default reroute pier for the group. If the default reroute pier is not defined, the system will attempt to sort the bag normally (in this case to the On Time sort destination). </p>
+        <p class="RelatedTopicsSubheading">Related Topics</p>
+    </body>
+</html>

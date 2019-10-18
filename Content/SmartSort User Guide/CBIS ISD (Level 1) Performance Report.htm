@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">CBIS ISD (Level 1) Performance Report</h2>
+        <p class="BodyText">The ISD Performance Report provides a summary of statistics related to the CBIS portion of the system. The faults, failures, and usage statistics related to the Inline Screening Devices (ISDs) are included in this report.</p>
+        <p class="Subheading">The following selection criteria are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Start Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">End Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Interval (Minutes, Hours, Days, Weeks, Months, or Years)</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Sample CBIS ISD (Level 1) Performance Report.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 1060px;height: 392px;" MadCap:mediastyle="@media print { width: 7in; }" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 9&#8209;28: </MadCap:conditionalText>S<MadCap:annotation MadCap:createDate="2019-09-24T15:11:25.3588402-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Update screenshot for your project. Requires Data.\r\n" MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T12:12:24.7505965-04:00">ample CBIS ISD (Level 1) Performance Report</MadCap:annotation></p>
+        <p class="Subheading">The following information is included in this report:</p>
+        <p class="BodyText">Note that there is a summary section containing the totals for each ISD, followed by a table showing the results for each individual ISD at the specified interval.</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Clear Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of machine (Level 1) clear decisions made by the EDS machine. This count is incremented and maintained in the upper level database based on messages received from the EDS (relayed through the PLC).</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>
+                        <MadCap:annotation MadCap:createDate="2019-10-10T12:14:52.1397556-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="This is not shown in the screenshot above, but it IS referenced in the footnotes of the report." MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T12:15:18.4528691-04:00">Cleared %</MadCap:annotation>
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of Machine Total Bags that received a machine (Level 1) clear decision from that EDS machine.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Alarmed Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of machine (Level 1) alarm decisions made by the EDS machine. This count is incremented and maintained in the upper level database based on messages received from the EDS (relayed through the PLC).</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>
+                        <MadCap:annotation MadCap:createDate="2019-10-10T12:16:35.1426933-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="This is not shown in the screenshot above, but it IS referenced in the footnotes of the report." MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T12:16:36.1450923-04:00">Alarmed %</MadCap:annotation>
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of Machine Total Bags that received a machine (Level 1) alarm decision from that EDS machine.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Error Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of machine (Level 1) error decisions made by the EDS machine. This count is incremented and maintained in the upper level database based on messages received from the EDS (relayed through the PLC).</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>
+                        <MadCap:annotation MadCap:createDate="2019-10-10T12:16:50.8914240-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="This is not shown in the screenshot above, but it IS referenced in the footnotes of the report." MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T12:16:52.1064756-04:00">Error %</MadCap:annotation>
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of Machine Total Bags that received a machine (Level 1) error decision from that EDS machine.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">Comm Error Bags</td>
+                <td class="td_4">Total number of Machine (Level 1) no decisions made by the EDS machine.</td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <MadCap:annotation MadCap:createDate="2019-10-10T12:19:22.6130797-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="This is not shown in the screenshot above, but it IS referenced in the footnotes of the report." MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T12:19:23.6718550-04:00">Comm Error %</MadCap:annotation>
+                </td>
+                <td class="td_4">The percentage of Machine Total Decisions that received a machine (Level 1) no decision from that EDS machine.
+</td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>OSR&#160;Decisions</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of bags that passed through that EDS machine that received their final security status from an OSR (Level 2) decision.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>OSR&#160;Decisions %</p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of Machine Total Decisions that received their final security status from an OSR (Level 2 ) decision.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Total</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of machine (Level 1) decisions from that ISD machine.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <MadCap:annotation MadCap:createDate="2019-10-10T12:30:21.5830172-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="This is not shown in the screenshot above, but it IS referenced in the footnotes of the report." MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T12:30:22.3383876-04:00">ISD ID Unusable</MadCap:annotation>
+                </td>
+                <td class="td_4">Total number of security decisions that were unusable because the bag was lost inside the ISD machine.
+</td>
+            </tr>
+            <tr>
+                <td class="td_3">Late Decision</td>
+                <td class="td_4">Total number of security decisions that were unusable because they arrived after the final decision diverter.</td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Average Processing Time</p>
+                </td>
+                <td class="td_4">
+                    <p>The amount of time required on average for the ISD to process a bag and reach a level 1 decision. Measured in seconds.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Understanding Web Client Reports.htm">9 Understanding Web Client Reports</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Generating Web Client Reports.htm">9.1 Generating Web Client Reports</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

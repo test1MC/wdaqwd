@@ -1,0 +1,1099 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2018-12-06T09:57:23.1905320-05:00"
+  ProjectName="TL6015 DFW SmartSort"
+  ProjectFolder="C:\Users\ctanzola\Documents\My Projects"
+  AutoSync="false"
+  AutoFitTables="true"
+  UseHeaderRows="false"
+  LastImport="2018-12-06T09:58:36.0163846-05:00">
+  <Files>
+    <Url
+      Source="../../../../../OneDrive - Brock Solutions, Inc/MadCap Flare/TL6015 SmartSort User Guide.docx"
+      AbsoluteSource="file:///C:/Users/ctanzola/OneDrive - Brock Solutions, Inc/MadCap Flare/TL6015 SmartSort User Guide.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/TL6015 SmartSort User Guide.png"
+      TimeStamp="12/6/2018 9:57:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/TL6015 SmartSort User Guide_1.png"
+      TimeStamp="12/6/2018 9:57:23 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/TL6015 SmartSort User Guide.htm"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Getting Started.htm"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/System Overview.htm"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Understanding Bag History.htm"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/SmartSuite Enterprise Web.htm"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Web Client Navigation.png"
+      TimeStamp="12/6/2018 9:57:24 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Web Client Navigation.htm"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Main Menu.htm"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Tooltips.png"
+      TimeStamp="12/6/2018 9:57:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Tooltips_1.png"
+      TimeStamp="12/6/2018 9:57:24 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Tooltips.htm"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Login and Security.png"
+      TimeStamp="12/6/2018 9:57:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Login and Security_1.png"
+      TimeStamp="12/6/2018 9:57:24 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Login and Security.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Managing User Preferences.png"
+      TimeStamp="12/6/2018 9:57:25 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Managing User Preferences.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/HMI Overview.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/HMI Navigation.png"
+      TimeStamp="12/6/2018 9:57:25 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/HMI Navigation.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Title Navigation Bar.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Navigating HMI Graphical Screens.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Sortation Control.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Virtual to Physical Mapping.png"
+      TimeStamp="12/6/2018 9:57:25 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Virtual to Physical Mapping.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Configuring Carrier Make Up.png"
+      TimeStamp="12/6/2018 9:57:25 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Configuring Carrier Make Up.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Flight Schedule Management.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Flight Times.png"
+      TimeStamp="12/6/2018 9:57:25 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Flight Times.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Active Flight Schedule Management.png"
+      TimeStamp="12/6/2018 9:57:25 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Active Flight Schedule Management_1.png"
+      TimeStamp="12/6/2018 9:57:25 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Active Flight Schedule Management_2.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Active Flight Schedule Management_3.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Active Flight Schedule Management.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Screen Layout.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Modifying Display Settings.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Modifying Display Settings.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Temporarily Overriding the.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Temporarily Overriding the.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/List View.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Gantt View.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Gantt View_1.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Gantt View_2.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Gantt View_3.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Gantt View_4.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Gantt View_5.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Gantt View_6.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Gantt View.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Editor View.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Grid Basics.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Saving Changes to the Active.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Adding a Flight to the Active.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Adding a Flight to the Active.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Editing a Flight in the Active.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Duplicating a Flight in the.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Deleting a Flight from the.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Shifting Flight Times in the.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Shifting Flight Times in the_1.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Shifting Flight Times in the.htm"
+      TimeStamp="12/6/2018 9:57:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Holding All Flights in the.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Holding All Flights in the_1.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Holding All Flights in the_2.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Holding All Flights in the.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Editing the Flight Schedule.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Overall Flight Schedule Information.png"
+      TimeStamp="12/6/2018 9:57:26 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Overall Flight Schedule Information.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Flight Schedule Template Management.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Template Management List of.png"
+      TimeStamp="12/6/2018 9:57:27 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Template Management List of.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Template Properties.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Adding a New Flight Schedule.png"
+      TimeStamp="12/6/2018 9:57:27 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Adding a New Flight Schedule.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Editing a Flight Schedule.png"
+      TimeStamp="12/6/2018 9:57:27 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Editing a Flight Schedule.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Duplicating a Flight Schedule.png"
+      TimeStamp="12/6/2018 9:57:27 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Duplicating a Flight Schedule.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Deleting a Flight Schedule.png"
+      TimeStamp="12/6/2018 9:57:27 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Deleting a Flight Schedule.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Managing Flights Within a.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Template Management Edit Individual.png"
+      TimeStamp="12/6/2018 9:57:27 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Template Management Edit Individual.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Template Properties_1.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Modifying Display Filters.png"
+      TimeStamp="12/6/2018 9:57:27 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Modifying Display Filters.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Editing the Flight Schedule_1.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Statistics.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Grid Basics_1.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Saving Changes to the Flight.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Adding a Flight to the Flight.png"
+      TimeStamp="12/6/2018 9:57:28 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Adding a Flight to the Flight.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Editing a Flight in the Flight.htm"
+      TimeStamp="12/6/2018 9:57:37 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Duplicating a Flight in the_1.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Deleting a Flight from the_1.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Shifting Flight Times in the_1_1.png"
+      TimeStamp="12/6/2018 9:57:28 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Shifting Flight Times in the_1.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Sending Flights to the Active.png"
+      TimeStamp="12/6/2018 9:57:28 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Sending Flights to the Active.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Activating the Flight Schedule.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Flight Properties.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Reroute Control.png"
+      TimeStamp="12/6/2018 9:57:28 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Reroute Control.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Reroute Modes.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Reroute Search Window.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Flight Options.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Additional Reroute Settings.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Reroute Logic.png"
+      TimeStamp="12/6/2018 9:57:28 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Reroute Logic.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Figure 436 Reroute Logic.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Manually Encoding Bags.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Manually Encoding Bags.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Encoding Bags.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Pseudo BSMs.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Bag Tag Scanned.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Bag Tag Scanned.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Carrier Make Up Unit Auto.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Manually Keyed Bag Tag.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Manually Keyed Bag Tag.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Flight Mode.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Flight Mode_1.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Flight Mode.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Make Up Unit Mode.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Make Up Unit Mode.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Hot Make Up Unit Selection.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Carrier Make Up Unit Mode.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Carrier Make Up Unit Mode.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Backup Sortation Mode.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Backup Sortation Mode.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Inquiry Mode.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Inquiry Mode.htm"
+      TimeStamp="12/6/2018 9:57:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Re Tagging Bags.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Re Tagging Bags.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/CBRA Inspection.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Baggage Status Display BSD.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Baggage Status Display BSD.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Monitoring Real Time System.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Monitoring Equipment Status.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/HMI Display Conventions.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/HMI Display Conventions.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Conveyor Animation.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Conveyor Animation.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/ATR Animation.png"
+      TimeStamp="12/6/2018 9:57:29 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/ATR Animation.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Diverter Animation.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Diverter Animation.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Fire Security Door Animation.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Fire Security Door Animation.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Make Up Unit Animation.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Make Up Unit Animation.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/ISD Machine Animation.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/ISD Machine Animation.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/MCP Animation.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/MCP Animation.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Manual Encode MEC.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Manual Encode MEC.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Viewing Equipment Pop Up Windows.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Conveyor Pop Up Window.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Conveyor Pop Up Window.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Conveyor Line Pop Up Window.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Conveyor Line Pop Up Window.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/MCP Pop Up Window.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/MCP Pop Up Window.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Make Up Unit Claim Device.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Make Up Unit Claim Device.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Diverter HSD Pop Up Window.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Diverter HSD Pop Up Window.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/ATR Pop Up Window.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/ATR Pop Up Window.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Manual Encode Pop Up Window.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Manual Encode Pop Up Window.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Fire Door Pop Up Window.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Fire Door Pop Up Window.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/CTX Pop Up Window.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/CTX Pop Up Window.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Server Status State Pop Up.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Server Status State Pop Up.htm"
+      TimeStamp="12/6/2018 9:57:39 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Viewing System Status Screens.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Viewing System Status Screens.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Monitoring Alarms and Fault.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Monitoring Alarms with the.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Monitoring Alarms with the_1.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Monitoring Alarms with the_2.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Monitoring Alarms with the_3.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Monitoring Alarms with the.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Problem Resolution Text.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Problem Resolution Text.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Fault Mode Pop Up Window.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Fault Mode Pop Up Window.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Monitoring Alarms with the_1_1.png"
+      TimeStamp="12/6/2018 9:57:30 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Monitoring Alarms with the_1.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Alarm Emails.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Alarm Searches and Reports.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Monitoring Communication Status.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Monitoring Communication Status_1.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Monitoring Communication Status_1.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/PLC Status.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/PLC Status.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Fault Mode.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Fault Mode.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Upper Level Status.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Upper Level Status.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Server UPS Status.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Server UPS Status.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/HMI Clients.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/HMI Clients.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Host Interfaces.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Host Interfaces.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Factory Talk System Status.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Monitoring Live Statistics.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Monitoring Statistical Information.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/System Throughput.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/System Throughput.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Monitoring Statistical Information_1.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Bags En Route Dashboard.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Bags En Route Dashboard.htm"
+      TimeStamp="12/6/2018 9:57:40 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Overriding the Departure Window.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Overriding the Departure Window.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Modifying Display Filters_1.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Modifying Display Filters_1.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Current System Activity.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Current System Activity.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Controlling the System Using.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Controlling the System Using.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Device Status.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Device Status.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Understanding Web Client Reports.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Generating Web Client Reports.png"
+      TimeStamp="12/6/2018 9:57:31 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Generating Web Client Reports.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Working with Report Results.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Working with Report Results_1.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Working with Report Results.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Printing Exporting Reports.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Printing Exporting Reports_1.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Printing Exporting Reports.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/SmartSuite Business Analytics.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/SmartSuite Business Analytics_1.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/SmartSuite Business Analytics_1_1.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/SmartSuite Business Analytics_1.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Flight Schedule Report.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Flight Schedule Report.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Flight Sort Summary Report.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Flight Sort Summary Report.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Individual Flight Summary.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Individual Flight Summary.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Bag Tag Printer Report.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Bag Tag Printer Report.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/BSM Summary Report.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/BSM Summary Report.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Carrier Summary Report.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Carrier Summary Report.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Default Make Up Report.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Default Make Up Report.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Shaft Encoder Report.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Shaft Encoder Report.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Failed to Sort Report.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Failed to Sort Report.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Problem BSM Report.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Problem BSM Report.htm"
+      TimeStamp="12/6/2018 9:57:41 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Bag Transit Time Report.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Bag Transit Time Report.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Throughput Report.png"
+      TimeStamp="12/6/2018 9:57:32 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Throughput Report.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Day End Report.png"
+      TimeStamp="12/6/2018 9:57:33 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Day End Report.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Equipment Operational Summary.png"
+      TimeStamp="12/6/2018 9:57:33 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Equipment Operational Summary.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Equipment Malfunction Report.png"
+      TimeStamp="12/6/2018 9:57:33 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Equipment Malfunction Report.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Equipment Malfunction Summary.png"
+      TimeStamp="12/6/2018 9:57:33 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Equipment Malfunction Summary.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Dimensioner Performance Report.png"
+      TimeStamp="12/6/2018 9:57:33 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Dimensioner Performance Report.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Laser Array Report.png"
+      TimeStamp="12/6/2018 9:57:33 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Laser Array Report.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Manual Encode Console Report.png"
+      TimeStamp="12/6/2018 9:57:33 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Manual Encode Console Report.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Virtual to Physical Mapping_1.png"
+      TimeStamp="12/6/2018 9:57:33 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Virtual to Physical Mapping_1.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/CBIS Executive Summary Report.png"
+      TimeStamp="12/6/2018 9:57:33 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/CBIS Executive Summary Report.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/CBIS Bag Volume Report.png"
+      TimeStamp="12/6/2018 9:57:33 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/CBIS Bag Volume Report.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/CBIS Daily Summary Report.png"
+      TimeStamp="12/6/2018 9:57:33 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/CBIS Daily Summary Report.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/ISD Performance Report.png"
+      TimeStamp="12/6/2018 9:57:33 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/ISD Performance Report.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/CBRA Performance Report.png"
+      TimeStamp="12/6/2018 9:57:33 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/CBRA Performance Report.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Understanding Search Results.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Using Global Search.png"
+      TimeStamp="12/6/2018 9:57:34 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Using Global Search_1.png"
+      TimeStamp="12/6/2018 9:57:34 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Using Global Search.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Viewing Details Screens.png"
+      TimeStamp="12/6/2018 9:57:34 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Viewing Details Screens_1.png"
+      TimeStamp="12/6/2018 9:57:34 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Viewing Details Screens.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Using Advanced Searches.png"
+      TimeStamp="12/6/2018 9:57:34 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Using Advanced Searches.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Working with Advanced Search.png"
+      TimeStamp="12/6/2018 9:57:34 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Working with Advanced Search_1.png"
+      TimeStamp="12/6/2018 9:57:34 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Working with Advanced Search.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Printing Exporting Search.png"
+      TimeStamp="12/6/2018 9:57:34 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Printing Exporting Search.htm"
+      TimeStamp="12/6/2018 9:57:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Alarm History Search.png"
+      TimeStamp="12/6/2018 9:57:34 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Alarm History Search.htm"
+      TimeStamp="12/6/2018 9:57:43 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Bag Tag Search.png"
+      TimeStamp="12/6/2018 9:57:34 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Bag Tag Search.htm"
+      TimeStamp="12/6/2018 9:57:43 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Bag Transactions Search.png"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Bag Transactions Search.htm"
+      TimeStamp="12/6/2018 9:57:43 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Raw Message Search.png"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Raw Message Search.htm"
+      TimeStamp="12/6/2018 9:57:43 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Activity Log Search.png"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Activity Log Search.htm"
+      TimeStamp="12/6/2018 9:57:43 AM" />
+    <Url
+      Source="../../Content/Resources/Images/TL6015 SmartSort User Guide/Audit Log Search.png"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Audit Log Search.htm"
+      TimeStamp="12/6/2018 9:57:43 AM" />
+    <Url
+      Source="../../Content/TL6015 SmartSort User Guide/Appendix A Glossary of Terms.htm"
+      TimeStamp="12/6/2018 9:57:43 AM" />
+    <Url
+      Source="../TOCs/TL6015 SmartSort User Guide.fltoc"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/Resources/MasterPages/TL6015 SmartSort User Guide.flmsp"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/TL6015 SmartSort User Guide.css"
+      TimeStamp="12/6/2018 9:57:35 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+    <Map
+      From="Heading 5"
+      To="h5.Heading 5" />
+    <Map
+      From="Heading 6"
+      To="h6.Heading 6" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="Heading 5" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Align Right" />
+    <StyleName
+      Name="Body Text" />
+    <StyleName
+      Name="Bullet" />
+    <StyleName
+      Name="Bullet Sublist" />
+    <StyleName
+      Name="Bullet Sublist 2" />
+    <StyleName
+      Name="Caption" />
+    <StyleName
+      Name="Cover Author" />
+    <StyleName
+      Name="Cover Client" />
+    <StyleName
+      Name="Cover Data" />
+    <StyleName
+      Name="Cover Date" />
+    <StyleName
+      Name="Cover Reference" />
+    <StyleName
+      Name="Cover Subheading" />
+    <StyleName
+      Name="Cover Title" />
+    <StyleName
+      Name="Cover VersionNum" />
+    <StyleName
+      Name="Footer Page Number" />
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="Heading 5" />
+    <StyleName
+      Name="Image" />
+    <StyleName
+      Name="List" />
+    <StyleName
+      Name="Subheading" />
+    <StyleName
+      Name="Table Content" />
+    <StyleName
+      Name="TOC 1" />
+    <StyleName
+      Name="TOC 2" />
+    <StyleName
+      Name="TOC 3" />
+    <StyleName
+      Name="TOC 4" />
+    <StyleName
+      Name="Unnumbered Heading" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Bold" />
+    <StyleName
+      Name="Code Sample Font" />
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Italics" />
+  </UsedCharacterStyles>
+</MsWordImport>

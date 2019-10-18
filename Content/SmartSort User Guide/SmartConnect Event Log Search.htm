@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h3 class="Heading3">SmartConnect Event Log Search</h3>
+        <p class="BodyText">The SmartConnect Event Log Search allows the operator to search through different SmartConnect events, such as connection failures or disconnects. The search results display the service event that occurred, and if it was a sending or receiving issue.</p>
+        <p class="BodyText">The search is generated based on a time range (either fixed or between the current time and a certain number of hours before the current time). If the time range is too broad, only the most recent 5000 logs will be returned. The search can be conducted for a maximum search window of 24 hours.</p>
+        <p class="BodyText">Time Range criteria are used for filtering the set of results returned. Filters can be applied to each column of the SmartConnect Event Log Search. Search results can also be exported to a CSV file format by clicking <span class="Bold">Export to CSV</span>.</p>
+        <p class="Image">
+            <img src="../Resources/Images/SmartConnect Event Log Search Results.png" MadCap:mediastyle="@media print { width: 7in; }" style="border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 947px;height: 534px;" />
+        </p>
+        <p class="Caption">
+            <MadCap:annotation MadCap:createDate="2019-10-15T08:38:56.4195746-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Updated for your project. Doctored screenshot to add the help icon (could not generate useful data in the test environment)." MadCap:editor="JBerwick" MadCap:editDate="2019-10-15T08:39:32.5109471-04:00">SmartConnect Event Log Search Results</MadCap:annotation>
+        </p>
+        <p class="Subheading">The following information is included in the Event Log Search:</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="BodyText_2">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="BodyText_2">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">Timestamp</td>
+                <td class="td_4">The time when the event occurred (local for the station). </td>
+            </tr>
+            <tr>
+                <td class="td_3">Event Type</td>
+                <td class="td_4">Type of event: Connection, Disconnection, Restart, etc.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Service</td>
+                <td class="td_4">The specific service that recorded the event (rarely is more than a single Message Broker Service installed). </td>
+            </tr>
+            <tr>
+                <td class="td_3">Instance</td>
+                <td class="td_4">The specific instance of the service that recorded the event (rarely is more than a single Message Broker Service or instance installed).</td>
+            </tr>
+            <tr>
+                <td class="td_3">Pipeline</td>
+                <td class="td_4">The pipelined that recorded the event (usually bag and flight messages are split into separate pipelines). </td>
+            </tr>
+            <tr>
+                <td class="td_3">Agent</td>
+                <td class="td_4">The specific agent that recorded the event. </td>
+            </tr>
+            <tr>
+                <td class="td_3">Message</td>
+                <td class="td_4">The details of the event.</td>
+            </tr>
+        </table>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Understanding Search Results.htm">10 Understanding Search Results</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Using Advanced Searches.htm">10.3 Using Advanced Searches</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

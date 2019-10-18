@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Manual Encode Console</h3>
+        <p class="BodyText">The following <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">sections outline</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">outlines the</MadCap:conditionalText> common MEC issues, and the probable causes and remedies for those issues. <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> Click one of the links below to navigate to the appropriate MEC issue. </MadCap:conditionalText></p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="#MECReleasesBagsfromWrongEncodingLocation">MEC&#160;Releases Bags from Wrong Encoding Location</MadCap:xref>
+            </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="#MEC_Appears_Stuck_or_Frozen">MEC Appears Stuck or Frozen</MadCap:xref>
+            </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="#PLC_Connection_Icon_is_Red_and_Bags_Cannot_Be_Released">PLC Connection Icon is Red and Bags Cannot Be Released</MadCap:xref>
+            </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="#Server_Connection_is_Red_(&quot;Backup_Mode&quot;)">Server Connection is Red ("Backup Mode")</MadCap:xref>
+            </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="#Can't_Release_Bag_at_MEC_Scan">Can't Release Bag at MEC Scan</MadCap:xref>
+            </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="#Error_Message_&quot;BSM_Not_Found">Error Message "BSM Not Found"</MadCap:xref>
+            </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="#&quot;Release_to_Carrier_Default_Makeup_Unit&quot;_Dialog_Does_Not_Appear_for_Some_Bags">"Release to Carrier Default Makeup Unit" Dialog Does Not Appear for Some Bags</MadCap:xref>
+            </li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">MEC&#160;Releases Bags from Wrong Encoding Location</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">MEC lines have been temporarily switched: </p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Ensure that the MEC name in the upper left corner of the screen is correct.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Use the Switch Lines key-switch button to move the MEC back to its appropriate location.</li>
+        </ol>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">MEC Appears Stuck or Frozen</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Slow PLC connections or disconnected PLC:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">If the MEC is stuck releasing a bag for more than 15 seconds, there may be a communications problem.</li>
+        </ul>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">MEC Operating System (Windows) has frozen:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">The MEC application is alive if the clock in the lower right corner shows accurate time. If the time is not changing, the application or computer needs to be restarted.</li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">PLC Connection Icon is Red and Bags Cannot Be Released</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Ethernet cable is not connected to the MEC:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Check the BHS switch and MEC network cables.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Confirm that the MEC computer can be reached via ping from another computer.</li>
+        </ol>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">PLC Ethernet connection issue:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Check that the PLC Ethernet card is running correctly and can be accessed/pinged.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Check the PLC to ensure that the PLC is running.</li>
+        </ol>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Server Connection is Red ("Backup Mode")</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">The Sort Allocation Controller (SAC) is disconnected from the MEC:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Verify Sort Allocation Controller Status on HMI.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Ensure bags are sorting automatically at the ATR.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Check Ethernet cables/switches at the server end.</li>
+        </ol>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Can't Release Bag at MEC Scan</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Error occurred during automatic sortation:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Check the Action Log on the right side of the MEC screen to see what the most recent error was (at the bottom of the list). </li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">The error should be self-explanatory (e.g. Flight Not In Schedule, or Flight Makeup Unit not Assigned) and must be corrected by operations personnel.</li>
+        </ol>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Error Message "BSM Not Found"</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Scanning an old or invalid barcode:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">There must be a valid barcode on the bag that was recently printed. </li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Attempt to release bag with Flight or Makeup Unit Sort mode.</li>
+        </ol>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Barcode quality is poor:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Try to type in the BSM number on the keypad to sort automatically.</li>
+        </ul>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">No connection to SAC:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Is the Status Light Green, displaying "All Connections OK"?</li>
+        </ul>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Not receiving sufficient BSMs from Carrier Host </p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Verify BSM connection status on HMI.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Search for bag tag from Global Search in the Web Client to see if a BSM for the bag was received.</li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">"Release to Carrier Default Makeup Unit" Dialog Does Not Appear for Some Bags</h5>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">This dialog is only present if the operator can sort by Carrier. </p>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">The Carrier Default Makeup unit must be enabled in the Web Client Application:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">In the Web Client, verify that <span class="Bold">Uses Default Virtual Makeup unit</span> is checked for that Carrier in the <MadCap:conditionalText MadCap:conditions="Default.PrintOnly"><span class="Bold">Location Settings</span></MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> <MadCap:xref href="Location Settings.htm">2.2.3 Location Settings</MadCap:xref> </MadCap:conditionalText>screen<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="Location Settings.htm#_Ref455064920" class="ParaTextOnly">2.2.3 Location Configuration</MadCap:xref>)</MadCap:conditionalText>.</li>
+        </ul>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Troubleshooting Guide.htm">4.3 Troubleshooting Guide</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

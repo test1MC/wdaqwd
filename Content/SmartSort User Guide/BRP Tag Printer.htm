@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h3 class="Heading3">BRP Tag Printer</h3>
+        <p class="BodyText">In Contingency Mode, the operational staff has determined that the system is not operating correctly but is still somewhat usable. This might be the case when the ISDs are not correctly identifying bags and too many are proceeding to CBRA. In Contingency Mode, the print enable status should be turned on from the HMI (using an appropriately-privileged account).</p>
+        <p class="BodyText">A single tag printer is provided and is installed on the first BRP on each conveyor line entering CBRA. The printer is intended to be used for contingency purposes only. The CBRA tag printer is enabled or disabled via the HMI workstation in the master control room<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="BRP Pop-Up Window.htm">8.1.2.14 BRP Pop-Up Window</MadCap:xref>)</MadCap:conditionalText>.</p>
+        <p class="BodyText">When tag printing is enabled, all bags must be initially processed from the first BRP. Bags will be allowed to proceed to downstream BRPs or to be removed manually from the conveyor when the Advance button on the BRP is clicked.</p>
+        <p class="BodyText">An identifying tag can be printed from the BRP workstation when in this mode. This tag will contain the bag's pseudo ID, security status, ISD ID, and sequence ID. By Selecting Print, the tag prints (and can be used multiple times if the printer is not fully supplied with tags).</p>
+        <p class="BodyText">The data and barcode on the tag should allow users to properly screen the bag (or at least identify it) when the contingency mode problems have cleared.</p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BRP - Bag Present with Tag Printing Enabled.png" MadCap:mediastyle="@media print { width: 7in; }" style="width: 662px;height: 497px;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 71:&#160;</MadCap:conditionalText>
+            <MadCap:annotation MadCap:createDate="2019-10-10T09:40:48.4379098-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="This screenshot will need to be replaced. Audrey M to provide." MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T09:43:25.2310928-04:00">BRP - Bag Present wit Tag Printing Enabled</MadCap:annotation>
+        </p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="CBRA Inspection_BITs and BRPs.htm">7 CBRA Inspection</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Using a BRP.htm">7.1.1 Using a BRP</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Reinserting a Bag.htm">7.1.2 Reinserting a Bag</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

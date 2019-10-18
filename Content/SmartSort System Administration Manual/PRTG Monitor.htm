@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">PRTG Monitor</h4>
+        <p class="BodyText">Each time the PRTG software (see <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">section </MadCap:conditionalText><MadCap:xref href="Server Hardware Monitoring.htm#_Ref446504369" class="ParaTextOnly">3.3.3.3 Server Hardware Monitoring</MadCap:xref>) detects a change of state, it logs that change in a database table. The PRTG Monitor service is responsible for picking up this logged data and acting on it to set the alarms on the HMI appropriately and create new alarm entries on the system dashboard. </p>
+        <p class="BodyText">The service also resynchronizes all PRTG sensors each hour in case one of the sensor changes is missed. </p>
+        <p class="BodyText">This service must remain operational for the Watchdog/Monitoring alarms on the HMI to be functional. If it is not running, server and other hardware status would have to be monitored manually for the relevant third-party applications. </p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="DHS Services.htm">3.3.6 DHS Services</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Alarm Distribution Service.htm">3.3.6.1 Alarm Distribution Service</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Automatic Reports Service.htm">3.3.6.2 Automatic Reports Service</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Counter Collection Service.htm">3.3.6.3 Counter Collection Service (CoCoS)</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Database Download Service.htm">3.3.6.4 Database Download Service</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="IPC2OPC Service.htm">3.3.6.5 IPC2OPC Service</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Network Monitor.htm">3.3.6.6 Network Monitor</MadCap:xref>
+            </li>
+            <li style="font-weight: bold;" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Business Analytics Service.htm" style="font-weight: normal;">3.3.6.8 Business Analytics Service</MadCap:xref>
+            </li>
+            <li style="font-weight: bold;" MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="ETL Service.htm" style="font-weight: normal;">3.3.6.9 ETL Service</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="ETL Scheduler Service.htm">3.3.6.10 ETL Scheduler Service</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

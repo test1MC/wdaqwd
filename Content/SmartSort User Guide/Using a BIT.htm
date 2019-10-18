@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h3 class="Heading3">Using a BIT</h3>
+        <p class="BodyText">Before a bag arrives at the BIT, the BIT Enabled screen displays.</p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BIT - Enabled.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 72: </MadCap:conditionalText>BIT - Enabled</p>
+        <p class="BodyText">When a bag is transferred to the BIT from a BRP, the information associated with that bag will be displayed in the upper section designated <span class="Bold">Last Bag from BRP</span> <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">as shown in Figure 73</MadCap:conditionalText>. This information includes:</p>
+        <ul>
+            <li class="Bullet_1"><span class="Bold">Bag Pseudo ID</span> - The PLC-generated value passed to the ISD to associate with the image (used when no other ID is available).</li>
+            <li class="Bullet_1"><span class="Bold">IATA Bag Tag Number</span> - If the bag had a readable barcode, it will be passed to the ISD to associate with the image (if no ATRs are installed upstream of screening, this field will be hidden).</li>
+            <li class="Bullet_1"><span class="Bold">RFID Tag Number</span> - If the bag had a readable barcode, it will be passed to the ISD to associate with the image (if no readers are installed upstream of screening, this field will be hidden).</li>
+            <li class="Bullet_1"><span class="Bold">ISD Machine</span> - The device that screened the bag.</li>
+            <li class="Bullet_1"><span class="Bold">BHS ID for the bag</span> - The PLC ID used for tracking the bag in the system (can be used for bag research from the SmartSuite Enterprise Web Client).</li>
+            <li class="Bullet_1"><span class="Bold">Photo Eye</span> - Certain bag statuses displays the photo eye where the bag began to be tracked by the PLC.</li>
+        </ul>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BIT - Bag Present.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 73: </MadCap:conditionalText>BIT - Bag Present</p>
+        <p class="BodyText">Clicking <span class="Bold">BAIT</span> transfers the bag's information to the SVS. The bag's data continues to be displayed in the <span class="Bold">Last Bag from BRP</span> section until the information is transferred. There is no time limit on how long a bag can wait for the <span class="Bold">BAIT</span> button to be clicked, but the <span class="Bold">BAIT</span> button must be clicked for the station to become available again.</p>
+        <p class="BodyText">Once the information has been transferred to the SVS, the data will be cleared from the <span class="Bold">Last Bag from BRP</span> section and moved to the <span class="Bold">Last Bag to SVS</span> section in the lower half of the screen.</p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BIT - Data Sent to SVS.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 74: </MadCap:conditionalText>BIT - Data Sent to SVS</p>
+        <p class="BodyText">The bag's data will continue to be displayed in the <span class="Bold">Last Bag to SVS</span> section until a new bag is processed, until the BIT application is disabled and re-enabled, or until the BIT terminal is powered off. This allows TSA personnel to view the data for as long as necessary to process the bag. If the <span class="Bold">BAIT</span> button was clicked before the SVS was ready to accept data, the <span class="Bold">Resend</span> button can be used to send the same Bag ID data to the SVS as before. This can be repeated as often as necessary.</p>
+        <p class="BodyText">Once the bag's data has been transferred using the BAIT function and the data is cleared from the <span class="Bold">Last Bag from BRP</span> section, the BIT workstation is considered available. A user can transfer another bag from a BRP station to the BIT station so that one bag is in queue while the previous bag is being processed.</p>
+        <p class="BodyText">BITs can be enabled or disabled by clicking the button in the top right corner of the screen. When the BIT is enabled, the button will read <span class="Bold">Disable</span>. When disabled, a BIT station is not available to process bags, and the following screen displays:</p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BIT - Worstation Disabled.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 75: </MadCap:conditionalText>BIT - Workstation Disabled</p>
+        <p class="BodyText">The BIT station will be grayed out on the associated BRP screen. Tapping <span class="Bold">Enable</span> will re-enable the BIT station.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="CBRA Inspection_BITs and BRPs.htm">7 CBRA Inspection</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Inspecting a Bag.htm">7.2 Inspecting a Bag</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="BIT Hand Scanners.htm">7.2.2 BIT Hand Scanners</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

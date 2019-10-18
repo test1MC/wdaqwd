@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Sort Allocation Controller (SAC)</h3>
+        <p class="BodyText">The Sort Allocation Controller acts as the central server of the system, and performs all real-time communication requirements. The SAC component provides the sortation operations for the system. The SAC runs on Windows Server operating system, and includes a Microsoft SQL Server Database. This database stores the following transactional information:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Baggage Information (short term storage)</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Flight Schedule Information (short term storage)</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">System and User Setup Information</li>
+        </ul>
+        <p class="BodyText">The SQL Server database only keeps data for a short term (approximately three days) to ensure that sortation is as quick as possible. Long term data storage is on the DHS. Old records in the database are automatically cleared out daily. For flight schedules, as many Sort Assignment Templates as are necessary can be created and maintained within the database.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Application Overview.htm">3.2 Application Overview</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Data Historian Server DHS.htm">3.2.2 Data Historian Server (DHS)</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Maintenance Server and NAS.htm">3.2.3 Maintenance Server and NAS</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="SmartVision HMI Servers.htm">3.2.4 SmartVision HMI Servers</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Domain Controllers.htm">3.2.5 Domain Controllers </MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Workstations_2.htm">3.2.6 Workstations</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

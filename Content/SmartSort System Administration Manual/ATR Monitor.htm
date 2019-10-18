@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h4 class="Heading4">ATR Monitor</h4>
+        <p class="BodyText">The ATR Monitor service is used to communicate with ATRs that are not required for PLC tracking: using inbound, transfer, or other scan points that are not tracked by the PLCs. The SAC connects directly to each monitored ATR over the Ethernet network and receives heartbeat and bag tag messages from them. Whenever a bag tag is read by the ATR, its data is recorded for use in the Bag Transaction search.</p>
+        <p class="BodyText">The ATR Monitor is required to be running so that information can be recorded by the monitored ATRs. The data feed from the ATR includes similar status codes to what the PLC receives from Sort/CBIS ATRs so that the hardware status and head read statuses can be alerted from the HMI and recorded for reports. If an ATR is offline or not reachable, this will be alerted on the HMI.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="SAC Services.htm">3.3.5 SAC Services</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="SmartConnect Configuration.htm">3.3.5.1 SmartConnect Configuration Message Broker Service</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Sort Allocation Manager SAM.htm">3.3.5.3 Sort Allocation Manager (SAM)</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Status Message Handler SMH.htm">3.3.5.4 Status Message Handler (SMH)</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Job Processor.htm">3.4.4.5 Job Processor</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="BHS Status Monitor.htm">3.4.4.7 BHS Status Monitor</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

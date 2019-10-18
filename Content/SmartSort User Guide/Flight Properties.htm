@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:conditions="Default.PrintOnly">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3 class="Heading3">Flight Properties</h3>
+        <p class="BodyText">There are several flight properties that are available. Each one is described below. Unless otherwise noted, these fields are used for flights in the Active Schedule and in the Template Flight Schedule screen.</p>
+        <p class="Subheading">Flight Information</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Airline</span> – The airline/airline name. A list of matching airline names will be displayed as the airline name is typed (the list includes all airlines that have currently been configured.<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> See section <MadCap:xref href="Configuring Carrier Make Up.htm#_Ref334587750" class="ParaTextOnly">4.2 Configuring Carrier Make-Up Units</MadCap:xref> for details). This field is required.</MadCap:conditionalText></li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Flight</span> – The flight number. This should be a four-digit numeric value. This field is required. If fewer than four digits are entered, the system will add zeroes to the beginning of the number to create a four-digit flight number.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Route</span> – The three-character destination airport code or codes for the flight's destination(s). If the flight travels to more than one airport, the codes should be separated by a comma or a comma and a space (e.g. DEN, ORD, YYZ). This field is required.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Gate</span> – The gate number for the flight. The gate number can be alphanumeric. This field is optional.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Aircraft</span> –The aircraft type that will be used for the flight. A matching list of Aircraft types will be displayed as the aircraft type is entered. If the aircraft type is not available, contact the system administrator to add the aircraft type to the system. This field is optional.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Market</span> – The flight market refers to whether the (next) destination airport is Domestic, Transborder, International, etc. A matching list of markets will be displayed as the market is entered. If the market is not available, contact the system administrator to add the market to the system. This field is optional.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Reroute</span> – This is a drop-down menu that contains all of the currently configured Reroute groups. The rules associated with the selected Reroute group will be applied if a bag misses its flight or if the flight is cancelled.<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> For details see section <MadCap:xref href="Reroute Control.htm#_Ref450652518" class="ParaTextOnly">4.4 Reroute Control</MadCap:xref>.</MadCap:conditionalText> This field is optional.</li>
+        </ul>
+        <p class="Subheading">Flight Times - Active Flight Schedule</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Scheduled Departure</span> – The scheduled departure date and time for the flight. The scheduled departure field is required. If the scheduled departure is updated, the estimated departure is automatically updated with the same value.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Estimated Departure</span> – The estimated/actual departure date and time for the flight. The estimated departure field is required. If the estimated departure is updated, the open, late and close times are automatically adjusted by the same amount of time.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Open Time</span> – This field is required and can be either automatically calculated by applying the Airline, Aircraft or Market offset (if available) or by manually entering the open time. The open time must be less than the late time and the estimated departure. Note that this field must contain both the date and the time. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Late Time</span> – This field is required and can be either automatically calculated by applying the Airline, Aircraft or Market offset (if available) or by manually entering the late time. The late time must be less than or equal to the close time and greater than the open time. Note that this field must contain both the date and the time. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Close Time</span> – This field is required and can be either automatically calculated by applying the Airline, Aircraft or Market offset (if available) or by manually entering the close time. The close time must be greater than or equal to the late time. Note that this field must contain both the date and the time. </li>
+        </ul>
+        <p class="Subheading">Flight Times - Flight Schedule Templates</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Schedule Departure</span> – The schedule departure date and time for the flight. This field is required.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Offset Source</span> – The Open Time, Late Time, and Close Time are specified as offsets from the estimated departure date/time. For example, an offset may be configured to start the open time two hours before a departure, start the late time 45 minutes before departure, and start the close time 15 minutes before the departure. These offsets are configured by a system administrator. The available options are Airline, Aircraft Type, Market and Override. If Airline/Aircraft Type/Market is specified, the times are automatically calculated based on the Airline/Aircraft Type/Market open/late/close offsets. Alternately, the values for the Open, Late and Close times can be manually entered.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Open Offset</span> – The number of minutes prior to the departure of the flight that the Open Time will be set to begin to in the Active Schedule.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Late Offset</span> – The number of minutes (plus or minus) relative to the departure of the flight that the Late Time will be set to begin in the Active Schedule.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Close Offset</span> – The number of minutes (plus or minus) relative to the departure of the flight that the Close Time will be set to begin in the Active Flight Schedule.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">M/T/W/T/F/S/S</span> - Indicates which days of the week (Monday to Sunday) the flight is scheduled to operate on.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Effective Date</span> – The date when the flight will start being added to the active flight schedule (if all other requirements are met, e.g. flight operates on Monday). This field is optional. If left blank, the flight will be added to the active schedule based on the Effective Date of the template where the flight is configured as well as the discontinue date listed for the flight schedule template and for the individual flight within the template (whichever date is earlier). </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Discontinue Date</span> – The last date when the flight will be added to the active flight schedule. If no date is entered, the flight will continue to be added to the active flight schedule every day that it is scheduled to operate on (using the days of the week checkboxes). This field is optional.</li>
+        </ul>
+        <p class="Subheading">Flight Status - Active Flight Schedule</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Cancelled</span> – Selecting this checkbox indicates that the flight has been cancelled. This field is optional.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">On Hold</span> – Selecting this checkbox indicates that the flight has been placed on hold and its bags will sort to its On Time sort destination regardless of time. This field is optional.</li>
+        </ul>
+        <p class="Subheading">Pier Assignments</p>
+        <p class="BodyText">Each flight is assigned to one or more piers so that bags can be sorted to their proper destination. The flight's On Time Pier is required or a warning and alarm will be generated indicating there are flights that do not have a pier assignment. If a flight's time-based pier is not defined, a bag for that flight will sort to the On Time Pier. For example, an early bag will go to the Early Pier if it is defined; otherwise the bag will sort to the On Time Pier. </p>
+        <p class="BodyText">Other time-based pier types can be added and used to sort bags based on the flight's scheduled departure time. Some systems have other types that are not time-based (e.g. reroute or transfer). These pier assignments sort bags based on other characteristics.</p>
+        <p class="BodyText">Pier assignments can also be assigned criteria. If a station and/or class criteria is added to a pier assignment, only bags matching those criteria will sort to the pier. If there are multiple piers of the same type with the same criteria, only the first one created will be used. There is no round-robin on flight piers.</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Pier Types</span> –This is the time-based pier type associated with the pier number.<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> For a description of flight times and the associated time-based pier assignments, see section <MadCap:xref href="Flight Times.htm#_Ref443913473" class="ParaTextOnly">4.3.1 Flight Times</MadCap:xref>.</MadCap:conditionalText> An On Time Pier assignment should be specified for every flight. Other time-based pier assignments (early, late, or missed) are optional.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Pier</span> – This is the destination sort pier/carousel for the associated time-based sort pier type.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Station</span> – If multiple stations have been set up for a flight's route, they can be selected for this field to provide additional sort possibilities. Piers can be set up to sort bags going to different downline stations using this field (e.g. to separate terminating from transfer bags at the end of the next flight leg).</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Class</span> – Piers can be set up to sort bags in different classes (e.g. Business Class, Premium, etc.) to different sort destinations using this field. The value entered must match the airlines class designations as sent in a BSM (e.g. Y = Economy for Airline XYZ, so the class would be specified as Y in this field).</li>
+        </ul>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly"> Related Topics</p>
+        <ul class="RelatedTopicList" MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Flight Schedule Management.htm">4.3 Flight Schedule Management</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Flight Times.htm" class="ParaTextOnly">4.3.1 Flight Times</MadCap:xref> </li>
+            <li>
+                <MadCap:xref href="Configuring Carrier Make Up.htm">4.2 Configuring Carrier Make-Up Units</MadCap:xref> </li>
+            <li>
+                <MadCap:xref href="Reroute Control.htm">4.4 Reroute Control</MadCap:xref><![CDATA[    ]]></li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

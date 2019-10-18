@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3 class="Heading3">
+            <MadCap:annotation MadCap:createDate="2019-09-19T08:02:36.4327519-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="This should be flagged as online only. Copied from System Admin" MadCap:editor="JBerwick" MadCap:editDate="2019-09-19T08:02:37.6854649-04:00">Reroute Modes</MadCap:annotation>
+        </h3>
+        <p class="BodyText">The flights assigned to each Reroute group can be dynamically rerouted in one of three ways. The reroute method is selected from the <span class="Bold">Reroute Mode</span> drop-down list. The available reroute modes are:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Immediate Destination</span> – Looks for a flight whose first flight leg matches the bag's immediate destination.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Direct Final Destination</span> – Looks for a flight whose first flight leg is the same as the bag's final destination.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Indirect Final Destination</span> – Looks for a flight that has any leg that is the same as the bag's final destination.</li>
+        </ul>
+        <p class="BodyText">Bags can be rerouted in one of four ways:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Dynamic Reroute</span> – Dynamically looks for the next available flight using the configured rules and sends the bag to the Make-Up Unit for that flight.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Flight Missed Pier</span> – Sends the bag to the Missed Pier defined for the original flight or the Global Missed Pier if it is mapped. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Group Default Pier</span> – Sends the bag to the sort destination configured for the reroute group.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Regular Pier </span>– Sends the bag to the time-based pier based on the regular sortation parameters (if the bag has missed its flight, it will be sent to the "Missed Pier"). This reroute options is essentially the same as not using reroute.</li>
+        </ul>
+        <p class="BodyText">If the configured reroute method cannot be used to reroute a bag (for example, if a dynamic reroute flight cannot be found), the system will attempt to reroute the bag using the other reroute options. The sequence in which the reroute options will be attempted is listed below. </p>
+        <p class="BodyText">If a flight is configured for Dynamic Reroute, and a reroute destination cannot be determined using the configured reroute method, the system will try to reroute the bag using the next reroute method in the sequence below. The system will continue to attempt reroute methods until it is able to successfully reroute the bag, or until the last method in the sequence is reached.</p>
+        <p class="Subheading">For missed bags</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Dynamic Reroute</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Reroute Group Pier</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Regular Pier</li>
+        </ol>
+        <p class="Subheading">For cancelled bags</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Dynamic Reroute</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Flight Missed Pier</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Reroute Group Pier</li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="List">Regular Pier</li>
+        </ol>
+        <p class="Subheading">For early bags (no cascading logic between items 1 and 2)</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Dynamic Reroute</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Reroute Group Pier</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Regular Pier</li>
+        </ol>
+        <p class="BodyText">For example, with a bag on a cancelled flight, if dynamic reroute is configured and no next available flight can be found, the system will attempt to send the bag to the original flight's missed pier. If no missed pier is defined for the flight, the system will attempt to send the bag to the default reroute pier for the group. If the default reroute pier is not defined, the system will attempt to sort the bag normally (in this case to the On Time sort destination).</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Reroute Control.htm">4.4 Reroute Control</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Reroute Search Window.htm">4.4.2 Reroute Search Window</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Flight Options.htm">4.4.3 Flight Options</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Additional Reroute Settings.htm">4.4.4 Additional Reroute Settings</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Reroute Logic.htm">4.4.5 Reroute Logic</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Managing Reroute Groups.htm">4.4.6 Managing Reroute Groups</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

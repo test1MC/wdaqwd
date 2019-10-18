@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">CBRA Performance Report</h2>
+        <p class="BodyText">The CBRA Performance Report provides a summary of statistics related to the Checked Bag Resolution Area (CBRA) portion of the system. The faults, failures, and usage related to the CBRA are included in this report.</p>
+        <p class="Subheading">The following selection criteria are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Start Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">End Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Interval (Minutes, Hours, Days, Weeks, Months, or Years)</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Sample CBRA Performance Report.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 971px;height: 365px;" MadCap:mediastyle="@media print { width: 7in; }" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 9&#8209;29: </MadCap:conditionalText>
+            <MadCap:annotation MadCap:createDate="2019-09-24T15:19:01.4219325-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Get a new screenshot for your project. Data required\r\n" MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T13:45:36.9268843-04:00">Sample CBRA Performance Report</MadCap:annotation>
+        </p>
+        <p class="Subheading">The following information is included in this report:</p>
+        <p class="BodyText">Note that there is a summary section containing the totals for each alarm line, followed by a table showing the results for each individual alarm line at the specified interval. The counts identified in this report are based on when bags arrive in CBRA. </p>
+        <p class="Subheading">CBIS Throughput Section</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Clear</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of clear bags arriving in CBRA on that alarm line. Possible causes for this could be bags that failed to divert on a clear bag line.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Alarm</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of alarm bags arriving in CBRA on that alarm line.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>EDS Error</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of error bags arriving in CBRA on that alarm line.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">EDS&#160;Flush</td>
+                <td class="td_4">Total number of flushed bags arriving in CBRA on that alarm line. Flushed bags are bags that were processed by an EDS machine in bypass mode.</td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Timeout</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of no decision bags arriving in CBRA on that alarm line. No decision means that no decision from the EDS machine was received.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Lost in Tracking</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of unknown bags arriving in CBRA on that alarm line. Unknown bags are those bags which were lost in tracking between the exit of the EDS machine and entering CBRA.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Out of Gauge</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of out of gauge bags arriving in CBRA on that alarm line.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>BHS Purged</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of purged bags arriving in CBRA on that alarm line.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">Comm Error</td>
+                <td class="td_4">Total number of communication error bags arriving in CBRA on that alarm line. Communication error bags are ones that did not receive any decision from the EDS machine.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Stopped in Scan</td>
+                <td class="td_4">Total number of stopped in scan bags arriving in CBRA on that alarm line. Stopped in scan bags are those which were inside an EDS machine when the line was stopped, and a
+full scan of the bag was not completed.</td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Total</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of bags arriving in CBRA on that alarm line.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Understanding Web Client Reports.htm">9 Understanding Web Client Reports</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Generating Web Client Reports.htm">9.1 Generating Web Client Reports</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

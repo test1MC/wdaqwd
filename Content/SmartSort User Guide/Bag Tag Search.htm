@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3 class="Heading3">Bag Tag Search</h3>
+        <p class="BodyText">The Bag Tag Search screen allows the operator to search for baggage records. This table contains one record per bag. However, it may contain many records with the same bag tag (because of the roll-over of IATA numbers). Multiple records of the same bag tag number display if BSMs were received for the associated bag at multiple stations. Note that the time zone associated with the timestamp returned in the search results is indicated in the top right corner of the screen. Station-specific data is filtered to only display information the user has permission to view. For example, a user that does not have permission to access information related to any of the stations associated with a bag's itinerary will not be able to successfully query associated baggage records. Bag tag search results are station-specific based on BSMs received; if a BSM is received from other stations for a specific tag number, these results will also display, provided the user has the appropriate permission.</p>
+        <p class="BodyText">The following search criteria is available if the applicable data is received from the data interfaces:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">BHS ID (Is In / Not In)</span> – Indicates the BHS ID associated with the returned bag tag.</li>
+            <li class="Bullet_1"><span class="Bold">BSM Received OR First Seen Timestamp OR Last Seen Timestamp (Current / Fixed Time Range)</span> – Specifies the time range the system received a BSM for the returned bag tag.</li>
+            <li class="Bullet_1"><span class="Bold">BSM Status (Is In / Not In)</span> – Indicates the status of the BSM associated with the returned bag tag (e.g. BSM Arrived Late, BSM Received, BSM Updated After Sort).</li>
+            <li class="Bullet_1"><span class="Bold">CBRA (Is In / Not In)</span> – Indicates the CBRA associated with the returned bag tag.</li>
+            <li class="Bullet_1"><span class="Bold">CBRA Time (Current / Fixed Time Range)</span> – Specifies the time the associated bag tag entered CBRA.</li>
+            <li class="Bullet_1"><span class="Bold">Creation Time (Current / Fixed Time Range)</span> – Specifies the time the associated bag tag record was created.</li>
+            <li class="Bullet_1"><span class="Bold">Creation Type (Is In / Not In)</span> – Indicates the bag record creation type associated with the bag tag.</li>
+            <li class="Bullet_1"><span class="Bold">Deleted Time (Current / Fixed Time Range)</span> – Indicates the time the system received a BSM Delete from the airline for the associated bag tag.</li>
+            <li class="Bullet_1"><span class="Bold">Dimensioner (Is In / Not In)</span> – Indicates the dimensioning device used to measure the associated bag tag entry.</li>
+            <li class="Bullet_1"><span class="Bold">Divert Confirmation (Current / Fixed Time Range)</span> – Specifies the time the associated bag was diverted.</li>
+            <li class="Bullet_1"><span class="Bold">Exception Data (Is In / Not In)</span> – Indicates the associated bag's exception data as provided in the BSM.</li>
+            <li class="Bullet_1"><span class="Bold">Final Destination (Is In / Not In)</span> – Indicates the associated bag's final destination.</li>
+            <li class="Bullet_1"><span class="Bold">First Seen Device (Is In / Not In)</span> – Indicates the first device in the system that scanned the associated bag tag.</li>
+            <li class="Bullet_1"><span class="Bold">First Seen Device Type (Is In / Not In)</span> – Indicates the first type of device used to scan the associated bag tag.</li>
+            <li class="Bullet_1"><span class="Bold">First Seen Time (Current / Fixed Time Range)</span> – Specifies the time the associated bag tag was first scanned.</li>
+            <li class="Bullet_1"><span class="Bold">Host Address (Is In / Not In)</span> – Indicates the ID from which the BSM message was received.</li>
+            <li class="Bullet_1"><span class="Bold">Inbound (Is In / Not In)</span> – Indicates whether or not the associated bag is inbound.</li>
+            <li class="Bullet_1"><span class="Bold">Inbound Date (Current / Fixed Time Range)</span> – Specifies the time the associated bag is expected to arrive.</li>
+            <li class="Bullet_1"><span class="Bold">Inbound Flight List (Is In / Not In)</span> – Indicates the inbound flight number associated with the returned bag tag record.</li>
+            <li class="Bullet_1"><span class="Bold">Inbound Origin (Is In / Not In)</span> – Indicates the original station from which the associated bag travelled from.</li>
+            <li class="Bullet_1"><span class="Bold">Internal Airline Data (Is In / Not In)</span> – Indicates the internal airline data for the associated bag as provided in the BSM.</li>
+            <li class="Bullet_1"><span class="Bold">Last Seen Device (Is In / Not In)</span> – Indicates the last device known to have scanned the associated bag tag.</li>
+            <li class="Bullet_1"><span class="Bold">Last Seen Device Type (Is In / Not In)</span> – Indicates the type of device associated with the last known scan of the bag tag.</li>
+            <li class="Bullet_1"><span class="Bold">Last Seen On (Current / Fixed Time Range)</span> – Specifies the time the associated bag tag was last seen.</li>
+            <li class="Bullet_1"><span class="Bold">Last Update Time (Current / Fixed Time Range)</span> – Specifies the time the associated bag tag record was last updated.</li>
+            <li class="Bullet_1"><span class="Bold">MEC (Is In / Not In)</span> – Indicates the Manual Encode Station used to process the associated bag.</li>
+            <li class="Bullet_1"><span class="Bold">MEC Time (Current / Fixed Time Range)</span> – Specifies the amount of time spent by the associated at a Manual Encode Station.</li>
+            <li class="Bullet_1"><span class="Bold">Message Reference (Is In / Not In)</span> – Indicates the carrier or number referenced in the associated BSM.</li>
+            <li class="Bullet_1"><span class="Bold">Onward Flight Destination 3 (Is In / Not In)</span> – Indicates the subsequent destination of the associated bag.</li>
+            <li class="Bullet_1"><span class="Bold">Onward Flight List 1, 2, and 3 (Is In / Not In)</span> – Indicates the subsequent flight(s) of the associated bag.</li>
+            <li class="Bullet_1"><span class="Bold">Onward Transfer (Is In / Not In)</span> – Indicates whether or not the associated bag will be transferred to another flight.</li>
+            <li class="Bullet_1"><span class="Bold">Outbound Date (Current / Fixed Time Range)</span> – Specifies the time the associated bag is expected to travel from the current station.</li>
+            <li class="Bullet_1"><span class="Bold">Outbound Destination (Is In / Not In)</span> – Indicates the next stop on the associated bag's itinerary.</li>
+            <li class="Bullet_1"><span class="Bold">Outbound Flight List (Is In / Not In)</span> – Indicates the associated bag's outbound flight number.</li>
+            <li class="Bullet_1"><span class="Bold">PNR (Is In / Not In)</span> – Indicates the associated bag's PNR number.</li>
+            <li class="Bullet_1"><span class="Bold">Passenger Name (Is In / Not In)</span> – Indicates the name of the passenger who owns the associated bag.</li>
+            <li class="Bullet_1"><span class="Bold">Physical Pier (Is In / Not In)</span> – Indicates the physical pier the associated bag is being diverted to.</li>
+            <li class="Bullet_1"><span class="Bold">Recircs (Is In / Not In)</span> – Indicates the number of times the associated bag has been recirculated.</li>
+            <li class="Bullet_1"><span class="Bold">Reject Reason (Is In / Not In)</span> – Indicates the reason for which the associated bag was rejected from sortation.</li>
+            <li class="Bullet_1"><span class="Bold">Scanner (Is In / Not In)</span> – Indicates which scanner screened the associated bag.</li>
+            <li class="Bullet_1"><span class="Bold">Scanned Time (Current / Fixed Time Range)</span> – Specifies the time the associated bag tag was last scanned by an ATR.</li>
+            <li class="Bullet_1"><span class="Bold">Screened By (Is In / Not In)</span> – Indicates which EDS machine screened the associated bag.</li>
+            <li class="Bullet_1"><span class="Bold">Screening Time (Current / Fixed Time Range)</span> – Specifies the time range during which the associated bag was scanned at an EDS machine.</li>
+            <li class="Bullet_1"><span class="Bold">Security Bag ID (Is In / Not In)</span> – Indicates the ID number given to the associated bag by the screening machine to track the bag as it is being screened.</li>
+            <li class="Bullet_1"><span class="Bold">Security Level (Is In / Not In)</span> – Indicates the security level associated with the returned bag tag.</li>
+            <li class="Bullet_1"><span class="Bold">Security Status (Is In / Not In)</span> – Indicates the security status associated with the returned bag tag.</li>
+            <li class="Bullet_1"><span class="Bold">Sort Method (Is In / Not In)</span> – Indicates which method was used to sort the associated bag.</li>
+            <li class="Bullet_1"><span class="Bold">Standby (Is In / Not In)</span> – Indicates whether or not the associated bag is in standby.</li>
+            <li class="Bullet_1"><span class="Bold">Tag Number (Is In / Not In)</span> – Indicates the associated bag's tag number.</li>
+            <li class="Bullet_1"><span class="Bold">Tag Printer (Is In / Not In)</span> – Indicates the printer at which the associated bag tag was printed.</li>
+            <li class="Bullet_1"><span class="Bold">Time Status (Is In / Not In)</span> – Indicates the associated bag's time status (i.e. Early, Late, Missed, On Time, or Unknown).</li>
+            <li class="Bullet_1"><span class="Bold">Transfer Type (Is In / Not In)</span> – Indicates the transfer type of the associated bag (i.e. Interline, NonTransfer, Online, or Unknown).</li>
+            <li class="Bullet_1"><span class="Bold">Virtual Pier (Is In / Not In)</span> – Indicates the virtual pier destination of the associated bag.</li>
+        </ul>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/Bag Tag Search Criteria.png" MadCap:mediastyle="@media print { width: 7in; }" style="border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 1076px;height: 459px;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 219: </MadCap:conditionalText>Bag Tag Search Criteria</p>
+        <p class="BodyText">The Bag Tag Search screen can also be used to perform a Global Search on any bag tag number returned in a search result. The following search criteria are automatically used to perform the search:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Bag Tag Number (uses the internal ID to avoid linking to older tags with the same number)</li>
+        </ul>
+        <p class="BodyText">Once the Baggage Transaction Search is executed with the criteria listed above, the operator is able to perform any operations and change any criteria they choose, just as if they were performing a <MadCap:xref href="Bag Transaction Search.htm">10.3.5 Bag Transaction Search</MadCap:xref><MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="Bag Transaction Search.htm">10.3.5 Bag Transaction Search</MadCap:xref>)</MadCap:conditionalText>.</p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/TL6015 SmartSort User Guide/bag tag search results.png" MadCap:mediastyle="@media print { width: 7in; }" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 220: </MadCap:conditionalText>
+            <MadCap:annotation MadCap:createDate="2019-10-09T09:17:09.2147781-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="New screenshot required - help icon and search results." MadCap:editor="JBerwick" MadCap:editDate="2019-10-09T09:17:31.9423216-04:00">Bag Tag Search Results</MadCap:annotation>
+        </p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics&#160;</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Understanding Search Results.htm">10 Understanding Search Results</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Using Advanced Searches.htm">10.3 Using Advanced Searches</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

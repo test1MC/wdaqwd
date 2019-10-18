@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">Publishers, Distributors, Subscribers</h4>
+        <p class="BodyText">SQL Server uses the publishing industry as a metaphor to represent the replication model. In SQL Server Replication:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Publishers</span> store the master copy of important data in a database. This information is made available in the form of a publication.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Distributors</span> collect information from the publications and send it to subscribers over the network.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Subscribers</span> tell the distributor which publications they are interested in receiving.&#160; When published data is received from a distributor, a subscriber stores this information in its own database.</li>
+        </ul>
+        <p class="BodyText">Replication in the BHS:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">SAC</span>: Publishes the entire database and acts as its own distributor to send the database information to subscribers.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">DHS</span>: Subscribes to the publication provided by the SAC.</li>
+        </ul>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Replication.htm">3.3.9 Replication</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Monitoring Replication Activity.htm">3.3.9.2 Monitoring Replication Activity</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Reinitializing the Publication.htm">3.3.9.3 Reinitializing the Publication</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

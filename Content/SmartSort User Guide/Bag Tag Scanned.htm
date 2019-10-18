@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3 class="Heading3">Bag Tag Scanned</h3>
+        <p class="BodyText">The operator can encode a bag by scanning the barcode on the bag tag with the handheld scanner. If the bag tag can be read by the scanner, a BSM exists for that tag, and the flight data exists for the bag, the bag will automatically be routed to the time-specific pier associated with the flight. The same logic used for sorting bags at the ATR is used at the MEC. When the sort logic runs successfully, the bag will leave the Manual Encoding station automatically (the user will not have to select the bag's destination or press a button to release the bag from the MEC station). The bag transaction data will also be automatically updated on the SAC. The MEC will send the bag's destination to the PLC which will route the bag to the correct sort destination.</p>
+        <p class="BodyText">This is the preferred method for encoding a bag because it is the easiest method for the user to use, it ensures accurate sort destinations, and it allows for traceability of a bag.</p>
+        <p class="BodyText">If the barcode cannot be scanned, it can be dispatched using one of the other encoding methods described in the following sections. </p>
+        <p class="BodyText">If the bag tag barcode can be scanned, but a BSM does not exist for the bag, and no carrier default pier is defined for that bag, the bag is processed according to the Pseudo BSM settings<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="Pseudo BSMs.htm#_Ref518024761" class="ParaTextOnly">5.2 Pseudo BSMs</MadCap:xref>)</MadCap:conditionalText>. If a carrier default pier is defined for a bag that does not have a BSM, the bag will be sent to the assigned default pier<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="Carrier Default Pier Auto Release.htm">5.2.1.1 Carrier Make-Up Unit Auto-Release</MadCap:xref>)</MadCap:conditionalText>.</p>
+        <p class="BodyText">There are several other factors that impact how a bag will be sorted when the bag tag is scanned (e.g. whether BSM data exists, whether flight data exists in the flight schedule, if a carrier default pier has been assigned, etc.). The following flow chart describes the general application flow.</p>
+        <p class="Image">
+            <img src="../Resources/Images/SmartSort User Guide/MEC Flow Diagram_Pier.png" />
+        </p>
+        <p class="Caption"><a name="_Ref334605559"></a>
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 5&#8209;2: </MadCap:conditionalText>MEC Flow Diagram</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Manually Keyed Bag Tag.htm">5.2.2 Manually Keyed Bag Tag</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Active Flight Schedule.htm">4.3.2 Active Flight Schedule Management</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Carrier Default Pier Auto Release.htm">5.2.1.1 Carrier Make-Up Unit Auto-Release</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Flight Mode.htm">5.2.3 Flight Mode</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Pseudo BSMs.htm">5.2 Pseudo BSMs</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

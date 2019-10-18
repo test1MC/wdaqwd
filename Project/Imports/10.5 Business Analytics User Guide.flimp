@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2019-04-17T13:47:58.3143787-04:00"
+  ProjectName="SmartSuite Version 10.5"
+  ProjectFolder="C:\Users\jberwick\Documents\My Projects\SmartSuite Version 10.5\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  Stylesheet="../../../TL6015 DFW SmartSort/Content/Resources/Stylesheets/TL6015 SmartSort User Guide_1.css"
+  LastImport="2019-04-17T13:50:04.3263864-04:00">
+  <Files>
+    <Url
+      Source="../../../../../Desktop/10.5/10.5 Business Analytics User Guide.docx"
+      AbsoluteSource="file:///C:/Users/jberwick/Desktop/10.5/10.5 Business Analytics User Guide.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/10.5 Business Analytics User Guide.png"
+      TimeStamp="4/17/2019 1:49:48 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/10.5 Business Analytics User Guide.htm"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/SmartSuite Business Analytics.htm"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Analyzer.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Analyzer.htm"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Dashboard Designer.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Dashboard Designer.htm"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Web Browsers.htm"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Getting Started with Analysis.htm"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Introduction.htm"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Quick Tour of the Report Editor.htm"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Log in to the Business Analytics.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Log in to the Business Analytics_1.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Log in to the Business Analytics.htm"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Home.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Home_1.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Home_2.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Home_3.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Home_4.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Home_5.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Home_6.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Home_7.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Home.htm"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Browse Files.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Browse Files.htm"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Opened.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Opened.htm"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Get Started with Analyzer.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/View an Analyzer Report Sample.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/View an Analyzer Report Sample.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Tour the Analyzer Panels.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Tour the Analyzer Panels.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Get Started with Dashboard.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Get Started with Dashboard.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Tour the Dashboard Panels.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Tour the Dashboard Panels.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Create Analysis Reports and.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Using Analyzer.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Create a New Analyzer Report.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Visualizations for Analyzer.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Column and Bar Charts.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Column and Bar Charts_1.png"
+      TimeStamp="4/17/2019 1:49:49 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Column and Bar Charts.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Line and Area Charts.png"
+      TimeStamp="4/17/2019 1:49:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Line and Area Charts_1.png"
+      TimeStamp="4/17/2019 1:49:50 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Line and Area Charts.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Pie and Sunburst Charts.png"
+      TimeStamp="4/17/2019 1:49:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Pie and Sunburst Charts_1.png"
+      TimeStamp="4/17/2019 1:49:50 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Pie and Sunburst Charts.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Scatter Chart Visualization.png"
+      TimeStamp="4/17/2019 1:49:50 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Scatter Chart Visualization.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Heat Grid Visualization.png"
+      TimeStamp="4/17/2019 1:49:50 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Heat Grid Visualization.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Bullet Charts.png"
+      TimeStamp="4/17/2019 1:49:50 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Bullet Charts.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Gauge Visualization.png"
+      TimeStamp="4/17/2019 1:49:50 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Gauge Visualization.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Number Charts.png"
+      TimeStamp="4/17/2019 1:49:50 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Number Charts.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Chart Options for Analyzer.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/General Tab.png"
+      TimeStamp="4/17/2019 1:49:50 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/General Tab.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Axis Tab.png"
+      TimeStamp="4/17/2019 1:49:50 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Axis Tab.htm"
+      TimeStamp="4/17/2019 1:49:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Legend Tab.png"
+      TimeStamp="4/17/2019 1:49:50 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Legend Tab.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Other Tab.png"
+      TimeStamp="4/17/2019 1:49:50 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Other Tab.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Add Filters to an Analyzer.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Create Date Range Filters.png"
+      TimeStamp="4/17/2019 1:49:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Create Date Range Filters_1.png"
+      TimeStamp="4/17/2019 1:49:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Create Date Range Filters_2.png"
+      TimeStamp="4/17/2019 1:49:51 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Create Date Range Filters.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Enable Drill Through Links.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Add Query Parameters to Analyzer.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Define Hyperlinks.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Create Hyperlinks to another.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Hyperlinking to a URL.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Display Member Properties.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Simple Conditional Formatting.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Conditional Formatting Types.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Export an Analyzer Report.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Using Calculated Measures.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Creating a Calculated Measure.htm"
+      TimeStamp="4/17/2019 1:49:55 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Editing a Calculated Measure.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Opening the New Calculated.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Working with Measures in Analyzer.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Updating Measure Properties.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Using Dashboard Designer.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Create a New Dashboard.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Add Content to a Dashboard.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Set the Refresh Interval.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Add an Analyzer Report to.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Add a Web Site to a Dashboard.png"
+      TimeStamp="4/17/2019 1:49:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Add a Web Site to a Dashboard_1.png"
+      TimeStamp="4/17/2019 1:49:52 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Add a Web Site to a Dashboard.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Use Prompts on Dashboards.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Add a Prompt to a Dashboard.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Create a Metadata List.png"
+      TimeStamp="4/17/2019 1:49:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Create a Metadata List_1.png"
+      TimeStamp="4/17/2019 1:49:52 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Create a Metadata List.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Create a Cascading Prompt.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Use Case Creating a Country.png"
+      TimeStamp="4/17/2019 1:49:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Use Case Creating a Country_1.png"
+      TimeStamp="4/17/2019 1:49:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Use Case Creating a Country_2.png"
+      TimeStamp="4/17/2019 1:49:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Use Case Creating a Country_3.png"
+      TimeStamp="4/17/2019 1:49:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Use Case Creating a Country_4.png"
+      TimeStamp="4/17/2019 1:49:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Use Case Creating a Country_5.png"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Use Case Creating a Country_6.png"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Use Case Creating a Country.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Edit Prompts.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Link Dashboard Prompts to.png"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Link Dashboard Prompts to_1.png"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Link Dashboard Prompts to_2.png"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Link Dashboard Prompts to_3.png"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Link Dashboard Prompts to.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Using Dynamic Dashboard Titles.png"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/10.5 Business Analytics User Guide/Using Dynamic Dashboard Titles_1.png"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/10.5 Business Analytics User Guide/Using Dynamic Dashboard Titles.htm"
+      TimeStamp="4/17/2019 1:49:56 PM" />
+    <Url
+      Source="../TOCs/10.5 Business Analytics User Guide.fltoc"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/Resources/MasterPages/10.5 Business Analytics User Guide.flmsp"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/TL6015 SmartSort User Guide_1_1.css"
+      TimeStamp="4/17/2019 1:49:53 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+    <Map
+      From="Heading 5"
+      To="h5.Heading 5" />
+    <Map
+      From="Heading 6"
+      To="h6.Heading 6" />
+    <Map
+      From="Body Text"
+      To="p.(MS Word Style)" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+    <Map
+      From="Strong"
+      To="strong.(MS Word Style)" />
+    <Map
+      From="Bold"
+      To="b.(MS Word Style)" />
+    <Map
+      From="Code Sample Font"
+      To="code.(MS Word Style)" />
+    <Map
+      From="Emphasis"
+      To="i.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Body Text" />
+    <StyleName
+      Name="Bullet" />
+    <StyleName
+      Name="Bullet Sublist 2" />
+    <StyleName
+      Name="Caption" />
+    <StyleName
+      Name="Comment Text" />
+    <StyleName
+      Name="Cover Author" />
+    <StyleName
+      Name="Cover Client" />
+    <StyleName
+      Name="Cover Data" />
+    <StyleName
+      Name="Cover Date" />
+    <StyleName
+      Name="Cover Reference" />
+    <StyleName
+      Name="Cover Subheading" />
+    <StyleName
+      Name="Cover Title" />
+    <StyleName
+      Name="Cover VersionNum" />
+    <StyleName
+      Name="Footer Page Number" />
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="Heading 5" />
+    <StyleName
+      Name="Image" />
+    <StyleName
+      Name="List" />
+    <StyleName
+      Name="List Sublist" />
+    <StyleName
+      Name="Subheading" />
+    <StyleName
+      Name="Table Cell Bullet" />
+    <StyleName
+      Name="Table Content" />
+    <StyleName
+      Name="TOC 2" />
+    <StyleName
+      Name="Unnumbered Heading" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Bold" />
+    <StyleName
+      Name="Code Sample Font" />
+    <StyleName
+      Name="Comment Reference" />
+    <StyleName
+      Name="Emphasis" />
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Strong" />
+  </UsedCharacterStyles>
+</MsWordImport>

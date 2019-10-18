@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">Monitoring Replication Activity</h4>
+        <p class="BodyText">Use SQL Server Management Studio to view the status of replication tasks. Note that the screenshots here may not indicate the correct database names, but the principles remain the same. </p>
+        <p class="Image">
+            <img src="../Resources/Images/Monitoring Replication.png" style="mc-thumbnail: none;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 3&#8209;13: </MadCap:conditionalText>Monitoring Replication</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Expand the SQL Server group on the left until you locate the SAC.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Expand the SAC using the + icon in the tree. </li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">The “Replication Monitor” icon indicates the general status of the replication tasks. It may have to be refreshed (F5 or taskbar icon) to display correctly.</li>
+        </ol>
+        <p class="Image">
+            <img src="../Resources/Images/Monitoring Replication Icon.png" style="mc-thumbnail: none;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 3&#8209;14: </MadCap:conditionalText>Monitoring Replication</p>
+        <p>&#160;</p>
+        <p class="Image">
+            <img src="../Resources/Images/Replication is working correctly.png" style="mc-thumbnail: none;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 3&#8209;15: </MadCap:conditionalText>Replication is working correctly</p>
+        <p class="BodyText">&#160;</p>
+        <p class="Image">
+            <img src="../Resources/Images/Replication has failed.png" style="mc-thumbnail: none;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 3&#8209;16: </MadCap:conditionalText>Replication has failed</p>
+        <p class="BodyText">If replication fails, the distributor provides details of what went wrong. Use SQL Management Studio to correct the error or re-initialize the publication:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Open <span class="Bold">Replication Monitor</span>.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Expand <span class="Bold">Publishers</span>.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Expand the SAC entry.</li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="List">Click on the Publication. </li>
+        </ol>
+        <p class="Subheading">Finding out what went wrong:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">The right pane of the display shows one line for each replication process. The process that failed is indicated, along with a brief description of the problem.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Right-click the failed process and select <span class="Bold">View Details</span> to see a new window with more information about the current replication status at the subscriber. </li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/View Details on the Replication Publication.png" style="mc-thumbnail: none;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 3&#8209;17: </MadCap:conditionalText>View Details on the Replication Publication</p>
+        <p class="Image_1">
+            <img src="../Resources/Images/Failed Agents and Error Message for Replication Errors.png" style="mc-thumbnail: none;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 3&#8209;18: </MadCap:conditionalText>Failed Agents and Error Message for Replication Errors</p>
+        <p class="Subheading">Correcting the Replication Problem</p>
+        <p class="BodyText">If the error details contain enough information, correct the problem by manually updating the appropriate tables. Some possible error examples include:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">A row was missing on the DHS Subscriber.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">A new row could not be added to the Subscriber because it conflicted with an existing row. </li>
+        </ul>
+        <p class="BodyText">The problem can be corrected by inserting the missing row or deleting the duplicate row on the DHS. </p>
+        <p class="BodyText">If the problem can be corrected manually, the Replication process will start up automatically. (Use <span class="Bold">Start Synchronizing</span> on the subscription context menu if necessary.) </p>
+        <p class="BodyText">If the error details are not clear, most problems can be solved by reinitializing the replicated database as described in <MadCap:xref href="Reinitializing the Publication.htm" MadCap:conditions="Default.ScreenOnly">3.3.9.3 Reinitializing the Publication</MadCap:xref><MadCap:conditionalText MadCap:conditions="Default.PrintOnly">the next section</MadCap:conditionalText>.</p>
+        <p class="BodyText">Reinitializing causes the SAC to create a snapshot of its current data. All corresponding data on the DHS is deleted, and replaced with data from the SAC.</p>
+        <p class="BodyText">Reinitializing can take some time (around 30 minutes for full synchronization). The database should only be reinitialized if the problem cannot be easily corrected. When the Reinitialization process occurs, it locks the database tables and prevents access by the SmartSort services. For this reason, Reinitialization should not be performed during live operations. </p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Replication.htm">3.3.9 Replication</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Publishers Distributors Subscribers.htm">3.3.9.1 Publishers, Distributors, Subscribers</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Reinitializing the Publication.htm">3.3.9.3 Reinitializing the Publication</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

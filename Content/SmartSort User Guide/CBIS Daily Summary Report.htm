@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">CBIS Daily Summary Report</h2>
+        <p class="BodyText">The CBIS Daily Summary Report provides an overview of the distribution of bags across the various input points. The report also provides information pertaining to the sizing (i.e. In Gauge, Out of Gauge statistics) of the bags entering the CBIS system.</p>
+        <p class="Subheading">The following selection criteria are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Start Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">End Date and Time</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Sample CBIS Daily Summary Report.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;" MadCap:mediastyle="@media print { width: 7in; }" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 9&#8209;27:</MadCap:conditionalText> <MadCap:annotation MadCap:createDate="2019-09-24T15:10:33.4136130-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="new screenshot required" MadCap:editor="JBerwick" MadCap:editDate="2019-09-24T15:10:46.7948540-04:00">Sample CBIS Daily Summary Report</MadCap:annotation></p>
+        <p class="Subheading">The following information is included in this report:</p>
+        <p class="Subheading">CBIS Throughput Section</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Row</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Total CBIS Baggage Throughput</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of bags entering the CBIS. This is the same count of total bags that is seen on the Input Conveyors section of the CBIS Bag Volume Report<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="CBIS Bag Volume Report.htm#_Ref340144670" class="ParaTextOnly">9.24 CBIS Bag Volume Report</MadCap:xref>)</MadCap:conditionalText>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Average Time in CBIS</p>
+                </td>
+                <td class="td_4">
+                    <p>The average time spent by each bag in the CBIS. This is based messages received from the PLC between the time a bag was first tracked in CBIS (e.g. ATR, dimensioner) to the point it either exits CBIS on a clear line, or is removed from the alarm line in CBRA at the BRP. Note that a bag must be tracked 100% of the way through CBIS in order to be included in this calculation.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Bag Volume Section</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="td_3">
+                    <p class="p_1">Number of Bags</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>In Gauge</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags through the dimensioner that were deemed in gauge. This count is incremented and maintained in the PLC based on information received from the dimensioning system.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Out of Gauge</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags through the dimensioner that were deemed out of gauge. This count is incremented and maintained in the PLC based on information received from the dimensioning system.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>No Decision</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags through the dimensioner for which no status of the bag sizing was received from the dimensioning system. This count is incremented and maintained in the PLC.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Total</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of bags that passed through the dimensioner.</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="td_3">
+                    <p class="p_1">Percentage of Total Bag Volume</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>In Gauge</p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of all bags through the dimensioner that were in gauge.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Out of Gauge</p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of all bags through the dimensioner that were out of gauge.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>No Decision</p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of all bags through the dimensioner that received no decision.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Total</p>
+                </td>
+                <td class="td_4">
+                    <p>100% (All bags).</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">CBIS Faults/Events Section</p>
+        <p class="BodyText">The following shows the occurrences and duration of faults, events, failsafes and jams within the CBIS system.</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Fault/Events</p>
+                </td>
+                <td class="td_4">
+                    <p>The type of fault or event. The following are available:</p>
+                    <p><span class="Bold">Fault</span> – A fault is defined as a cause and is created automatically. Examples include: motor overload, encoder failure, diverter failures, PLC faults, etc.</p>
+                    <p><span class="Bold">Event</span> – An event is defined as an effect of a fault and is more created by human intervention. Examples include: e-stop, divert all, motor disconnects, etc.</p>
+                    <p><span class="Bold">Failsafe</span> – A failsafe is defined as a condition that is detected at a security sorting device where the possibility exists that a bag was mis-sorted to the clear line. When this occurs, the conveyors around the security sorting device stop so that the bag(s) can be put back into the CBIS system.</p>
+                    <p><span class="Bold">Jam</span> – Jams include both hard jams as well as missing bag jams.</p>
+                    <p><span class="Bold">Lost in Tracking</span> – Total number of Missing Bag Jam faults in the system.</p>
+                    <p><span class="Bold">Machine Fault</span> – Total number of events that cause any ISD machine to not be available to process bags.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Number</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of that type of CBIS fault/event.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Total Down Time</p>
+                </td>
+                <td class="td_4">
+                    <p>Cumulative time that each fault/event was active (hh:mm:ss) in the CBIS. Note that if multiple faults/events are active at any given time, the total time includes the sum of the lengths of time each event was active.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Average Time to Clear</p>
+                </td>
+                <td class="td_4">
+                    <p>Average time to clear the faults/events in the CBIS (hh:mm:ss).</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">
+            <MadCap:annotation MadCap:createDate="2019-10-10T11:56:39.0661257-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="This section may need some introductory text not available on the report itself. Check with Audrey McNew when she is back from vacation on 10/14/19" MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T11:56:39.9466056-04:00">Lost in Tracking</MadCap:annotation>
+        </p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Pre-EDS</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of Lost In Tracking bags between the start of tracking (typically the ATR or Dimensioner) and the entrance to the EDS machine. </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Post-EDS</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of Lost In Tracking bags between the exit of the EDS machine and either a clear line or into CBRA. </p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Bag Time in CBIS</p>
+        <p class="BodyText">The following are based on messages received from the PLC between the time a bag was first tracked in CBIS (e.g. ATR, dimensioner) to the point it either exits CBIS on a clear line, or is removed from the alarm line in CBRA at the BRP. Note that a bag must be tracked 100% of the way through CBIS in order to be included in this calculation.</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Minimum</p>
+                </td>
+                <td class="td_4">
+                    <p>The minimum amount of time any bag spent in the CBIS system.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Maximum</p>
+                </td>
+                <td class="td_4">
+                    <p>The maximum amount of time any bag spent in the CBIS system.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Average</p>
+                </td>
+                <td class="td_4">
+                    <p>The average time bags spent in the CBIS system.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Bag Jam Rate</p>
+        <p class="BodyText">The Bag Jam Rate is calculated by dividing the total number of jams after the CBIS ATRs up to the EDS machines, by the total number of bags that have entered the CBIS area. This does not include any bags that have gone down the Out of Gauge line(s).</p>
+        <p class="Subheading">
+            <MadCap:annotation MadCap:createDate="2019-10-10T11:55:14.5268023-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="This section may need some introductory text not available on the report itself. Check with Audrey McNew when she is back from vacation on 10/14/19" MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T11:56:26.7458918-04:00">Peak Hours in CBIS</MadCap:annotation>
+        </p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Peak Day</p>
+                </td>
+                <td class="td_4">
+                    <p>This report can be run over multiple days, This will show the Peak Day that the Peak Hour is on.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Peak Hour</p>
+                </td>
+                <td class="td_4">
+                    <p>The Peak Hour of Bag Activity in CBIS.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Total Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of bags in CBIS during the Peak Hour.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Invalid Arrivals</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>OOG</p>
+                </td>
+                <td class="td_4">
+                    <p>The invalid arrival rate on the Out of Gauge Line. An invalid arrival is any bag that does not have an Out of Gauge status.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>CBRA</p>
+                </td>
+                <td class="td_4">
+                    <p>The Iinvalid arrival rate in CBRA. This includes all bags that are not any of Alarm, OOG, EDS Error or Timeout. While Alarm and OOG bags are the only valid arrivals, EDS Error and Timeout are not included in the CBRA Invalid Arrival rate per PGDS v6.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Upstream Tracking Accuracy</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>IATA</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of IATA bags sucessfully tracked form the ATR to the EDS machine or ATR to the OOG line.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>OOG</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of Out of Gauge bags sucessfully tracked form the dimensioner to the OOG line.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics:</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Understanding Web Client Reports.htm">9 Understanding Web Client Reports</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Generating Web Client Reports.htm">9.1 Generating Web Client Reports</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="CBIS Bag Volume Report.htm">9.24 CBIS Bag Volume Report</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

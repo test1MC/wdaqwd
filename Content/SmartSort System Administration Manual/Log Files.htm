@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Log Files</h3>
+        <p class="BodyText">All SmartSort applications generate log files which are located in a common directory on the computer which generates them. This folder is D:\SmartSuite\LogFiles\. These log files do not need to be used for normal operations, but can be used as a quick monitor of the system activity as described below. The log file names generally follow the convention “Application or Service – instance if applicable – type of log.log.” </p>
+        <p class="BodyText">Example: MEC Application – MEC1 – PLC Communication.log. </p>
+        <p class="BodyText">The log file most relevant to the fundamental service operation is the SmartSort Root log file. Some services only have this as their single log file. Each line in the log file has the date and time, followed by the thread name in parentheses, the level of logging (info, error, etc.), and the data content to be logged. The contents of the log files can be used for in-depth troubleshooting activities in the event of system problems. Information in the log files includes details on the most important operations of each thread in each service as well as major errors.</p>
+        <p class="BodyText">The log files are normal text files, but can take a long time to open if you use Windows Notepad. BareTail is the recommended application to watch log files because it is lightweight and shows the log file data as it gets added (follows the tail). BareTail can also be used to highlight particular information. There is a shortcut to this application from the server Desktops. </p>
+        <p class="BodyText">All log files will continue to grow forever if they are not cleaned up. On the servers, MECs, and workstations, the log files are cleaned up around 02:30 each morning. All files in the directory are zipped up and copied to the D:\LogHistory folder on the SAC or DHS in the nightly cleanup process <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">described in section</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">(see </MadCap:conditionalText><MadCap:xref href="Cleanup Utilities SQL Jobs.htm#_Ref228084520" class="ParaTextOnly">3.3.8 Cleanup Utilities (SQL Jobs)</MadCap:xref><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">)</MadCap:conditionalText>. The original files are deleted, but will be recreated as needed. </p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Upper Level Software System.htm">3.3 Upper Level Software System</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Stylesheets/TL6015 SmartSort User Guide_1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div>
+            <p class="Header">
+                <img src="../Images/TL6015 SmartSort System Administration Manual/TL6015 SmartSort System Administration Manual.png" style="height: 1057px;width: 816px;" class="img_6" />
+                <br />
+            </p>
+        </div>
+        <MadCap:bodyProxy />
+        <div>
+            <p class="Footer_1">www.brocksolutions.com</p>
+        </div>
+    </body>
+</html>

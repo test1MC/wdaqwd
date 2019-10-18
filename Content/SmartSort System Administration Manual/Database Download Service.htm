@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">Database Download Service</h4>
+        <p class="BodyText">The Database Download Service is used to periodically transfer information from the SAC database to the PLC. The service queries the current database data and writes the results to specified arrays in the PLC. This ensures that the PLC data is kept periodically up to date in case of a server failure.</p>
+        <p class="BodyText">Two groups of information are transferred by this service: the current virtual to physical mappings and the Carrier default makeup units. These two arrays are used for backup sortation by the PLC in the unlikely event that the SAM service is not responding to scanner messages.</p>
+        <p class="BodyText">The Database Download Service needs to remain running to keep the PLC information up to date after changes are made through the Web Client Application. Without this service running, the latest information might not be available for backup sortation.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="DHS Services.htm">3.3.6 DHS Services</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Alarm Distribution Service.htm">3.3.6.1 Alarm Distribution Service</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Automatic Reports Service.htm">3.3.6.2 Automatic Reports Service</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Counter Collection Service.htm">3.3.6.3 Counter Collection Service (CoCoS)</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="IPC2OPC Service.htm">3.3.6.5 IPC2OPC Service</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Network Monitor.htm">3.3.6.6 Network Monitor</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="PRTG Monitor.htm">3.3.6.7 PRTG Monitor</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Business Analytics Service.htm">3.3.6.8 Business Analytics Service</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="ETL Service.htm">3.3.6.9 ETL Service</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="ETL Scheduler Service.htm">3.3.6.10 ETL Scheduler Service</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

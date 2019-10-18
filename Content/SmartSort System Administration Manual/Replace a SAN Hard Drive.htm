@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h5 class="Heading5">Replace a SAN Hard Drive</h5>
+        <p class="BodyText">The SAN has two RAID 10 sets forming two storage repositories in vCenter. Each set has a single spare drive for a total of 5 drives per set. The BHS virtual servers are spread across these repositories. </p>
+        <p class="BodyText">If a SAN hard drive has become unusable for whatever reason, data stored on the hard drive will be automatically transferred to one of the spare hard drives installed. The unusable hard drive should be removed and a new spare should be installed. The system can operate without issues if the spare is not available, and continue to run even if one more drive in the set fails (but not if two drives fail). </p>
+        <p class="BodyText">If no spare hard drive is available, a replacement drive should be installed immediately. Failure of more than one active (non-spare) drive will result in loss of all data stored on that array.</p>
+        <p class="BodyText"><span class="Bold">Note:</span> It is recommended that hard drives be replaced with the same model and size.</p>
+        <p class="Subheading">To designate a new SAN hard drive as a spare:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Log into the SAN Storage Management Utility.<br /><img src="../Resources/Images/SAN Storage Management Utility.png" style="mc-thumbnail: none;" /></li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Select <span class="Bold">Pools</span> from the navigation bar located on the left side of the screen.<br /><img src="../Resources/Images/Pools.png" style="mc-thumbnail: none;" /></li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Click on a disk group in the Related Disk Groups section of the screen.</li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="List">Click <span class="Bold">Action</span> to display the Action drop-down menu.<br /><img src="../Resources/Images/Action menu.png" /></li>
+        </ol>
+        <ol start="5" class="ol_1">
+            <li class="List">Click <span class="Bold">Change Disk Group Spares</span>.<br /><img src="../Resources/Images/Change Disk Group Spares.png" style="mc-thumbnail: none;" /></li>
+        </ol>
+        <ol start="6" class="ol_1">
+            <li class="List">Select the SAN hard drive to be made a spare.</li>
+        </ol>
+        <ol start="7" class="ol_1">
+            <li class="List">Click <span class="Bold">Change</span>.</li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="VMware High Availability Solution.htm">3.1.2 VMware High Availability Solution</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Troubleshooting.htm">3.1.2.2 Troubleshooting</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Power on off startup shutdown.htm">3.1.2.2.2 Power On/Off, Startup/Shutdown</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Restore a VMware Server.htm">3.1.2.2.4 Restore a VMware Server</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

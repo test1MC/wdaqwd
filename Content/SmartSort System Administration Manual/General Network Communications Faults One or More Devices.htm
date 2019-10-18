@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:conditions="Default.PrintOnly">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">General Network Communications Faults (One or More Devices)</h4>
+        <p class="Subheading">Some devices are disconnected or are not powered:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Find a computer with connectivity.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Ping the PLC addresses from the workstation to make sure they are available</li>
+        </ol>
+        <p class="Subheading">Ethernet cables loose:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Check Ethernet cables connections on PC – Cisco Switch – PLC Chassis.</li>
+        </ul>
+        <p class="Subheading">Ethernet card not working on PC:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Check if activity lights are on.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Check the Windows Event Log to determine if network card has failed.</li>
+        </ol>
+        <p class="Subheading">Ethernet module not working on PLC Chassis:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Check diagnostic lights on Ethernet Module.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Reset Ethernet Module or cycle power on the rack. </li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Check if activity lights are on Ethernet card. Confirm status or check for errors on front display. </li>
+        </ol>
+        <p class="Subheading">Confirm redundancy of switches. One switch may be down, but system will still be functional:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Check if the core switches are both running and that the status lights are active for the connected Ethernet ports.</li>
+        </ul>
+        <p class="Subheading">Faulty Cisco Switch; power supply or fan may fail (rare):</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Basic functions will not work. Toggle power first to reboot the switch to see if that clears the errors.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Replace Switch and reconfigure.</li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Network.htm">4.3.7 Network</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

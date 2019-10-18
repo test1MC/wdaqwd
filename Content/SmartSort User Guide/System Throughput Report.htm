@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">System Throughput Report</h2>
+        <p class="BodyText">The System Throughput Report includes throughput statistics for conveyor system subsections as collected by the DHS.</p>
+        <p class="BodyText">This report can be generated in a tabular format. In the tabular format, there is one row for each interval during the time period selected. For example, if a report time period of 24 hours is selected using the Start Time and End Time parameters and a Report Interval of 30 minutes is selected, there will be 48 entries for throughput (one for each 30-minute period for the duration specified – 24 hours).</p>
+        <p class="BodyText">In graphical format, each interval is represented as a data point on the graph. Using the example above, there would be 48 data points on the graph (one for each 30-minute period during the 24-hour time period).</p>
+        <p class="BodyText">The time periods are restricted to keep the reports short enough for proper system operation. Reports with too many time periods on them will not generate in a timely manner. The restrictions prevent more than 250 time items to be shown on a single report. For example, a one-minute interval report can run for four hours, but a two-minute interval can be run for eight hours.</p>
+        <p class="Subheading">The following selection criteria are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Start Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">End Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Interval (Minutes, Hours, Days, Weeks, Months, or Years)</li>
+            <li class="Bullet_1">Report Type</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Subsystem Filters</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Sample System Throughput Report.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 1013px;height: 584px;" MadCap:mediastyle="@media print { width: 7in; }" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 9&#8209;16: </MadCap:conditionalText>
+            <MadCap:annotation MadCap:createDate="2019-09-25T08:48:09.4912388-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Update screenshot for your project; had to doctor image with the new logo as I couldn't generate data" MadCap:editor="JBerwick" MadCap:editDate="2019-10-15T09:53:17.0953740-04:00">Sample System Throughput Report</MadCap:annotation>
+        </p>
+        <p class="Subheading">The following information is included in this report:</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px;" />
+            <col style="width: 849px;" />
+            <tr>
+                <td class="td_5">
+                    <p>Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Time Interval</p>
+                </td>
+                <td class="td_4">
+                    <p>A snapshot in time that the values were recorded within.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Device</p>
+                </td>
+                <td class="td_4">
+                    <p>The throughput count for the device in that time interval.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Total</p>
+                </td>
+                <td class="td_4">
+                    <p>A summation of all device counts for that time interval.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Understanding Web Client Reports.htm">9 Understanding Web Client Reports</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Generating Web Client Reports.htm">9.1 Generating Web Client Reports</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

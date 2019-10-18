@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="10.5 Business Analytics User Guide"
+    Link="/Content/Business Analytics User Guide/Business Analytics User Guide.htm"
+    conditions="Default.PrintOnly" />
+  <TocEntry
+    Title="SmartSuite Business Analytics Report Editor Overview"
+    Link="/Content/Business Analytics User Guide/SmartSuite Business Analytics.htm">
+    <TocEntry
+      Title="Analyzer"
+      Link="/Content/Business Analytics User Guide/Analyzer.htm"
+      conditions="Default.PrintOnly" />
+    <TocEntry
+      Title="Dashboard Designer"
+      Link="/Content/Business Analytics User Guide/Dashboard Designer.htm" />
+    <TocEntry
+      Title="Web Browsers"
+      Link="/Content/Business Analytics User Guide/Web Browsers.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Getting Started with Analysis Reports and Dashboards"
+    Link="/Content/Business Analytics User Guide/Getting Started with Analysis.htm">
+    <TocEntry
+      Title="Introduction"
+      Link="/Content/Business Analytics User Guide/Introduction.htm" />
+    <TocEntry
+      Title="Quick Tour of the Report Editor"
+      Link="/Content/Business Analytics User Guide/Quick Tour of the Report Editor.htm">
+      <TocEntry
+        Title="Log-in to the Business Analytics Report Editor"
+        Link="/Content/Business Analytics User Guide/Log in to the Business Analytics.htm" />
+      <TocEntry
+        Title="Home"
+        Link="/Content/Business Analytics User Guide/Home.htm" />
+      <TocEntry
+        Title="Browse Files"
+        Link="/Content/Business Analytics User Guide/Browse Files.htm" />
+      <TocEntry
+        Title="Opened"
+        Link="/Content/Business Analytics User Guide/Opened.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Get Started with Analyzer Reports"
+      Link="/Content/Business Analytics User Guide/Get Started with Analyzer.htm">
+      <TocEntry
+        Title="View an Analyzer Report Sample"
+        Link="/Content/Business Analytics User Guide/View an Analyzer Report Sample.htm" />
+      <TocEntry
+        Title="Tour the Analyzer Panels"
+        Link="/Content/Business Analytics User Guide/Tour the Analyzer Panels.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Get Started with Dashboard Designer"
+      Link="/Content/Business Analytics User Guide/Get Started with Dashboard.htm">
+      <TocEntry
+        Title="Tour the Dashboard Panels"
+        Link="/Content/Business Analytics User Guide/Tour the Dashboard Panels.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Create Analysis Reports and Dashboards"
+    Link="/Content/Business Analytics User Guide/Create Analysis Reports and.htm">
+    <TocEntry
+      Title="Using Analyzer"
+      Link="/Content/Business Analytics User Guide/Using Analyzer.htm">
+      <TocEntry
+        Title="Create a New Analyzer Report"
+        Link="/Content/Business Analytics User Guide/Create a New Analyzer Report.htm" />
+      <TocEntry
+        Title="Visualizations for Analyzer"
+        Link="/Content/Business Analytics User Guide/Visualizations for Analyzer.htm">
+        <TocEntry
+          Title="Column and Bar Charts"
+          Link="/Content/Business Analytics User Guide/Column and Bar Charts.htm" />
+        <TocEntry
+          Title="Line and Area Charts"
+          Link="/Content/Business Analytics User Guide/Line and Area Charts.htm" />
+        <TocEntry
+          Title="Pie and Sunburst Charts"
+          Link="/Content/Business Analytics User Guide/Pie and Sunburst Charts.htm" />
+        <TocEntry
+          Title="Scatter Chart Visualization"
+          Link="/Content/Business Analytics User Guide/Scatter Chart Visualization.htm" />
+        <TocEntry
+          Title="Heat Grid Visualization"
+          Link="/Content/Business Analytics User Guide/Heat Grid Visualization.htm" />
+        <TocEntry
+          Title="Bullet Charts"
+          Link="/Content/Business Analytics User Guide/Bullet Charts.htm" />
+        <TocEntry
+          Title="Gauge Visualization"
+          Link="/Content/Business Analytics User Guide/Gauge Visualization.htm" />
+        <TocEntry
+          Title="Number Charts"
+          Link="/Content/Business Analytics User Guide/Number Charts.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Chart Options for Analyzer Reports"
+        Link="/Content/Business Analytics User Guide/Chart Options for Analyzer.htm">
+        <TocEntry
+          Title="General Tab"
+          Link="/Content/Business Analytics User Guide/General Tab.htm" />
+        <TocEntry
+          Title="Axis Tab"
+          Link="/Content/Business Analytics User Guide/Axis Tab.htm" />
+        <TocEntry
+          Title="Legend Tab"
+          Link="/Content/Business Analytics User Guide/Legend Tab.htm" />
+        <TocEntry
+          Title="Other Tab"
+          Link="/Content/Business Analytics User Guide/Other Tab.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Add Filters to an Analyzer Report"
+        Link="/Content/Business Analytics User Guide/Add Filters to an Analyzer.htm">
+        <TocEntry
+          Title="Create Date Range Filters"
+          Link="/Content/Business Analytics User Guide/Create Date Range Filters.htm" />
+        <TocEntry
+          Title="Enable Drill-Through Links"
+          Link="/Content/Business Analytics User Guide/Enable Drill Through Links.htm" />
+        <TocEntry
+          Title="Add Query Parameters to Analyzer Reports"
+          Link="/Content/Business Analytics User Guide/Add Query Parameters to Analyzer.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Define Hyperlinks"
+        Link="/Content/Business Analytics User Guide/Define Hyperlinks.htm">
+        <TocEntry
+          Title="Create Hyperlinks to another Report"
+          Link="/Content/Business Analytics User Guide/Create Hyperlinks to another.htm" />
+        <TocEntry
+          Title="Hyperlinking to a URL"
+          Link="/Content/Business Analytics User Guide/Hyperlinking to a URL.htm" />
+        <TocEntry
+          Title="Display Member Properties"
+          Link="/Content/Business Analytics User Guide/Display Member Properties.htm" />
+        <TocEntry
+          Title="Simple Conditional Formatting of Measures"
+          Link="/Content/Business Analytics User Guide/Simple Conditional Formatting.htm" />
+        <TocEntry
+          Title="Conditional Formatting Types"
+          Link="/Content/Business Analytics User Guide/Conditional Formatting Types.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Export an Analyzer Report"
+        Link="/Content/Business Analytics User Guide/Export an Analyzer Report.htm" />
+      <TocEntry
+        Title="Using Calculated Measures in an Analyzer Report"
+        Link="/Content/Business Analytics User Guide/Using Calculated Measures.htm">
+        <TocEntry
+          Title="Creating a Calculated Measure in a Report"
+          Link="/Content/Business Analytics User Guide/Creating a Calculated Measure.htm" />
+        <TocEntry
+          Title="Editing a Calculated Measure in the Report"
+          Link="/Content/Business Analytics User Guide/Editing a Calculated Measure.htm" />
+        <TocEntry
+          Title="Opening the New Calculated Measure Dialog Box"
+          Link="/Content/Business Analytics User Guide/Opening the New Calculated.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Working with Measures in Analyzer"
+        Link="/Content/Business Analytics User Guide/Working with Measures in Analyzer.htm">
+        <TocEntry
+          Title="Updating Measure Properties"
+          Link="/Content/Business Analytics User Guide/Updating Measure Properties.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Using Dashboard Designer"
+      Link="/Content/Business Analytics User Guide/Using Dashboard Designer.htm">
+      <TocEntry
+        Title="Create a New Dashboard"
+        Link="/Content/Business Analytics User Guide/Create a New Dashboard.htm" />
+      <TocEntry
+        Title="Add Content to a Dashboard Using Drag-a-Drop"
+        Link="/Content/Business Analytics User Guide/Add Content to a Dashboard.htm" />
+      <TocEntry
+        Title="Set the Refresh Interval"
+        Link="/Content/Business Analytics User Guide/Set the Refresh Interval.htm" />
+      <TocEntry
+        Title="Add an Analyzer Report to a Dashboard"
+        Link="/Content/Business Analytics User Guide/Add an Analyzer Report to.htm" />
+      <TocEntry
+        Title="Add a Web Site to a Dashboard"
+        Link="/Content/Business Analytics User Guide/Add a Web Site to a Dashboard.htm" />
+      <TocEntry
+        Title="Use Prompts on Dashboards"
+        Link="/Content/Business Analytics User Guide/Use Prompts on Dashboards.htm">
+        <TocEntry
+          Title="Add a Prompt to a Dashboard"
+          Link="/Content/Business Analytics User Guide/Add a Prompt to a Dashboard.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Create a Metadata List"
+        Link="/Content/Business Analytics User Guide/Create a Metadata List.htm" />
+      <TocEntry
+        Title="Create a Cascading Prompt"
+        Link="/Content/Business Analytics User Guide/Create a Cascading Prompt.htm">
+        <TocEntry
+          Title="Use Case: Creating a Country-City Cascading Prompt"
+          Link="/Content/Business Analytics User Guide/Use Case Creating a Country.htm" />
+        <TocEntry
+          Title="Edit Prompts"
+          Link="/Content/Business Analytics User Guide/Edit Prompts.htm" />
+        <TocEntry
+          Title="Link Dashboard Prompts to Analyzer Parameters"
+          Link="/Content/Business Analytics User Guide/Link Dashboard Prompts to.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Using Dynamic Dashboard Titles"
+        Link="/Content/Business Analytics User Guide/Using Dynamic Dashboard Titles.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

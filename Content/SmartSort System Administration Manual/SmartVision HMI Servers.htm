@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">SmartVision HMI Servers</h3>
+        <p class="BodyText">There are two HMI servers active in the system running the FactoryTalk View SE platform. These virtual machines (HMI01 and HMI02) provide the graphics and alarm capabilities for the HMI clients<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> described in <span class="Italics">SmartSort User Guide</span></MadCap:conditionalText>. The VMs use RSLinx Enterprise software for communications with the system PLCs. </p>
+        <p class="BodyText">The pair of HMI servers function as a redundant set in an Active-Standby fashion. The Active server in the set performs all functions unless or until it fails, at which point the secondary server takes over. The status of the HMI servers is shown on the HMI Connection Status screen. If a server is rebooted or when a failed server is brought back online, it may cause a brief interruption in graphics or alarms as the FactoryTalk system resynchronizes. Most HMI clients also see the server status pop-up as a warning that the server state is changing. </p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Application Overview.htm">3.2 Application Overview</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Sort Allocation Controller SAC.htm">3.2.1 Sort Allocation Controller (SAC)</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Data Historian Server DHS.htm">3.2.2 Data Historian Server (DHS)</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Maintenance Server and NAS.htm">3.2.3 Maintenance Server and NAS</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Domain Controllers.htm">3.2.5 Domain Controllers </MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Workstations_2.htm">3.2.6 Workstations</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

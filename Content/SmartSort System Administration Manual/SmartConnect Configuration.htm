@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">SmartConnect <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">Configuration</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Message Broker Service</MadCap:conditionalText></h4>
+        <p class="BodyText">The SmartConnect Message Broker is a background process that provides connectivity between SmartSuite and external systems through the exchange of messages.</p>
+        <p class="BodyText">The message broker configuration is organized into pipelines, with each pipeline representing an independent flow of messages.&#160;Typically, one pipeline is configured for baggage messaging (BSM, BPMs, etc.) and one pipeline is configured for flight messaging.</p>
+        <p class="BodyText">Components called “Agents” within the message broker are used to perform a variety of tasks such as filtering unneeded messages, routing a message to another connection and processing the message for storage within the SmartSuite system.&#160; These agents work together to perform the overall functions of:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Creating bag and flight records in the database</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Queuing messages when external systems are unavailable</li>
+        </ul>
+        <p class="Subheading">Communication Protocols</p>
+        <p class="BodyText">The message broker supports a wide variety of protocols to communicate with external systems.&#160; This includes the following that are setup for DFW-D:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Sabre </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">WebSphere MQ Client</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">ARINC BagLink</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">File Input and Output</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Database Query (MSSQL, ODBC, etc.)</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Raw TCP stream</li>
+        </ul>
+        <p class="Subheading">Message Formats</p>
+        <p class="BodyText">The message broker is capable of receiving any format of message data and forwarding it to another system.</p>
+        <p class="BodyText">In order to process messages into bag and flight records in the database, the message must be one of the supported formats.&#160; These include:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">For bag records:</li>
+            <li class="SubBullet_1">IATA Baggage Information Messages as defined in Recommended Practice 1745 (BSM, BPM, BUM, etc.)</li>
+            <li class="Bullet_1">For flight records:</li>
+            <li class="SubBullet_1">IATA AIDX flight data messages for the DFW AODB Connection </li>
+            <li class="SubBullet_1">AA BOSS flight data messages for the AA BOSS Connection</li>
+        </ul>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related&#160;Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="SAC Services.htm">3.3.5 SAC Services</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Message Broker Architecture and Configuration.htm">3.3.5.1.1 Message Broker Architecture and Configuration</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Flight Activator.htm">3.3.5.2 Flight Activator</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Sort Allocation Manager SAM.htm">3.3.5.3 Sort Allocation Manager (SAM)</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Status Message Handler SMH.htm">3.3.5.4 Status Message Handler (SMH)</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

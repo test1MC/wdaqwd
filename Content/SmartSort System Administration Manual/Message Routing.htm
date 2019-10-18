@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1 class="Heading1">
+            <MadCap:annotation MadCap:createDate="2019-06-25T09:56:56.6923443-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="New topic added to reflect what is in the core manuals." MadCap:editor="JBerwick" MadCap:editDate="2019-06-25T09:57:09.2249674-04:00">Message Routing</MadCap:annotation>
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> Configuration</MadCap:conditionalText>
+        </h1>
+        <p class="BodyText">Message Routing rules define where a message (e.g. BSM, BPM, etc.) is to be sent. Each rule is evaluated independently to determine if it matches the message, and a copy of the message is sent for each match that is made. A match is determined by comparing the string representation of the message against a regular expression for the rule. If the regular expression results in a match on the message, a copy is queued for sending based on the other properties of the rule.</p>
+        <p class="BodyText">The <span class="Bold">Message Routing</span> configuration screen is used by system administrators to manage the list of routing rules. The <span class="Bold">Message Routing</span> screen is accessed via the <span class="Bold">SmartConnect</span> section of the <span class="Bold">Settings</span> menu.</p>
+        <p class="BodyText">The <span class="Bold">Message Routing</span> screen displays the current list of Message Routing rules in table format.</p>
+        <p class="Image">
+            <img src="../Resources/Images/Message Routing Configuration Screen.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 2-26: </MadCap:conditionalText>Message Routing Configuration Screen</p>
+        <p class="BodyText">Each Message Routing rule has the following properties:</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 450px; " />
+            <col style="width: 151px; " />
+            <tbody>
+                <tr>
+                    <td class="td_5">Property</td>
+                    <td class="td_5">Property Description</td>
+                    <td class="td_5">Required</td>
+                </tr>
+                <tr>
+                    <td class="td_3">Disabled</td>
+                    <td class="td_3">Identifies if a rule is disabled. Only enabled rules are used. Select or clear the Enable checkbox.</td>
+                    <td class="td_3">&#160;</td>
+                </tr>
+                <tr>
+                    <td class="td_3">Message Type</td>
+                    <td class="td_3">Describes the message type (e.g. BSM, BPM, etc.). Select the message type from the available drop-down list.</td>
+                    <td class="td_3">Yes</td>
+                </tr>
+                <tr>
+                    <td class="td_3">Router Name</td>
+                    <td class="td_3">Describes the routing rule set name.</td>
+                    <td class="td_3">Yes</td>
+                </tr>
+                <tr>
+                    <td class="td_3">Description</td>
+                    <td class="td_3">Describes the purpose or use of the rule.</td>
+                    <td class="td_3">&#160;</td>
+                </tr>
+                <tr>
+                    <td class="td_3">Message Regex</td>
+                    <td class="td_3">The .NET Regular Expression used to match messages to the rule. Free text, but value must be a valid regular expression.</td>
+                    <td class="td_3">Yes</td>
+                </tr>
+                <tr>
+                    <td class="td_3">Source</td>
+                    <td class="td_3">Used primarily for messages in TTY format, where the source must be specific in the header of the message. Free text (it is up to the user to enter a valid Source name that matches the SmartConnect configuration, if needed).</td>
+                    <td class="td_3">&#160;</td>
+                </tr>
+                <tr>
+                    <td class="td_3">Destination</td>
+                    <td class="td_3">Used for messages in TTY format, where the destination must be specified in the header of the message. Free text (it is up to the user to enter a valid Destination name that matches the SmartConnect configuration, if needed).</td>
+                    <td class="td_3">&#160;</td>
+                </tr>
+                <tr>
+                    <td class="td_3">Destination Agent</td>
+                    <td class="td_3">Set to the name of the SmartConnect Agent that should distribute the message.</td>
+                    <td class="td_3">Yes</td>
+                </tr>
+                <tr>
+                    <td class="td_3">Message ID Format</td>
+                    <td class="td_3">Set to RAW to only send the String representation of the message. Set to TTY for the String representation of the message to be wrapped in a TTY header and footer (with configured source and destination) for sending on a Teletype network.</td>
+                    <td class="td_3">Yes</td>
+                </tr>
+                <tr>
+                    <td class="td_3">Message Priority</td>
+                    <td class="td_3">The priority code used for TTY messages.</td>
+                    <td class="td_3">Yes, only if Message Format Id is "TTY"</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Subheading">To add a Message Routing rule:&#160;</p>
+        <ol>
+            <li class="List">
+                <p>Click <span class="Bold">Add Row</span>. Row fields are displayed beneath the Message Routing table, allowing the system administrator to enter details for the new message routing rule.<br /><img src="../Resources/Images/Adding a Message Routing Rule.png" /><br /></p>
+            </li>
+            <li class="List">
+                <p>Add the appropriate message routing information.</p>
+            </li>
+            <li>Click <span class="Bold">Add Row</span>. The new message is added to the Message Routing table.</li>
+        </ol>
+        <p class="Subheading">To edit a Message Routing rule:</p>
+        <ol>
+            <li class="List">Select the appropriate row from the Message Routing table and click the <span class="Bold">Edit</span> (<img src="../Resources/Images/icon.png" /> ) icon. The rule’s editable fields are displayed, allowing the system administrator to edit details for the message routing rule.<br /><img src="../Resources/Images/Editing a Message Routing rule.png" /></li>
+            <li class="List">Click <span class="Bold">Save</span>. The updated message is added to the Message Routing table.</li>
+        </ol>
+        <ul>
+            <li class="SubBullet_1">To cancel any changes made, click <span class="Bold">Cancel</span>. </li>
+        </ul>
+        <p class="Subheading">To delete a Message Routing rule:&#160;</p>
+        <ol>
+            <li class="List">Select the appropriate row from the Message Routing table and click the Delete icon ( <img src="../Resources/Images/delete icon.png" /> ). A confirmation pop-up window displays. </li>
+            <li class="List">Click <span class="Bold">OK</span> to confirm the deletion. Click <span class="Bold">Cancel</span> to abort the deletion. </li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="SmartSort Management.htm">2.4 SmartSort Management</MadCap:xref>
+            </li>
+        </ul>
+        <p MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

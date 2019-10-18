@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3 class="Heading3">Flight Times</h3>
+        <p class="BodyText">Each scheduled flight must be assigned a departure time. From this departure time, three other times are calculated for use in sortation (Open Time, Late Time, and Close Time). These times divide the flight sortation setup into four periods: Early, On Time, Late, and Missed. Piers for each of these periods can be assigned to the flight for time-based sortation.</p>
+        <p class="Image">
+            <img src="../Resources/Images/TL6015 SmartSort User Guide/Flight Times.png" style="height: 173px;width: 565px;" class="img_2" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 4&#8209;3: </MadCap:conditionalText>Flight Times</p>
+        <p class="BodyText">The calculation of these times and periods is determined by the following settings: </p>
+        <ol start="1" class="ol_1">
+            <li class="List"><span class="Bold">Airline</span> – For each airline, the number of minutes before departure for the Open, Late, and Close times must be configured<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="Configuring Carrier Make Up.htm#_Ref334587750" class="ParaTextOnly">4.2 Configuring Carrier Make-Up Units</MadCap:xref>, or the <span class="Bold">Airline Settings</span> screen in <span class="Italics">SmartSort System Administration Manual Chapter 2: Web Client Administration</span>)</MadCap:conditionalText>. </li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List"><span class="Bold">Aircraft</span> – If the flight is assigned an aircraft type (e.g. Boeing 777), the aircraft can be configured on the <span class="Bold">Aircraft Types</span> screen with longer or shorter time periods<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see the <span class="Bold">Aircraft Types</span> screen in <span class="Italics">SmartSort System Administration Manual Chapter 2: Web Client Administration</span>)</MadCap:conditionalText>.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List"><span class="Bold">Market</span> – If the flight is assigned to a market (e.g. Domestic) this can also be used to override the time periods<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see the <span class="Bold">Flight Markets</span> screen in <span class="Italics">SmartSort System Administration Manual Chapter 2: Web Client Administration</span>)</MadCap:conditionalText>.</li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="List"><span class="Bold">Override</span> – The times can also be overridden directly by specifying the values.</li>
+        </ol>
+        <p class="BodyText">Once the Open, Late, Close and Depart Times are set, changing the flight's departure time will automatically also change the Open, Late, and Close times to maintain the original time offset. For example, if a flight is originally scheduled to depart at 13:00 and the flight close time is set for 12:30 (an offset of 30 mins), changing the flight's departure time to 14:00 will also automatically change the close time to 13:30 to maintain the 30-minute offset.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Flight Schedule Management.htm">4.3 Flight Schedule Management</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Configuring Carrier Make Up.htm">4.2 Configuring Carrier Make-Up Units</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="../SmartSort System Administration Manual/Airline Settings.htm">2.4.2 Airline Settings</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="../SmartSort System Administration Manual/Aircraft Types.htm">2.4.1 Aircraft Types Configuration</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="../SmartSort System Administration Manual/Flight Markets.htm">2.4.4 Flight Markets Configuration</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

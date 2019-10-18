@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">Manual Encode Console Report</h2>
+        <p class="BodyText">The Manual Encode Console Report provides a summary of bags processed at each Manual Encode Station.</p>
+        <p class="Subheading">The following selection criteria are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Start Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">End Date and Time</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Sample Manual Encode Console Report.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 1024px;height: 200px;" MadCap:mediastyle="@media print { width: 7in; }" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 9&#8209;23:</MadCap:conditionalText> <MadCap:annotation MadCap:createDate="2019-09-25T08:10:23.7164016-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="An updated screenshot is requried for your project. I couldn't use the previously inserted screenshot, as it contained an incorrect label. " MadCap:editor="JBerwick" MadCap:editDate="2019-10-11T13:35:21.3247607-04:00">Sample Manual Encode Console Report</MadCap:annotation></p>
+        <p class="Subheading">The following information is included in this report:</p>
+        <p class="BodyText">Note that there are two sections to this report. The first deals with Bag Dispatch Statistics, which includes counts of how things were sorted at the MEC. The second breaks down encodings by carrier, assuming that the bag was sorted via a method that associates it with a carrier. </p>
+        <p class="BodyText">The report allows the user to drill down into individual Bag Transactions by clicking on certain values in the Tag Statistics section (such as Flight, Virtual Make-Up Unit and Carrier).</p>
+        <p class="Subheading">Bag Dispatch Statistics section:</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col />
+            <col />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Row</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Bag Tag (BSM)</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags sorted where the operator scanned a valid sortable IATA tag which the system had a BSM for.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Keyed Barcode</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags sorted where the operator used the keyboard to type the barcode data.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Other Tag Types</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags sorted using specific use tags such as IATA Fallback and pier tags.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Flight</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags manually sorted using the flight sort option.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Virtual Pier</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags manually sorted using the virtual pier sort option.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Carrier</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags manually sorted using the carrier sort option.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Carrier Statistics section:</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 163px;" />
+            <col />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Row</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Configured Carrier</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags sorted via a method that associated it with the configured carrier.</p>
+                    <p>Only configured carriers will appear in this list, and only if they have seen bags at an MEC.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Understanding Web Client Reports.htm">9 Understanding Web Client Reports</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Generating Web Client Reports.htm">9.1 Generating Web Client Reports</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

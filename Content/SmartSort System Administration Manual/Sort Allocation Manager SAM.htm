@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">Sort Allocation Manager (SAM)</h4>
+        <p class="BodyText">The Sort Allocation Manager assigns destinations to all bags passing under the ATRs. A bag destination is determined from a combination of factors, but is dependent upon the tag information read by the ATR laser. If multiple tags are present, all them are passed to the SAM service for processing. The priority of tags is user-configurable in the Web Client, but the SAM starts with the highest priority tag and works downward until it gets a valid destination. Multiple tags of the same priority can still result in a valid destination. For example, if multiple IATA tags are read, but data for only one exists, it will be used for sorting. The IATA tag uses the BSM data to find the passenger's flight and then uses the Active Schedule to find the appropriate sort makeup unit. The last step is to convert the virtual destination into a physical destination for transmission to the PLC.</p>
+        <p class="BodyText">Any tags for which a destination cannot be determined are sent to the MEC area. Bags may be sent here if they are No Reads, if the BSM data is not available, if the flight does not exist in the Active Schedule, or a variety of other reasons. Bag assignment information is available on the Laser Array Report or can be searched through the Web Client Bag Transaction Search.</p>
+        <p class="BodyText">This service communicates to the PLCs over Ethernet. The SAM service is the core SmartSort service for assigning bags. Without the SAM service running, bags scanned at the ATR are not assigned destinations and are sent to the MEC station by the conveyor controls. Restarting the service can be performed during operations, but during this brief period, all bags are directed to the MEC area. Each PLC sends Heartbeat messages to the SAM to make sure the connection is alive. Faults are indicated on the HMI.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="SAC Services.htm">3.3.5 SAC Services</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="SmartConnect Configuration.htm">3.3.5.1 SmartConnect Message Broker Service</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Flight Activator.htm">3.3.5.2 Flight Activator</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Status Message Handler SMH.htm">3.3.5.4 Status Message Handler (SMH)</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

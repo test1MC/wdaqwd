@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3 class="Heading3">Backup Sortation Mode</h3>
+        <p class="BodyText">The MEC has a connection to the PLC which allows it to continue to sort bags when the SAC server is down or unavailable as a contingency. If the communication to the SAC is disrupted, the MEC is considered to be in Backup Sortation Mode because direct access to the flight schedule is not available. While in Backup Sortation Mode, an operator has limited sorting capability. </p>
+        <p class="BodyText">The MEC is connected to the PLC network and to the SAC over Ethernet. Under normal operations, the MEC sends the bag's information to the SAC and the SAC determines the bag's sort destination. However, the MEC can continue to sort bags in the event that the SAC is unavailable. To do so, the MEC Application downloads some data from the SAC at periodic intervals. The following data is downloaded from the SAC throughout the day, typically every 60 seconds:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Flight schedule</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Tag priority information</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Virtual to physical mapping information</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Carrier information (default piers)</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">MEC configuration (so the MEC can start up in Backup Mode)</li>
+        </ul>
+        <p class="BodyText">If sorting transactions are made by the MEC while the MEC is in Backup Mode, the statistics about the type of encoding methods used are transferred to the SAC once the MEC is reconnected with the SAC. The actual transaction data is also copied to the SAC once the connection has been re-established. Any data that has not been copied to the SAC is lost if the application is closed before the connection returns. </p>
+        <p class="BodyText">All Encoding Methods are available in Backup Sortation Mode. <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">For information about encoding methods, refer to section <MadCap:xref href="Encoding Bags.htm#_Ref431218400" class="ParaTextOnly">5.1 Encoding Bags</MadCap:xref>. </MadCap:conditionalText>If a tag is scanned while the MEC is in Backup Sortation Mode, the bag will be automatically released to the associated Carrier Make-Up Unit (if one is assigned). It will not be sorted by flight because no BSM data is available in Backup Mode. If no carrier default pier has been assigned, the bag needs to be encoded using the Pier encoding method<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="Pier Mode.htm#_Ref334603032" class="ParaTextOnly">5.2.4 Make-Up Unit Mode</MadCap:xref>)</MadCap:conditionalText>, the quick release selection encoding method<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="Quick Release.htm#_Ref334603071" class="ParaTextOnly">5.2.5 Quick Release</MadCap:xref>)</MadCap:conditionalText>, or the Flight encoding method<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="Flight Mode.htm#_Ref334603037" class="ParaTextOnly">5.2.3 Flight Mode</MadCap:xref>)</MadCap:conditionalText>. </p>
+        <p class="BodyText">The flow chart below outlines the sort process used in Backup Mode: </p>
+        <p class="Image">
+            <img src="../Resources/Images/SmartSort User Guide/Encoding Bags in Backup Sortation Mode_Pier.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 5&#8209;8:</MadCap:conditionalText> Encoding Bags in Backup Sortation Mode - Process Flow</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Encoding Bags.htm">5.1 Encoding Bags</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Pseudo BSMs.htm">5.2 Pseudo BSMs</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Pier Mode.htm">5.2.4 Make-Up Unit Mode</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Quick Release.htm">5.2.5 Hot Make-Up Unit Selection</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Flight Mode.htm">5.2.3 Flight Mode</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

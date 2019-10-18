@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h5 class="Heading5">Message Broker Architecture and Configuration</h5>
+        <p class="Subheading">Bag Pipeline</p>
+        <p class="BodyText">The bag pipeline is expected to be configured such that:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">BSMs are received from Sabre for AA.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">BSMs are received from Arinc for All other airlines.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">BPMs are sent to Sabre for AA bags</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">BPMs are sent to Sabre for all other airlines bags</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Flight Messages are received from AA (BOSS) via WebSphere MQ for AA flights. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Flight Messages are received from AODB for all other airlines </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">BSMs are sent to SITA BagMessage to be delivered to several airports to support sortation, loading and other local operations (and BPMs could be received back).</li>
+        </ul>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="SmartConnect Configuration.htm">3.3.5.1 SmartConnect Message Broker Service</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

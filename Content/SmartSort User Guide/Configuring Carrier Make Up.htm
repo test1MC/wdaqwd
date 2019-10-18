@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">Configuring Default Carrier Piers</h2>
+        <p class="BodyText">The <span class="Bold">Airlines</span> screen is used to define the sortation rules for each carrier. In a system that does not have a flight plan, the configured carrier default piers can be used to sort bags to the correct sort destinations.</p>
+        <p class="BodyText">The following can be configured for each carrier:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Identification </span>– <MadCap:annotation MadCap:createDate="2019-09-18T12:59:51.0887167-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Only visible if the system uses Carrier Inactive Piers" MadCap:editor="JBerwick" MadCap:editDate="2019-09-18T13:00:15.9699052-04:00">If the <span class="Bold">Is Self-Tagging</span></MadCap:annotation>checkbox is selected, the carrier permits passengers to tag their own bags, and BSMs sent by that carrier will also indicate if the bag is Active (verified by an agent) or Inactive (not verified by an agent). This section also displays the IATA/ICAO Code, and Accounting Code for the carrier. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Default Piers</span> – The <span class="Bold">Default Piers</span> section allows the user to configure the default virtual pier to which all various types of bag tags should be assigned. The selected Virtual Piers will be used for sortation if no sort destination has been assigned for a flight in the flight schedule or no BSM information is available. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Sort Periods </span>– The default Open, Close, and Late time periods for the carrier must be defined in this section. For each time period, a value can be entered in minutes. This value defines when the specified time period starts relative to the scheduled departure time. For example, if the Default Open Period is configured to be 180 minutes, the default Open Period will begin 180 minutes before the flight's scheduled departure time. <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">For more information about time-based sort piers, refer to section <MadCap:xref href="Flight Times.htm#_Ref443913473" class="ParaTextOnly">4.3.1 Flight Times</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+        <p class="BodyText">To access the <span class="Bold">Airlines</span> screen, click the Main Menu icon (<img src="../Resources/Images/Main Menu icon.png" style="width: 24px;height: 17px;" />), select <span class="Bold">Sortation</span>, then click <span class="Bold">Airlines</span>. </p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/Airlines.png" MadCap:mediastyle="@media print { width: 7in; }" style="border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 1103px;height: 589px;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 4&#8209;2: </MadCap:conditionalText>Airlines Screen</p>
+        <p class="Subheading">Adding a New Airline</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Click the <span class="Bold">Add New Airline</span> button. The <span class="Bold">Airline Details</span> portion of the screen will be displayed with default values for every field. The default Open Period, Late Period, and Close Period are filled in automatically because these fields must be provided. </li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Select an Airline from the drop-down list. Change the settings as desired.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Click the <span class="Bold">Add New</span> button. The airline will be added to the <span class="Bold">Airline List</span>.</li>
+        </ol>
+        <p class="Subheading">Deleting an Airline</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Select the checkbox(es) beside the airline(s) that should be deleted. </li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Click the <span class="Bold">Delete Selected Airlines </span>button. A confirmation dialog will be displayed.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Click the <span class="Bold">OK</span> button to delete the selected airline(s).</li>
+        </ol>
+        <p class="BulletSublist_1">Carriers that are in use somewhere in the system (e.g. flight schedules or other configurations) cannot be deleted. </p>
+        <p class="Subheading">Editing a Carrier</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Click on the desired carrier in the<span class="Bold"> Airline List</span>. The <span class="Bold">Airline Details</span> for that airline will be displayed.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Edit the details as required.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Click <span class="Bold">Save Changes</span>. A confirmation dialog will be displayed.</li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="List">Click <span class="Bold">OK</span> to save the changes.</li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Sortation Control.htm">4 Sortation Control</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Flight Times.htm">4.3.1 Flight Times</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

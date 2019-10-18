@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Hardware Alarms</h3>
+        <p class="BodyText">The following <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">sections outline</MadCap:conditionalText> <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> outlines the </MadCap:conditionalText>common hardware alarms, and the probable causes and remedies for those alarms. </p>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Hardware Alarm</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Server monitoring software has detected a problem on a physical server:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the Upper Level Alarms screen in the SmartSuite Enterprise Web Client to determine which server (Host) is faulted.</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the LEDs or status display on the front server panel to identify quick status updates. Please refer to the Dell Manual for information on status LEDs.</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check PRTG to determine if there is a specific hardware fault withing the physical server (e.g. temperature fault).</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Contact Brock Solutions for support.</li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">SmartSort&#160;Alarm</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Server monitoring software has detected SmartSort or other critical BHS service is not running:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the Upper Level Alarms screen in the SmartSuite Enterprise Web Client to determine which service is not running.</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the SmartSuite Service Manager on all servers to find out which service is no longer running and restart it.</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">If the issue is not resolved by a service restart, check the service log files for any errors.</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Contact Brock Solutions for support. </li>
+        </ul>
+        <h5 MadCap:conditions="Default.ScreenOnly" class="Heading5">Virtual Machine Alarm</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Server monitoring software has detected a problem with a virtual machine</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the Upper Level Alarms screen in the SmartSuite Enterprise Web Client to determine which virtual machine is not running. </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Open vSphere and turn on/restart the virtual machine is not running.</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Contact Brock Solutions for support.</li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Network Alarm</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Server monitoring software has detected a problem on a switch:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the Upper Level Alarms screen in the SmartSuite Enterprise Web Client to determine which switch is faulted. </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check that all system switches are powered up correctly and operating as expected. </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check PRTG to determine if there is a specific fault within the switch (e.g. temperature fault).</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Contact Brock Solutions for support. </li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Resources Alarm</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Server monitoring software has detected the amount of free hard drive space, CPU, or RAM on the servers has dropped below the configured threshold:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the Upper Level Alarms screen in the SmartSuite Enterprise Web Client to determine which virtual machine is affected. Once the affected VM has been determined, you will be able to determine what specific issue triggered the alarm (e.g. low on hard drive space, CPU, or RAM).</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">If the issue pertains to hard drive space, identify which files/folders are taking up the most space and consult Brock Solutions before taking additional action. </li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">If the issue pertains to the CPU, identify which processes are using high amounts of the CPU using Task Manager and consult Brock Solutions before taking additional action.</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">If the issue pertains to RAM, identify which processes are using high amounts of memory using Task Manager and consult Brock Solutions before taking additional action.</li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Ping Alarm</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Server monitoring software has detected a network device that is no longer reporting its status to the BHS:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the Upper Level Alarms screen in the SmartSuite Enterprise Web Client to determine which device on the network is no longer responding to the PING call.</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check to see if the device is powered on and has a network connection.</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Contact Brock Solutions for support. </li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">SAN Alarm</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Server monitoring software has detected a problem on a SAN:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the Upper Level Alarms screen in the SmartSuite Enterprise Web Client to determine which device on the SAN&#160;is faulted.</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the LEDs or status display on the front server panel to identify quick status updates. Please refer to the Dell Manual for information on status LEDs</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check PRTG to determine if there is a specific fault within the SAN&#160;(e.g. temperature fault).</li>
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Contact Brock Solutions for support. </li>
+        </ul>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Troubleshooting Guide.htm">4.3 Troubleshooting Guide</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

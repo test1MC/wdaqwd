@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">Reinitializing the Publication</h4>
+        <p class="Subheading">To Reinitialize the Subscribers:</p>
+        <ol start="1" class="ol_1">
+            <li class="List"><span class="Bold">Mark the Subscription for Reinitialization</span>: Instructs SQL Server to stop replicating, and requires that a fresh snapshot be applied to the subscriber.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List"><span class="Bold">View the Snapshot Agent</span>: Generates the new snapshot.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List"><span class="Bold">Start the Synchronization</span>: Copies the snapshot to the subscriber, and restarts the replication process.</li>
+        </ol>
+        <p class="Subheading">Mark Subscription for Reinitialization:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Select the publication in the server tree.<br /><img src="../Resources/Images/Monitoring Replication.png" style="mc-thumbnail: none;" /><br /><br /></li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Right-click the subscription, and click <span class="Bold">Reinitialize</span> from the menu<br /><img src="../Resources/Images/Reinitialize.png" style="mc-thumbnail: none;" /></li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Select the <span class="Bold">Use a new snapshot</span> radio button, and click the <span class="Bold">Mark for Reinitialization</span> button.<br /><img src="../Resources/Images/Mark for Reinitialization.png" style="mc-thumbnail: none;" /></li>
+        </ol>
+        <p class="Subheading">View the Snapshot Agent:</p>
+        <p class="BodyText">The Snapshot starts generating in the background. The status of the snapshot can be viewed using the "View Snapshot Agent Status" from the Publication context menu in SQL Management Studio. The Reinitialization process removes any data on the DHS that already exists on the SAC in the larger data tables (bag records, transactions, host messages). The snapshot then copies all the SAC data to the DHS.</p>
+        <p class="Image">
+            <img src="../Resources/Images/Snapshot Agent Manager Status.png" style="mc-thumbnail: none;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 3&#8209;19: </MadCap:conditionalText>Snapshot Agent Manager Status (Complete)</p>
+        <p class="Subheading">Start the Synchronization</p>
+        <p class="BodyText">Once the snapshot is complete, watch the Replication Monitor to make sure that it is running smoothly. SQL Server attempts to restart the replication process whenever it fails. As it is retrying, the Replication Monitor status icons change from Failed/Error to OK. It is therefore important to watch the replication monitor for about five minutes to make sure that it is indeed running. The screen refreshes automatically, but can also be refreshed manually using the F5 key. </p>
+        <p class="Image">
+            <img src="../Resources/Images/Subscription Details After a Failure and Successful Reinitialization.png" style="mc-thumbnail: none;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 3&#8209;20: </MadCap:conditionalText>Subscription Details After a Failure and Successful Reinitialization</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Replication.htm">3.3.9 Replication</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Publishers Distributors Subscribers.htm">3.3.9.1 Publishers, Distributors, Subscribers</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Monitoring Replication Activity.htm">3.3.9.2 Monitoring Replication Activity</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

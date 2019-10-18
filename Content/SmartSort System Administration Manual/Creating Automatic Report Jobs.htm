@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h4 class="Heading4">Creating Automatic Report Jobs</h4>
+        <p class="BodyText">Clicking <span class="Bold">Add New Report Job</span> at the top of the <span class="Bold">Automatic Reports</span> screen displays the <span class="Bold">Automatic Reports Edit</span> screen.</p>
+        <p class="Image">
+            <img src="../Resources/Images/Automatic Reports Edit Screen.png" style="mc-thumbnail: none;border-left-style: none;border-left-width: 0px;border-left-color: transparent;border-right-style: none;border-right-width: 0px;border-right-color: transparent;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: none;border-bottom-width: 0px;border-bottom-color: transparent;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 2&#8209;10: </MadCap:conditionalText>Automatic Reports Edit Screen</p>
+        <p class="BodyText">This screen is divided into two sections:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Job Details </span>– Includes information about the specific report job, including when it will be run, the groups who will receive the reports, and the reports that will be included in the job.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Report Details</span> – When a report is selected for inclusion in the Automatic Report Job, that report's details will be displayed in this section. The top half of this section includes the report's parameters, while the bottom half includes the available report output options.</li>
+        </ul>
+        <p class="Subheading">To create a new Automatic Report Job:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Click <span class="Bold">Add New Report Job</span> on the <span class="Bold">Automatic Reports</span> screen. The <span class="Bold">Automatic Reports Edit</span> screen is displayed.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Enter the desired job name in the <span class="Bold">Description</span> field.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Select the next time the report should be run using the calendar function in the <span class="Bold">Next Run Time</span> field.</li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="List">Select the <span class="Bold">Enabled</span> checkbox to enable the new job.</li>
+        </ol>
+        <ol start="5" class="ol_1">
+            <li class="List">Select the appropriate <span class="Bold">Interval Hours</span> (i.e. how often the report should be run). By default, this is set to 24 (once a day), but can be set so that reports are generated more often if necessary.</li>
+        </ol>
+        <ol start="6" class="ol_1">
+            <li class="List">Use the <span class="Bold">Run Period</span> drop-down list to select the days of the week that this report should be run. The available options are every day (Monday - Sunday), only on weekends (Saturday - Sunday), or only on weekdays (Monday - Friday).</li>
+        </ol>
+        <ol start="7" class="ol_1">
+            <li class="List">Optionally, the contents of the job can be sent to an email group <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">(see section <MadCap:xref href="Email Accounts.htm#_Ref350513775" class="ParaTextOnly">2.1.4 Email Group Configuration</MadCap:xref>)</MadCap:conditionalText>. Any reports that should be emailed need to have their output type set to one of the Email options.</li>
+        </ol>
+        <ol start="8" class="ol_1">
+            <li class="List">The <span class="Bold">Zip Reports</span> checkbox can be used for jobs that have an email group. If selected (and it is by default), all reports included in the job will be zipped prior to being attached to the email. If not, the reports will be attached directly. Note that SSI reports will be zipped (and password protected) regardless of this setting. </li>
+        </ol>
+        <ol start="9" class="ol_1">
+            <li class="List">Use the checkboxes in the <span class="Bold">Reports Included</span> section to determine which reports will be included in the new job. Selecting a checkbox means that the selected report will be included in the list of reports in that report job. Note that the list of reports can be filtered by typing in the <span class="Bold">Filter Results</span> field.</li>
+        </ol>
+        <ol start="10" class="ol_1">
+            <li class="List">If necessary, edit each report's parameters in the <span class="Bold">Report Details</span> section. Clicking an included report in the <span class="Bold">Reports Included</span> section displays that report's details on the right side of the screen (note that a report must be selected for inclusion in the job in order to have its details displayed). The report parameters can be filtered by typing in the <span class="Bold">Filter Results</span> field.</li>
+        </ol>
+        <ol start="11" class="ol_1">
+            <li class="List">Using the checkboxes in the <span class="Bold">Send To</span> column of the <span class="Bold">Report Output</span> table for each selected report, determine the output formats for each report to be included in the automatic job. The following options are available:</li>
+        </ol>
+        <ul>
+            <li class="SubBullet_1"><span class="Bold">Email – CSV</span> &#8209; Saves the report in CSV format to be emailed with any other reports in the job.</li>
+            <li class="SubBullet_1"><span class="Bold">Email – PDF </span>&#8209; Saves the report in PDF format to be emailed with any other reports in the job.</li>
+            <li class="SubBullet_1"><span class="Bold">Laser Printer</span> – Sends a copy of the report to a selected printer.</li>
+            <li class="SubBullet_1"><span class="Bold">Save to DHS – Excel </span>– Saves an Excel file to a specified folder on the DHS.</li>
+            <li class="SubBullet_1"><span class="Bold">Save to DHS – PDF </span>– Saves a PDF of the report to a specified folder on the DHS.</li>
+        </ul>
+        <ol start="12" class="ol_1">
+            <li class="List">Click <span class="Bold">Save Report Job Changes</span> to save the new report job. Note that clicking <span class="Bold">Return to Report Jobs</span> without first saving the new job cancels the job creation.</li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Automatic Reports.htm">2.3.2 Generating Automatic Reports</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Managing Automatic Report.htm">2.3.2.2 Managing Automatic Report Jobs</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText">&#160;</p>
+    </body>
+</html>

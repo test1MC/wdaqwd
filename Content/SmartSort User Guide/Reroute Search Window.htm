@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3 class="Heading3">
+            <MadCap:annotation MadCap:createDate="2019-09-19T08:04:50.7368277-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="This should be flagged as online only. Copied from System Admin" MadCap:editor="JBerwick" MadCap:editDate="2019-09-19T08:04:52.0957606-04:00">Reroute Search Window</MadCap:annotation>
+        </h3>
+        <p class="BodyText">The Reroute logic looks for matching reroute flights within a certain time window (so that bags are not held indefinitely waiting for a reroute flight). This is called the "Search Window". The search window determines which flights will be considered for reroute by looking for matching flights with departure times that fall within the search window. </p>
+        <p class="Subheading">Search Window</p>
+        <p class="BodyText">The Search Window is configured using two fields:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Search Window Start Offset </span>– Represents the start of the search window. This is the number of hours and minutes after the current time to search for another flight. By default, the start offset time is set to 30 minutes. The offset is recommended because once a bag is assigned to a new flight, a certain amount of time is required to sort the bag to the correct sort destination. If a bag is assigned to a flight that departs in two minutes, the bag would likely miss that flight and would be sent back for reroute. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Search Window End Offset </span>– Represents the end of the search window. This is the number of hours and minutes after the current time to search for another flight. By default, the end offset time is set to eight hours. This offset is recommended to make sure bags are not held indefinitely waiting for a reroute candidate.</li>
+        </ul>
+        <p class="BodyText">The following example illustrates how the search window works during a typical reroute scenario. If a bag has missed its flight and is re-scanned in the BHS at 14:00 with the reroute search window configured as 30 minutes to five hours, the system will look for suitable flights with departure times between 14:30 and 19:00.</p>
+        <p class="Subheading">Reroute Day</p>
+        <p class="BodyText">Since flights do not necessarily depart 24 hours a day, the system also uses a "Reroute Day" to further define when the system will look for reroute flights. The Reroute Day is defined using two fields:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Start Time</span> – The earliest time (in 24h format) that the system will normally be able to search for reroute candidates. This is typically the earliest time that flights are scheduled to depart at the associated facility. If flights are regularly scheduled to depart 24 hours a day, defining a Reroute Day is not required.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">End Time</span> – The latest time (in 24h format) that the system will normally be able to search for reroute candidates. This is typically the latest time that flights are scheduled to depart at the associated facility. If flights are regularly scheduled to depart 24 hours a day, defining a Reroute Day is not required.</li>
+        </ul>
+        <p class="BodyText">If a bag misses its flight or a flight is cancelled after the time entered in the <span class="Bold">End Time</span> field, the system will first look within the search window as described previously. However, if no available flight is found within that window, the system will look for a flight starting at the beginning of the next reroute day (the time entered in the <span class="Bold">Start Time</span> field) and continuing for the number of hours specified by the reroute search window, provided that the Allow Search Next Day option is selected. </p>
+        <p class="BodyText">The following example is meant to clarify how the "Reroute Day" impacts the search window. The example assumes the following settings.</p>
+        <ul class="ul_1">
+            <li class="Bullet">Start Offset of 30 minutes</li>
+            <li class="Bullet">End Offset of five hours</li>
+            <li class="Bullet">Start of Reroute Day set at 07:00</li>
+            <li class="Bullet">End of Reroute Day set at 22:00</li>
+        </ul>
+        <p class="BodyText">If a bag missed its flight and is scanned at 20:30, the system will first look for all flights departing from 21:00 to 01:30 (the search window is based on the 30 minute Start Offset and the five hour End Offset). If no available flight is found in that window, and the <span class="Bold">Allow Search Next Day</span> checkbox is selected, the system searches for flights within the reroute window starting at 07:00 the next day. If the End Offset is configured for five hours, the system looks for flights with departure times between 07:00 and 12:00 (the five-hour End Offset).</p>
+        <p class="BodyText">If the <span class="Bold">Allow Search Next Day</span> field is not selected, the reroute logic will only look for flights from 21:00 until 01:30. In this case, the system would attempt the next reroute method (after Dynamic Reroute).<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> See section <MadCap:xref href="Reroute Modes.htm#_Ref334529984" class="ParaTextOnly">4.4.1 Reroute Modes</MadCap:xref> for details about the different reroute methods and the sequence in which each method will be used.</MadCap:conditionalText></p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Reroute Control.htm">4.4 Reroute Control</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Reroute Modes.htm">4.4.1 Reroute Modes</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Flight Options.htm">4.4.3 Flight Options</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Additional Reroute Settings.htm">4.4.4 Additional Reroute Settings</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Reroute Logic.htm">4.4.5 Reroute Logic</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Managing Reroute Groups.htm">4.4.6 Managing Reroute Groups</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

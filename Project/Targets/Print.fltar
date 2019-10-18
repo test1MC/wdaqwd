@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="MsWord"
+  Destinations=""
+  ShowMadCapBacklink="true"
+  GlossaryTermConversion="marked"
+  conditions="Default.PrintOnly"
+  DisableAutoSync="false"
+  MasterToc="/Project/TOCs/Business Analytics User Guide.fltoc"
+  ConditionTagExpression="include[Default.PrintOnly] exclude[Default.ScreenOnly] "
+  MasterStylesheet="/Content/Resources/Stylesheets/Microsoft Word.css"
+  EmbedImages="true"
+  MasterStylesheetOverride="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    EnableTrackedChanges="false" />
+</CatapultTarget>

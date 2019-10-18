@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">Flight Schedule Management</h2>
+        <p class="BodyText">Flight schedules are used to associate flights with sort destinations for bags that are checked in and processed by the BHS (e.g. Flight Pier, Carousel, Make-Up Unit, etc.). These Flight schedules are managed using the SmartSuite Enterprise Web Client. Each day, a flight schedule is automatically loaded (activated) by the SAC.</p>
+        <p class="BodyText">There are two types of flight schedules in the BHS:</p>
+        <ol start="1" class="ol_1">
+            <li class="List"><span class="Bold">Active Flight Schedule</span> – This is the currently-active flight schedule that is used to make sortation decisions. The Active Flight Schedule is updated every day by copying flights from one or more Flight Schedule Templates. This is a temporary schedule in that changes made to this schedule will NOT automatically appear on flight schedules in the future. As updates from FIDS are received, they are applied to the Active Flight Schedule.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List"><span class="Bold">Flight Schedule Templates</span> – A Flight Schedule Template is a pre-configured sort plan that has been created based on the flights that may occur on a specific day (i.e. every Wednesday or every Christmas). Every day, a copy of flights within the relevant Flight Schedule Templates will be added to the Active Flight Schedule. Changes to a Flight Schedule Template will update flight information for ALL future days to which that template applies.</li>
+        </ol>
+        <p class="BodyText">The SAC is responsible for activating flight schedules on a daily basis. At a configurable time (typically 02:00), the SAC will take flights from all the appropriate flight schedule templates and copy them to the active flight schedule.<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> For details, see section <MadCap:xref href="Activating the Flight Schedule.htm#_Ref444159917" class="ParaTextOnly">4.3.3.3 Activating the Flight Schedule</MadCap:xref>.</MadCap:conditionalText></p>
+        <p class="BodyText">The Active Flight Schedule and the Flight Schedule Templates are managed using the Web Client Application. Both can be accessed by clicking the Main Menu icon (<img src="../Resources/Images/Main Menu icon.png" style="width: 23px;height: 17px;" />), then selecting <span class="Bold">Sortation</span> from the available options.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Sortation Control.htm">4 Sortation Control</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Flight Times.htm">4.3.1 Flight Times</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Active Flight Schedule.htm">4.3.2 Active Flight Schedule Management</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Template Management.htm">4.3.3 Flight Schedule Template Management</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Activating the Flight Schedule.htm">4.3.3.3 Activating the Flight Schedule</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Airline Settings</h3>
+        <p class="BodyText">Each airline can be configured with unique default Open Times, Late Times, and Close times. These times are used to calculate the time-based makeup unit assignments in the flight schedule. Airlines can be added, deleted, and edited.</p>
+        <p class="BodyText">The following can be configured for each airline:</p>
+        <ul class="ul_2">
+            <li class="Bullet_1"><span class="Bold">Identification </span>– The identification details for each airline include the airline name, a checkbox that indicates whether or not Baggage Processed Messages (BPMs) should be sent to the airline, and a checkbox that indicates if passengers are permitted to tag their own bags. If the <span class="Bold">Receives BPMs</span> checkbox is selected, BPMs will be sent by the SAC for the relevant bag transactions. If the <span class="Bold">Is Self-Tagging</span> checkbox is selected, the airline permits passengers to tag their own bags, and BSMs sent by that airline will also indicate if the bag is Active (verified by an agent) or Inactive (not verified by an agent). The <span class="Bold">Is Self-Tagging</span> checkbox is only available if there are Inactive Makeup units configured. This section also displays the IATA/ICAO Code and Accounting Code for the airline.</li>
+        </ul>
+        <ul class="ul_2">
+            <li class="Bullet_1"><span class="Bold">Default Makeup Units</span> – The <span class="Bold">Default Makeup Units</span> section allows the user to add and delete Default Makeup Units. When adding a new Default Makeup Unit, a Type and Zone must be selected, as well as the Makeup Unit. After a Makeup Unit has been selected, click <span class="Bold">Add Default Makeup Unit</span> to add the make-up unit. To delete a default makeup unit, click the <span class="Bold">Delete</span> button beside the default makeup unit's name. Different default makeup units can be configured for different zones (e.g. Concourse A/B, Terminal 1/2, etc.). </li>
+        </ul>
+        <ul class="ul_2">
+            <li class="Bullet_1"><span class="Bold">Sort Periods </span>– The default Open, Close, and Late time periods for the airline must be defined in this section. For each time period, a value can be entered in minutes. This value defines when the specified time period starts relative to the scheduled departure time. For example, if the Default Open Period is configured to be 180 minutes, the default Open Period will begin 180 minutes before the flight's scheduled departure time.</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Airline settings screen.png" style="mc-thumbnail: none;border-left-style: none;border-left-width: 0px;border-left-color: transparent;border-right-style: none;border-right-width: 0px;border-right-color: transparent;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: none;border-bottom-width: 0px;border-bottom-color: transparent;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 2&#8209;14: </MadCap:conditionalText>Airline Settings Screen - Add New Airline</p>
+        <p class="Subheading">To add a new airline:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Click <span class="Bold">Add New Airline</span>. The <span class="Bold">Airline Details</span> section on the right side of the screen is populated with blank fields, drop-down lists, and checkboxes.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Using the fields, drop-down lists, and checkboxes in the <span class="Bold">Airline Details</span> section, enter the appropriate airline information.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Click<span class="Bold"> Add New</span> at the bottom of the screen to save the new airline. Clicking <span class="Bold">Cancel</span> cancels the airline creation.</li>
+        </ol>
+        <p class="Subheading">To edit an existing airline:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Select the desired airline from the <span class="Bold">Airline List</span>. Clicking the airline in the list causes that airline's details to be displayed in the <span class="Bold">Airline Details </span>section.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Using the fields in the <span class="Bold">Airline Details</span> section, edit the airline's settings as required.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Click <span class="Bold">Save Changes</span> to save the changes to the airline. A confirmation dialog is displays.</li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="List">Click <span class="Bold">OK</span> to save the changes. Click <span class="Bold">Cancel</span> to aborts the save.</li>
+        </ol>
+        <p class="Subheading">To delete an existing airline:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Select the desired airline from the <span class="Bold">Airline List</span>. Clicking the airline in the list causes that airline's details to be displayed in the <span class="Bold">Airline Details</span> section.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Click <span class="Bold">Delete Selected Airlines</span> at the top of the screen. A confirmation dialog displays.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Click <span class="Bold">OK</span> to delete the airline(s). Click <span class="Bold">Cancel</span> to abort the deletion.</li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="SmartSort Management.htm">2.4 SmartSort Management</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

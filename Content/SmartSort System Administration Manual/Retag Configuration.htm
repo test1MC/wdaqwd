@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Retag Configuration</h3>
+        <p class="BodyText">The Retag Configuration screen allows the administrator to enable different scenarios in which bags need to be retagged. It also allows the administrator to configure some settings for ATRs.</p>
+        <p class="Image_1">
+            <img src="../Resources/Images/Retag/Scanner Configuration Screen.png" style="mc-thumbnail: none;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 2&#8209;19: </MadCap:conditionalText>Retag/Scanner Configuration Screen</p>
+        <p class="BodyText">The Global Retag Options located at the top of the screen are applied to each ATR in the system. If a scanned bag tag meets any of the retagging rules it will be sorted according to the Retag Sort setting. </p>
+        <p class="BodyText">Baggage can be flagged for retagging for any of the following reasons:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Retag for Flight Route Changes</span> – If the flight route changes for a bag (e.g. the destination city changes or a flight leg is added), the bag can be sent for retagging.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Retag for Flight Number Changes</span> – If the flight number changes, but the bag is still going to the same airport, the bag can be sent for retagging.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Retag from Host BSMs</span> – If a flag is set in the BSM from SABRE indicating that the bag needs to be retagged (.E/RUSH).</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Retag for Dynamic Reroute </span>– If the bag is rerouted using dynamic reroute, the bag can be sent for retagging.</li>
+        </ul>
+        <p class="BodyText">For each ATR, the destination for retagging bags can be set (e.g. Manual Encode, Retag Pier, or Disabled). The global retagging options will apply to all retagging scanners. The <span class="Bold">Save Configuration</span> button must be clicked to save the global retagging options.</p>
+        <p class="BodyText">Each ATR also can be configured with a specific Late Pier. If this location is assigned, bags that are late and do not have a flight late pier will be sent to this location ahead of the Global Late Pier (if it is mapped). Manual Encodes will send late bags to the location configured at the closest ATR. </p>
+        <p class="BodyText">The Manual Encode destination assigns bags to the next available MEC location determined by the PLC. The Retag Pier destination assigns bags to the physical destination(s) mapped to the Retag virtual pier in the Virtual to Physical Mapping. The Disabled choice will not send retag bags at that ATR anywhere special, although they could be reassigned by an ATR downstream (if it is configured differently). Bags that arrive at an MEC will be processed there regardless of the Retag Sort setting for any associated ATRs. </p>
+        <p class="Subheading">To configure Retagging Logic for an ATR: </p>
+        <ol start="1" class="ol_1">
+            <li class="List">Select an ATR from the Retag Scanner list.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Select a location from the Retag Sort drop-down list.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Click <span class="Bold">Save Changes</span>.</li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="SmartSort Management.htm">2.4 SmartSort Management</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

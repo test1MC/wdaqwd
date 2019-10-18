@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h4 class="Heading4">Activating the Flight Schedule</h4>
+        <p class="BodyText">Each day the Flight Activator service on the SAC is responsible for copying the relevant Flight Schedule templates into the Active Flight Schedule and for removing old flights from the Active Flight Schedule. </p>
+        <p class="BodyText">If a flight is already present in the Active Schedule, it will be overwritten during the process, but not necessarily deleted. </p>
+        <p class="BodyText">If the stored templates are not configured correctly at the rollover time or the flight schedule needs to be fully updated during operations, the schedule can be reactivated on demand. This follows the same process that occurs at day rollover by copying the template data into the Active Schedule, overwriting what is there. The <span class="Bold">Reactivate</span> button is on the System Settings screen<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see the <span class="Italics">SmartSort System Administration Manual</span> for details</MadCap:conditionalText>. </p>
+        <p class="BodyText">Each Flight Schedule Template can be configured with a date range (date range is between the effective date and discontinue date for the Flight Schedule Template). If the flight schedule is enabled, and current date is between the configured effective date and discontinue date for a Flight Schedule Template, the SAC will look for flights within that template that are configured to recur on the current day. Whether a flight is configured to recur on the current date depends on the effective date and discontinue date listed for the flight as well as the days of the week the flight operates on. <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">For details on these flight properties, see section <MadCap:xref href="Flight Properties.htm#_Ref442795590" class="ParaTextOnly">4.3.4 Flight Properties</MadCap:xref>.</MadCap:conditionalText></p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul class="RelatedTopicList" MadCap:conditions="Default.ScreenOnly">
+            <li class="RelatedTopicList">
+                <MadCap:xref href="Flight Schedule Management.htm">4.3 Flight Schedule Management</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Template Management.htm">4.3.3 Flight Schedule Template Management</MadCap:xref>
+            </li>
+            <li class="RelatedTopicList">
+                <MadCap:xref href="../SmartSort System Administration Manual/System Settings.htm">2.3.1 System Management</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

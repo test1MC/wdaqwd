@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Location Settings</h3>
+        <p class="BodyText">The <span class="Bold">Location Settings </span>screen allows the user to define location settings for workstations, such as the MEC stations. Note that all locations are added by Brock Solutions Administrators when the system is initially configured and installed.</p>
+        <p class="BodyText">The location settings available for MECs include:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Hot Makeup Unit Keys </span>– The Hot Makeup Unit Keys that are displayed on the MECs are configured here. The text for each hot key can be customized and the associated virtual makeup unit can be selected from the drop-down list.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Show Flights Minutes Before Departure</span> – When encoding by flight, the list of flights that are displayed is limited by the value entered here and in the <span class="Bold">Show Flights Minutes Since Departure</span> field. For example, if 60 is entered, flights will only be displayed if they are departing in 60 minutes or less.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Show Flights Minutes After Departure </span>– When encoding by flight, the list of flights that are displayed is limited by the value entered here and in the <span class="Bold">Show Flights Minutes Before Departure</span> field. For example, if 30 is entered, departed flights will only be displayed if their departure time was 30 minutes ago or less.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Show Carrier Default Pop-up</span> – If a bag tag is scanned or manually keyed and a BSM does not exist for that particular bag tag, the system can be configured to automatically release it to the Carrier Default Makeup unit for the bag, or the system can be configured to prompt the operator before automatically releasing the bag to the Carrier Default makeup unit. When this checkbox is selected, a dialog is displayed to the user with an option to sort the bag to the Carrier's Default Sort Makeup unit. Note: If Pseudo BSMs are enabled, the Carrier Default Operator Prompt is disabled. In this case, bags are automatically released to the Carrier's Default makeup unit if a Default Makeup unit has been configured.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Automatically Print Retag Labels</span> – When this is enabled, when a bag needs to be retagged at the Manual Encode the print label will automatically print without the user having to press the print button.&#160; </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Enable Pseudo BSM Generation </span>– If a bag tag is scanned or manually keyed and a BSM does not exist for that particular bag tag, the system is capable of creating a pseudo BSM (a BSM created by SmartSort rather than one created by the Airport/Carrier). The purpose of creating this Pseudo BSM is to provide traceability for a particular bag to a sort destination. In addition, if a bag is subsequently seen at an ATR, it can be automatically sorted based on the Pseudo BSM instead of returning to MEC again.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Enable Pseudo BSM Strict Mode</span> – There are two Pseudo BSMs modes: normal mode and strict mode. In Strict mode, the operator can only encode the bag by Flight or by selecting a Hot Makeup unit. In Normal mode, the operator is prompted to encode the bag by flight, but is able to select another encoding method (Makeup unit, Carrier Default Makeup unit, or Hot Makeup unit).</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Location Settings Screen - MEC Location Settings.png" style="mc-thumbnail: none;border-left-style: none;border-left-width: 0px;border-left-color: transparent;border-right-style: none;border-right-width: 0px;border-right-color: transparent;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: none;border-bottom-width: 0px;border-bottom-color: transparent;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 2&#8209;7: </MadCap:conditionalText>Location Settings Screen - MEC Location Settings</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Workstation Setup.htm">2.2 Workstation Management</MadCap:xref>
+            </li>
+        </ul>
+        <p class="Caption">&#160;</p>
+    </body>
+</html>

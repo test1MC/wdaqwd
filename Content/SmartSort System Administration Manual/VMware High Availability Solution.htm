@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">VMware High Availability Solution</h3>
+        <p class="BodyText">VMware is used to achieve system redundancy. This software provides a completely virtualized set of hardware to the server operating system. In this way, VMware virtual machines become highly portable between computers, because every physical server looks nearly identical to the application server. Additionally, the high availability components of VMware allow for the automatic migration of operational VMs, in the event of a failure <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">(see section <MadCap:xref href="VM Migration.htm#_Ref442191179" class="ParaTextOnly">3.1.2.1.4 VM Migration</MadCap:xref>)</MadCap:conditionalText>. This is done in a way that is seamless to the end-user, although there will be a brief interruption during migration to the alternate host during which the applications may not be available. However, no manual intervention is required to complete this process.</p>
+        <p class="BodyText">A Storage Area Network (SAN) is used so that the data is available to both servers. The hosts do not store any data locally other than the VMware operating system. This architecture is highlighted in the diagram below.</p>
+        <p class="Image">
+            <img src="../Resources/Images/TL6015 SmartSort System Administration Manual/VMware High Availability Solution.png" style="height: 350px;width: 617px;" class="img_1" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 3&#8209;3: </MadCap:conditionalText>VMware Architecture</p>
+        <p class="BodyText">As indicated in the diagram above, the VMware architecture supports multiple Virtual Machines (VMs) within the same architecture. Within VMware, the VMs are configured as VMware HA (High Availability) VMs. With HA Protected VMs, the VM runs on one of the two VMware hosts, and upon failure of the host, the VMs running on that host are failed over on the alternate hosts. In this case, all VMs running on the host that failed get migrated over to the alternate host.</p>
+        <p class="BodyText">The typical components for a VMware HA solution are two hosts, the latest model of mid-sized servers, an entry-level SAN, and two stacked Cisco switches. Brock Solutions typically uses HP or Dell components for a VMware HA solution. The solution uses RAID data storage consisting of two arrays.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="System Hardware Administration.htm">3 System Hardware Administration</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="VMware vSphere.htm">3.1.2.1 VMware vSphere</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Troubleshooting.htm">3.1.2.2 Troubleshooting</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

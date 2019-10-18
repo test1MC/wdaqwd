@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2 class="Heading2">Application Overview</h2>
+        <p class="BodyText">The general architecture of the system is described in the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topics listed below</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.PrintOnly">sections that follow</MadCap:conditionalText>. For more detail, including all network connections, please refer to the Network Drawings provided with this project. Screenshots are for illustrative purposes. Some screens may vary from the actual installation on site. </p>
+        <p class="BodyText">The basic architecture of the system is to have virtual machines for all server computers that run the BHS. These servers are hosted by two physical machines located in the server rack. All physical disk storage for these VMs is provided by a Storage Area Network (SAN), also in the server rack. Redundancy is provided by the VMware vSphere software.</p>
+        <p class="BodyText">The design of the upper-level system is centered on three components: database, services, and applications. The database is the core repository of information for the BHS and it resides on the SAC. For systems with a secondary server (DHS), the SAC database copies its information to the DHS, and only retains configuration data and recent history. Reports, queries, and non-real-time processes are run against the secondary server (DHS) which reserves the SAC for real-time transactional message processing and sortation.</p>
+        <p class="BodyText">The SmartSort services are installed on the servers and provide all the automatic baggage handling functionality<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> described in this manual</MadCap:conditionalText>.</p>
+        <p class="BodyText">The Web Client application is accessible from the operator workstations to provide the means for operators to change system settings, manage flight schedules, and query information in the historical data tables.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Sort Allocation Controller SAC.htm">3.2.1 Sort Allocation Controller (SAC)</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Data Historian Server DHS.htm">3.2.2 Data Historian Server (DHS)</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Maintenance Server and NAS.htm">3.2.3 Maintenance Server and NAS</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="SmartVision HMI Servers.htm">3.2.4 SmartVision HMI Servers</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Domain Controllers.htm">3.2.5 Domain Controllers </MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Workstations_2.htm">3.2.6 Workstations</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

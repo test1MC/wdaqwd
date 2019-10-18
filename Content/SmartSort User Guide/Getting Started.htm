@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:conditions="Default.PrintOnly">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 class="Heading1">Getting Started</h1>
+        <p class="BodyText">SmartSort is a customized solution that allows for the tracking, monitoring, sortation, and management of baggage and related baggage handling equipment in a Baggage Handling System (BHS).</p>
+        <p class="BodyText">SmartSort's functionality can be broken down into two major components:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Managing Baggage Sortation </span>– This aspect of the SmartSort system deals with the sortation decisions that determine a bag's sort destination, Manually Encoding a bag (as required), processing a bag at CBRA (as required), and overriding system equipment (as required). </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Research and Monitoring</span> – This function consists of generating reports, performing searches, monitoring alarms, monitoring the system status (including communication status and equipment status).</li>
+        </ul>
+        <p class="Subheading">
+            <MadCap:annotation MadCap:createDate="2019-09-18T10:52:20.0459324-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Project specific" MadCap:editor="JBerwick" MadCap:editDate="2019-09-18T10:52:31.1909447-04:00">Baggage Sortation</MadCap:annotation>
+        </p>
+        <p class="BodyText">Below is a high-level overview of how SmartSort sorts a bag in a BHS with ISD (Inline Screening Device) screening, Checked Bag Inspection System ATRs (Automatic Tag Readers), Sortation ATRs, and Manual Encode Consoles (MECs).</p>
+        <ol>
+            <li class="List">A bag tag record is created via a Baggage Source Message (BSM) from the airline, which includes information such as the bag tag number, the outbound flight number, outbound flight time, flight destination, passenger class, flight date, and the airline carrier.</li>
+            <li class="List">The bag is inducted into the BHS and enters CBIS (Checked Bag Inspection System).</li>
+            <li class="List">The bag is scanned at an ATR for traceability and its dimensions are recorded to ensure it can fit through screening. The upper-level can now associate the bag tag read by the ATR with the data linked to the PLC's ID from screening.</li>
+            <li class="List">Regular sized bags are screened by the inline ISD machine. All positively tracked bags with a "clear" status exit the CBIS system. All other bags are routed to CBRA for hand screening. Once cleared at CBRA, bags are released and exit the CBIS system. The PLC sends the upper-level messages containing bag tracking information as bags traverse CBIS. Oversize and out of gauge bags are handled outside the automatically-controlled BHS using the OS lines.</li>
+            <li class="List">Once in sortation, bags are scanned by an ATR. The ATR sends the bag tag information to the PLC which in turn sends the information to the SAC. The SAC determines the bag's sort destination (pier, carousel, make-up unit, etc.) by looking up the bag's flight information in the Active Flight Schedule and sends the decision to the PLC. The bag's sort destination is saved as a part of the bag record.</li>
+        </ol>
+        <ul class="ul_1">
+            <li class="SubBullet_1">Bags that are not read by the ATR or cannot be automatically sorted are sent to Manual Encode where the tag is scanned by hand. The MEC (Manual Encoding Console) determines the bag's sort destination (pier, carousel, make-up unit, etc.) by looking up the bag's flight information in the Active Flight Schedule and sends the decision to the PLC. The bag's sort destination is saved as a part of the bag record on the SAC.</li>
+            <li class="SubBullet_1">If the tag cannot be scanned at the MEC, the user uses the MEC to manually set the destination for the bag and sends the decision to the PLC. The record for that bag is updated in the SAC.</li>
+        </ul>
+    </body>
+</html>

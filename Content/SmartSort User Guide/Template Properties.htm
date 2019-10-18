@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h5 class="Heading5">Template Properties</h5>
+        <p class="BodyText">The following are the properties of a template:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Name</span> – Unique name of the template. This field is required.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Effective</span> – The date the template becomes effective (the first day when the contents of the flight schedule template will be copied into the active flight schedule). If an effective date is not specified, it is assumed that it is effective until the Discontinue date (if specified). If neither the Effective nor Discontinue date is specified, the template is effective indefinitely.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Discontinue</span> – The date the template will be copied into the active flight schedule for the last time (after the specified date, the template will no longer be copied to the active flight schedule). If a discontinue date is not specified, the template is effective indefinitely. Note that flights within templates can each have their own effective and discontinue dates as well.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Priority</span> – When the Active Flight Schedule is automatically activated at the day rollover time, only unique flights can be loaded into the schedule. If the same flight number exists in multiple templates that are effective, the priority determines which of these flights is used. Priority 1 is the highest priority. A numeric value that is at least 1 must be used.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Enabled</span> – When enabled, the templates flights will be examined as part of the daily automatic activation of the active flight schedule and flights will be copied to the active flight schedule at the specified rollover time.</li>
+        </ul>
+        <p class="BodyText">The following actions can be performed from the Template Management screen:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Add Flight Schedule Templates</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Edit Flight Schedule Templates</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Duplicate Flight Schedule Templates</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Delete Flight Schedule Templates</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Open Flight Schedule Templates to edit flights</li>
+        </ul>
+        <p class="BodyText">Note that duplicating a template also duplicates all the flights contained within the template.</p>
+        <p class="BodyText">
+            <MadCap:annotation MadCap:createDate="2019-10-15T09:57:23.5165980-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Proejct specific content" MadCap:editor="JBerwick" MadCap:editDate="2019-10-15T09:57:28.8834606-04:00">A separate Download button will be available to create a new template and populate it with the current AA flights from FlightHub. The user will be prompted to enter the template details and the configuration of the schedule downloaded when this button is pressed. </MadCap:annotation>
+        </p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Flight Schedule Management.htm">4.3 Flight Schedule Management</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Template Management.htm">4.3.3 Flight Schedule Template Management</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="List of Flight Schedule Templates.htm">4.3.3.1 Template Management – List of Flight Schedule Template</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

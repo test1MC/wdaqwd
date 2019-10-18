@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h5 class="Heading5">Grid Basics</h5>
+        <p class="BodyText">This section describes how to interact with the grid in the Editor view. The following functions are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Copy/Paste</span> – Each cell/selection can be copy and pasted with the keyboard using CTRL+C and CTRL+V respectively. Alternately, if copying cells in rows adjacent to one another, click the cell that contains the data that should be copied and then grab the handle on the bottom right corner of the cell and drag down across any cells that should have the same value.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Multiple Selection</span> – Multiple rows/cells can be selected at a time to perform a command on (described later) or copy from. Multiple selections can be achieved in one of two ways:</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="SubBullet_1">Click any cell, hold the <span class="Bold">Shift</span> key, and then click on another cell. All of the cells in between the two clicked cells will be highlighted. For example, if you click on a cell in the first row of the first column and then hold the shift key and click on the seventh row in the third column, all of the cells from column 1 to 3 and row 1 to 7 will be highlighted/selected.</li>
+            <li class="SubBullet_1">Click any cell, keep the mouse button held down, and drag the mouse to any other cell, and then release the mouse button. All of the cells in between will be highlighted/selected.</li>
+            <li class="SubBullet_1">Click a row number to select an entire row or click a column header to select an entire column.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Inline Editing</span> – Each cell can be manually edited. Some cells contain drop-down lists (e.g. Airline). Note that date and time fields must be entered in the format of yyyy-mm-dd hh:mm (e.g. 2015-12-25 01:30). The time must be entered in 24:00 format.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Pier Editing </span>– A single pier can be assigned for all bags for a flight by typing the pier name. Optionally a station and/or class can be added to a pier assignment. To configure the pier based on station and/or class, the pier information must be formatted as follows (with commas separating additional pier assignments):</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="SubBullet_1">PierName/Station/Class</li>
+            <li class="SubBullet_1">PierName/Station/Class, PierName/Station/Class, etc.</li>
+            <li class="SubBullet_1">An example complicated pier assignment might look like the following:<br />SP2/YYZ/Y, SP3/YYZ/Z, SP1, SP2//G, SP2/YVR<br /><br />This would result in a pier assignment that looks like the following:<br /><img src="../Resources/Images/SmartSort User Guide/pier assignment.png" MadCap:mediastyle="@media print { width: 3in; }" /><br /></li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Adding Flights </span>– There is always an empty row at the bottom of the grid that can be used to add a new flight. One or more flights can also be pasted to the last row or duplicated from other existing flights. Lastly, the <span class="Bold">Add Flight</span> button can be used to add a new flight<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="Adding a Flight to the Active Flight Schedule.htm#_Ref444160727" class="ParaTextOnly">4.3.2.5.3 Adding a Flight to the Active Flight Schedule</MadCap:xref>)</MadCap:conditionalText>. Note that the flight will not actually be added to the flight schedule until the <span class="Bold">Save All </span>button is clicked.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Deleting Flights</span> – One or more flights can be deleted by selecting the entire row and hitting the delete key. The entire row is selected by clicking the row number on the left side of the grid. The <span class="Bold">Delete</span> button can also be used to delete a flight<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="Deleting a Flight from the Active Flight Schedule.htm#_Ref444160733" class="ParaTextOnly">4.3.2.5.6 Deleting a Flight from the Active Flight Schedule</MadCap:xref>)</MadCap:conditionalText>. Note that the flight will not actually be deleted from the flight schedule until the <span class="Bold">Save All </span>button is clicked.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Editing Flights</span> – Individual flights can be edited by modifying the text in the grid or by clicking on the Flight Number in the grid, which will display the Edit Flight dialog. The Edit Flight dialog can also be displayed by clicking the <span class="Bold">Edit Flight </span>button<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="Editing a Flight in the Active Flight Schedule.htm#_Ref444160737" class="ParaTextOnly">4.3.2.5.4 Editing a Flight in the Active Flight Schedule</MadCap:xref>)</MadCap:conditionalText>. Note that the flight will not actually be edited in the flight schedule until the <span class="Bold">Save All </span>button is clicked.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Duplicating Flights</span> – One or more rows can be duplicated by selecting the entire row and clicking the <span class="Bold">Duplicate</span> button. All of the flight details are copied when a flight is duplicated with the exception of the flight number (the Flight Number cell will be highlighted in red to indicate that a value needs to be entered). The status will be INVALID until the flight number is specified. When the flight number is updated, the status change to NEW.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Row and Cell Validation</span> – When data is entered or edits are made, rows and cells are validated. If there is an issue with a cell, the cell is highlighted in red and an error message is displayed in the <span class="Bold">Status</span> column. Rows cannot be saved when errors are present - if the <span class="Bold">Save All</span> button is clicked any other changes will be saved, but not the invalid rows. If there is a flight without a proper On Time Pier assignment, the On Time Pier cell is highlighted in yellow, however flights can be saved without an On Time Pier assignment.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Status Column</span> – The last column of the grid is a status column. This has the following values/states:</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="SubBullet_1"><span class="Bold">DELETE</span> – Gray Text – The row has been marked for deletion but not yet saved (actually deleted)</li>
+            <li class="SubBullet_1"><span class="Bold">INVALID</span> – Highlighted Red – There is a problem with one or more cells in the row (e.g. the open time is after the close time, the Open time has not been entered, etc.).</li>
+            <li class="SubBullet_1"><span class="Bold">NEW</span> – Gray Text – A new row has been added, but not yet saved.</li>
+            <li class="SubBullet_1"><span class="Bold">MODIFIED</span> – Gray Text – The row has been modified in some way, but not yet saved.</li>
+            <li class="SubBullet_1"><span class="Bold">SAVED</span> – Green Text – The row has been saved to the server.</li>
+            <li class="SubBullet_1"><span class="Bold">OFFSET INVALID </span>– Highlighted Red – There is a problem with the Open, Late or Closed time.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Shifting Flight Times</span> – Flight times can be shifted for any selected rows. If multiple flights are selected, the specific flights that are affected can be displayed or hidden. Flight times (Open, Late, Close, and Estimated Departure) can be shifted individually or simultaneously. Changed flights will be updated in the grid with a MODIFIED status until changes are saved.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Placing All Flights on Hold </span>– The Active Flight Schedule can be placed on hold from the Gantt screen. When all flights are on hold, an "All flights are currently On Hold" message will display on the screen.</li>
+        </ul>
+        <p class="BodyText">None of the actions performed in the grid or commands performed will be saved to the server until <span class="Bold">Save All</span> is selected. Note that any rows with a Status of INVALID will not be saved until the row is corrected. Once the save is complete, the Status of all the saved rows will change to SAVED.</p>
+        <p class="Subheading">Copying the Grid to a Worksheet:</p>
+        <p class="BodyText">In cases where editing through the built-in editor is not sufficient, clicking the <span class="Bold">Worksheet</span> button will download an Excel template that can be used to copy and paste data between Excel and the editor. It is important that the Worksheet be used as it has the correct cell formatting for copying and pasting between the two applications. </p>
+        <p class="BodyText">Note that the <span class="Bold">Worksheet</span> button is displayed on all three views, but it will typically only pertain to a user working in the Editor view.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Flight Schedule Management.htm">4.3 Flight Schedule Management</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Active Flight Schedule.htm">4.3.2 Active Flight Schedule Management</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Adding a Flight to the Active Flight Schedule.htm">4.3.2.5.3 Adding a Flight to the Active Flight Schedule</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Deleting a Flight from the Active Flight Schedule.htm">4.3.2.5.6 Deleting a Flight from the Active Flight Schedule</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Editing a Flight in the Active Flight Schedule.htm">4.3.2.5.4 Editing a Flight in the Active Flight Schedule</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

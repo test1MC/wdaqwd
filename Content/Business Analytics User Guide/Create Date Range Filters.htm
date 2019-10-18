@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-ca">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide_1_1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h4 class="Heading4">Create Date Range Filters</h4>
+        <p class="BodyText">Date range filters enable you to show only data that meets the conditions of the filter in a report. For example, you can create filters to display data between 2013 and 2016, or all data after 2013. After you have applied your filter, the Analyzer report shows only data specified by the date ranges that you selected.</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Log in to the Report Editor, then open an existing analysis report that contains a time dimension or choose <span class="Bold">Create New</span> &gt; <span class="Bold">Analysis Report</span>.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">For a new report, select the data source that you want to use and click <span class="Bold">OK</span>.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Create the report with a date dimension, such as year, month, or day.</li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="List">Click the icon to Add A Filter, then drag the time dimension that you want to filter on to the <span class="Bold">Filters</span> board. You can also right-click on the dimension and add it as a filter.</li>
+        </ol>
+        <ol start="5" class="ol_1">
+            <li class="List">Choose one of these radio buttons to create your filter:</li>
+        </ol>
+        <ul class="ul_2">
+            <li class="SubBullet_1">Use <span class="Bold">Choose a commonly used time period</span> to specify a time period; Filter on Quarters is used here as an example. Once you have your time period specified, click <span class="Bold">OK</span> to apply the filter. This filter is dynamic and changes with the current date. The other date filters are static.</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/10.5 Business Analytics User Guide/Create Date Range Filters.png" style="height: 447px;width: 511px;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;" class="img_1" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 3&#8209;16: </MadCap:conditionalText>Filter Dialog</p>
+        <ul class="ul_2">
+            <li class="SubBullet_1"><b class="Bold">Select from a list</b>&#160;lets you choose values from a list. You can use the single right- or left- arrows to add or subtract one value at a time, or use the double right- or left- arrows to add or subtract all of the values in the list. Click&#160;<b class="Bold">OK</b>&#160;to apply the filter to your report.</li>
+        </ul>
+        <ul class="ul_2">
+            <li class="SubBullet_1">If you choose&#160;<b class="Bold">Select a range</b>, then click the&#160;<b class="Bold">Select from date picker</b>&#160;link, you will be able to use the date picker calendars to select beginning and ending dates for your report data. Click&#160;<b class="Bold">Apply</b>, then&#160;<b class="Bold">OK</b>, to apply the filter to your report. Note that there may be duplicates in the list unless a filter has been applied.<br /><img src="../Resources/Images/10.5 Business Analytics User Guide/Create Date Range Filters_1.png" style="height: 475px;width: 541px;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;" class="img_1" /></li>
+        </ul>
+        <p class="Caption" MadCap:conditions="Default.PrintOnly">Figure 3&#8209;17: Filter Dialog - Select From a List</p>
+        <ul class="ul_2">
+            <li class="SubBullet_1">Once you select a date, the data is validated to make sure that your date ranges actually contain that date. Analyzer searches for the nearest time period, up to plus or minus 30 time periods, if no date is found the first time. You will not be able to save the date filter if no dates are found. Note that date pickers are limited to the date field selected. For example, if on a month filter you select 2015-01-10 -&gt; 2017-04-09, you only get a filter for January to April (year and day are not included).<br /><img src="../Resources/Images/10.5 Business Analytics User Guide/Create Date Range Filters_2.png" style="height: 489px;width: 578px;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;" class="img_1" /></li>
+        </ul>
+        <p class="Caption" MadCap:conditions="Default.PrintOnly">Figure 3&#8209;18: Filter Dialog - Select a Range Date Picker</p>
+        <p class="BodyText"><span class="Bold">Note</span>: When you create a date range filter using the&#160;Between (and incl.)&#160;operator and parameterize it, as described in&#160;Add Query Parameters in Analyzer Reports<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (section <MadCap:xref href="Add Query Parameters to Analyzer.htm#_Ref484436267" class="ParaTextOnly">3.1.4.3 Add Query Parameters to Analyzer Reports </MadCap:xref>)</MadCap:conditionalText>, you specify one parameter name, but two parameters are created. One parameter controls the start of the range, and another controls the end of the range. The start date parameter is&lt;YourParameterName&gt;_START, and the end date parameter is&#160;&lt;YourParameterName&gt;_END.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Add Filters to an Analyzer.htm">3.1.4 Add Filters to an Analyzer Report </MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Enable Drill Through Links.htm">3.1.4.2 Enable Drill-Through Links</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Add Query Parameters to Analyzer.htm">3.1.4.3 Add Query Parameters to Analyzer Reports </MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

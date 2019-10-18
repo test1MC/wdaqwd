@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">CBIS Executive Summary Report</h2>
+        <p class="BodyText">The CBIS Executive Summary Report provides an overview of the performance of the CBIS system based on messages from bags being screened.</p>
+        <p class="Subheading">The following selection criteria are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Start Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">End Date and Time</li>
+        </ul>
+        <p class="Image_1">
+            <img src="../Resources/Images/Sample CBIS Executive Summary Report.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 1040px;height: 436px;" MadCap:mediastyle="@media print { width: 7in; }" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 9&#8209;25: </MadCap:conditionalText>
+            <MadCap:annotation MadCap:createDate="2019-09-24T15:11:05.6205589-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Update this screen for your porject. Data required." MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T12:08:25.1465255-04:00">Sample CBIS Executive Summary Report</MadCap:annotation>
+        </p>
+        <p class="Subheading">The following information is included in this report:</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 156px;" />
+            <col />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>EDS Machine</p>
+                </td>
+                <td class="td_4">
+                    <p>Identifier of the ISD machine to which the data in that row applies.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Total Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of bags that were seen at the photo eye prior to handing the bag over to the ISD machine. This count is incremented and maintained in the PLC.</p>
+                    <p>&#160;</p>
+                    <p>Note that this total may not equal the sum of Machine Total Decisions. For example, if an ISD machine loses a bag, two decisions may result; flushed bags do not result in a decision; and the entrance PE may get flagged more than the number of decisions.</p>
+                    <p>&#160;</p>
+                    <p>Also note that this count may not equal the Total Bags count seen on the Input Conveyors section of the CBIS Bag Volume Report<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="CBIS Bag Volume Report.htm#_Ref340144670" class="ParaTextOnly">9.24 CBIS Bag Volume Report</MadCap:xref>)</MadCap:conditionalText>. This is caused by a few factors including bags that are re-inducted, tracking issues, jams, bags manually moved from one conveyor to another, etc. Additionally, the Total Bags on the Bag Volume Report would include all Out of Gauge or other bags which would never be sent through any of the ISD machines.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Machine Decisions – Total</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of machine (Level 1) decisions made by that ISD machine. This count is incremented and maintained in the upper level database based on messages received from the ISD (relayed through the PLC).</p>
+                    <p>&#160;</p>
+                    <p>Note that this total may not equal the sum of Machine Cleared and Machine Alarmed decisions. This is because this report does not include every type of decision (i.e. Other and Unknown decisions are not included). For more detailed information, refer to the ISD Performance Report<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="CBIS ISD (Level 1) Performance Report.htm#_Ref462319543" class="ParaTextOnly">9.26 ISD Performance Report</MadCap:xref>)</MadCap:conditionalText>, which includes columns for each type of decision.</p>
+                    <p>&#160;</p>
+                    <p>Also note that any interruptions in the communication between the ISD machine and the PLC, or, the PLC and the upper level may cause this count to appear different than those reports produced by the ISD.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Machine Decisions – Cleared</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of machine (Level 1) clear decisions made by the ISD machine. This count is incremented and maintained in the upper level database based on messages received from the ISD (relayed through the PLC).</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Machine Decisions – % Clear</p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of Machine Total Decisions that received a machine (Level 1) clear decision from that ISD machine.</p>
+                    <p>&#160;</p>
+                    <p>Note that the percentage of Machine Clear Decisions and Machine Alarm Decisions may not sum to 100%. This is because this report does not include every type of decision (i.e. Other and Unknown decisions are not included). For more detailed information, refer to the ISD Performance Report<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="CBIS ISD (Level 1) Performance Report.htm#_Ref462319550" class="ParaTextOnly">9.26 ISD Performance Report</MadCap:xref>)</MadCap:conditionalText> which includes columns for each type of decision.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Machine Decisions – Alarmed</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of machine (Level 1) alarm decisions made by the ISD machine. This count is incremented and maintained in the upper level database based on messages received from the ISD (relayed through the PLC).</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Machine Decisions – % Alarm</p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of Machine Total Decisions that received a machine (Level 1) alarm decision from that ISD machine.</p>
+                    <p>&#160;</p>
+                    <p>Note that the percentage of Machine Clear Decisions and Machine Alarm Decisions may not sum to 100%. This is because this report does not include every type of decision (i.e. Other and Unknown decisions are not included). For more detailed information, refer to the ISD Performance Report<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="CBIS ISD (Level 1) Performance Report.htm#_Ref462319556" class="ParaTextOnly">9.26 ISD Performance Report</MadCap:xref>)</MadCap:conditionalText> which includes columns for each type of decision.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>OSR Decisions – Total</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of OSR (Level 2) decisions made by an operator for the ISD machine. This count is incremented and maintained in the upper level database based on messages received from the ISD (relayed through the PLC).</p>
+                    <p>&#160;</p>
+                    <p>Note that this total may not equal the sum of OSR Cleared and OSR Alarmed decisions. This is because this report does not include every type of decision (i.e. Other and Unknown decisions are not included). </p>
+                    <p>&#160;</p>
+                    <p>Note also that any interruptions in the communication between the ISD machine and the PLC, or, the PLC and the upper level may cause this count to appear different than those reports produced by the ISD.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>OSR Decisions – Cleared</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of OSR (Level 2) clear decisions made by the operator for the ISD machine. This count is incremented and maintained in the upper level database based on messages received from the ISD (relayed through the PLC).</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>OSR Decisions – <br />% Clear</p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of OSR Total Decisions that received an OSR (Level 2) clear decision from that ISD machine.</p>
+                    <p>&#160;</p>
+                    <p>Note that the percentage of OSR Clear Decisions and OSR Alarm Decisions may not sum to 100%. This is because this report does not include every type of decision (i.e. Other and Unknown decisions are not included). </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>OSR Decisions – Alarmed</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of OSR (Level 2) alarm decisions made by the operator for the ISD machine. This count is incremented and maintained in the upper level database based on messages received from the ISD (relayed through the PLC).</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>OSR Decisions – <br />% Alarm</p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of OSR Total Decisions that received an OSR (Level 2) alarm decision from that ISD machine.</p>
+                    <p>&#160;</p>
+                    <p>Note that the percentage of OSR Clear Decisions and OSR Alarm Decisions may not sum to 100%. This is because this report does not include every type of decision (i.e. Other and Unknown decisions are not included). </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Bags Tracked to CBRA</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of bags that were correctly tracked from the exit of the ISD machine to CBRA.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Tracking Accuracy %</p>
+                </td>
+                <td class="td_4">
+                    <p>Percentage of the total number of bags that exited the ISD machine and were not lost in tracking before entering CBRA.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Understanding Web Client Reports.htm">9 Understanding Web Client Reports</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Generating Web Client Reports.htm">9.1 Generating Web Client Reports</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="CBIS Bag Volume Report.htm">9.24 CBIS Bag Volume Report</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="CBIS ISD (Level 1) Performance Report.htm">9.26 CBIS ISD (Level 1) Performance Report</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

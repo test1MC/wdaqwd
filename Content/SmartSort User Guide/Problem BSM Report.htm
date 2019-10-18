@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">Problem BSM Report</h2>
+        <p class="BodyText">The Problem BSM Report provides a list of all bags that could not be sorted automatically by the BHS, but whose bag tags were read at the ATR. Bags would be included in this report, for example, if there was a problem with the information in the BSM, if the flight was not in the schedule, or if there was no BSM for the bag.</p>
+        <p class="Subheading">The following selection criteria are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Start Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">End Date and Time</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Sample Problem BSM Report.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;" MadCap:mediastyle="@media print { width: 7in; }" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 9&#8209;14: </MadCap:conditionalText>
+            <MadCap:annotation MadCap:createDate="2019-09-25T08:17:24.4168526-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="I was not able to capture a meaningful screenshot from the test environment.Replace with a project specific screenshot as required. " MadCap:editor="JBerwick" MadCap:editDate="2019-10-11T14:32:44.3221905-04:00">Sample Problem BSM Report</MadCap:annotation>
+        </p>
+        <p class="Subheading">The following information is included in this report:</p>
+        <p class="BodyText">The information included in this report comes from bag transactions and can potentially contain multiple records for the same bag.</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px" />
+            <col style="width: 849px" />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Carrier</p>
+                </td>
+                <td class="td_4">
+                    <p>The name of the airline.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Barcode</p>
+                </td>
+                <td class="td_4">
+                    <p>The tag value.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Scan Time</p>
+                </td>
+                <td class="td_4">
+                    <p>When the bag was scanned at the ATR.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Location</p>
+                </td>
+                <td class="td_4">
+                    <p>The device that the bag was scanned at.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Reject Reason</p>
+                </td>
+                <td class="td_4">
+                    <p>Why the bag was rejected (i.e. No BSM Data, Bag City does not match Flight City, Too Many Sort Attempts, etc.).</p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Understanding Web Client Reports.htm">9 Understanding Web Client Reports</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Generating Web Client Reports.htm">9.1 Generating Web Client Reports</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

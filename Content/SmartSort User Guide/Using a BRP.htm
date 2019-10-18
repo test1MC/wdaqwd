@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h3 class="Heading3">Using a BRP</h3>
+        <p class="BodyText">When a bag enters CBRA, the bag is conveyed to the furthest downstream BRP station available on the alarm line. When no bag is present at the BRP station, it will indicate a "Waiting for Bag" state using an <MadCap:annotation MadCap:createDate="2019-09-19T15:14:06.7097914-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Screen may change for project. Confirm list below matches fields in screenshot. \r\n" MadCap:editor="JBerwick" MadCap:editDate="2019-09-19T15:14:33.0067570-04:00">on-screen message.</MadCap:annotation></p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BRP - Waiting for Bag.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 65:&#160;</MadCap:conditionalText>BRP - Waiting for Bag</p>
+        <p class="BodyText">When a bag arrives, and stops at the associated queue photo eye, the bag data along with the Bag Security Status displays. The bag information that the BRP can display includes:</p>
+        <ul>
+            <li class="Bullet_1"><span class="Bold">Bag Pseudo ID</span> - The PLC-generated value passed to the ISD to associate with the image (used when no other ID is available).</li>
+            <li class="Bullet_1"><span class="Bold">IATA Bag Tag Number</span> - If the bag had a readable barcode, it will be passed to the ISD to associate with the image (if no ATRs are installed upstream of screening, this field will be hidden).</li>
+            <li class="Bullet_1"><span class="Bold">RFID Tag Number</span> - If the bag had a readable barcode, it will be passed to the ISD to associate with the image (if no readers are installed upstream of screening, this field will be hidden).</li>
+            <li class="Bullet_1"><span class="Bold">ISD Machine</span> - The device that screened the bag.</li>
+            <li class="Bullet_1"><span class="Bold">BHS ID for the Bag</span> - The PLC ID used for tracking the bag in the system (can be used for bag research from the SmartSuite Enterprise Web Client).</li>
+            <li class="Bullet_1"><span class="Bold">Photo Eye</span> - Certain bag statuses displays the photo eye where the bag began to be tracked by the PLC.</li>
+        </ul>
+        <p class="BodyText">The Bag Security Status is indicated with a color associated with the security status. The colors and statuses are defined in PGDS. These colors and statuses are:</p>
+        <ul>
+            <li class="Bullet_1"><span class="Bold">Cleared (Green)</span> - The bag was cleared by the ISD or through OSR. Bags should rarely arrive in CBRA with a Cleared status.</li>
+            <li class="Bullet_1"><span class="Bold">Alarmed (Red)</span> - The bag was not cleared by the ISD or through OSR.</li>
+            <li class="Bullet_1"><span class="Bold">ISD Unknown (Yellow)</span> - The bag either received a decision of "Error" from the ISD or did not receive any response at all.</li>
+            <li class="Bullet_1"><span class="Bold">BHS Unknown (Blue)</span> - The bag was lost in tracking.</li>
+            <li class="Bullet_1"><span class="Bold">Out of Gauge (Orange)</span> - The bag in question was small enough to be conveyed by the conveyor equipment but was too large for the ISD.</li>
+            <li class="Bullet_1"><span class="Bold"><MadCap:annotation MadCap:createDate="2019-09-19T15:26:57.7676938-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="May not be applicable, depending on system layout." MadCap:editor="JBerwick" MadCap:editDate="2019-09-19T15:27:05.5294248-04:00">Reintroduce (Black</MadCap:annotation>)</span> - A user at an upstream station has requested that this bag be reintroduced into the system for screening. It should not be removed at this station.</li>
+        </ul>
+        <p class="BodyText">When a bag is present at a BRP station, the user needs to transfer the bag to one of the available BIT stations. The availability of each BIT station displays on the screen. All BIT stations that are not available will have a gray background. All BIT stations that are available and ready to process bags will be green. The primary BIT station (the one located nearest to BRP stations) will be larger and will be indicated as the default BIT station.</p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BRP - Bag Present.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 66:&#160;</MadCap:conditionalText>B<MadCap:annotation MadCap:createDate="2019-09-19T15:28:39.2619568-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Verify screenshot." MadCap:editor="JBerwick" MadCap:editDate="2019-09-19T15:28:46.1267838-04:00">RP - Bag Present</MadCap:annotation></p>
+        <p class="BodyText">The SmartSuite Enterprise Web Client is used to configure the BIT stations that are associated with each BRP station (including which BIT station will be the default). For more information, refer to the SmartSort System Administration Manual Chapter 2: SmartSuite Enterprise Web Client Administration.</p>
+        <p class="BodyText">Once a BIT station is selected, the user has a certain amount of time to remove the bag from the associated queue photo eye and physically transfer it to the BIT station. A timer displays on the BRP workstation to let the user know how much time is remaining to transfer the bag. If the bag is not transferred in time, the transfer will automatically be cancelled. The user can also manually cancel the transfer at any time by clicking <span class="Bold">Cancel</span>.</p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BRP - Transfer Bag Countdown.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 67:&#160;</MadCap:conditionalText>BRP - Transfer Bag Countdown</p>
+        <p class="BodyText">Once the bag is removed from the BRP queue photo eye, the bag's information will be displayed on the selected BIT workstation and the BRP will return to the "Waiting for Bag" state.</p>
+        <p class="BodyText">BRPs can be enabled or disabled by pressing the button in the top right corner of the screen. When the BRP is enabled, the button will read <span class="Bold">Disable</span>. When disabled, a BRP queue position is not available to process bags, and the following screen displays:</p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BRP - Workstation Disabled.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 68:&#160;</MadCap:conditionalText>BRP - Workstation Disabled</p>
+        <p class="BodyText">No bags will stop at this queue for CBRA processing. A bag may still stop for normal bag flow conveyor control. Clicking <span class="Bold">Enable</span> will re-enable the BRP terminal.</p>
+        <p class="BodyText">If the user removes a bag from the associated queue photo eye without selecting a BIT workstation, an error screen will be displayed to indicate that the bag was removed improperly.</p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BRP - Bag Removed Improperly.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 69:&#160;</MadCap:conditionalText>BRP&#160;- Bag Removed Improperly</p>
+        <p class="BodyText">In normal operations, the user should return the bag to the conveyor, ensuring that the bag is blocking the queue photo eye, and follow the procedure described above.</p>
+        <p class="BodyText">Purging the bag will remove its data from the system entirely (and cannot be recovered for use at a BIT).</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="CBRA Inspection_BITs and BRPs.htm">7 CBRA Inspection</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#">Using a BRP</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Reinserting a Bag.htm">7.1.2 Reinserting a Bag</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="BRP Tag Printer.htm">7.1.3 BRP Tag Printer</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

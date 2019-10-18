@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h2 class="Heading2">OSR Performance Report</h2>
+        <p class="BodyText">The OSR Performance Report provides a summary of statistics related to the CBIS portion of the system. The faults, failures, and usage statistics related to the Level 2 Screening System (also referred to as On-Screen Resolution, or OSR) are included in this report.</p>
+        <p class="Subheading">The following selection criteria are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Start Date and Time</li>
+            <li class="Bullet_1">End Date and Time</li>
+            <li class="Bullet_1">Interval (minutes, hours, days, weeks, months, or years)</li>
+        </ul>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/OSR Performance Report.png" MadCap:mediastyle="@media print { width: 7in; }" style="border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 1024px;height: 335px;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 190: </MadCap:conditionalText>
+            <MadCap:annotation MadCap:createDate="2019-10-11T14:04:51.2095188-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Update screenshot for your project. Could not generate a report that contains data." MadCap:editor="JBerwick" MadCap:editDate="2019-10-11T14:05:12.5610619-04:00">OSR Performance Report</MadCap:annotation>
+        </p>
+        <p class="Subheading">The following information is included in this report:</p>
+        <p class="BodyText">Note that there is a summary section containing the totals for each ISD, followed by a table showing the results for each individual ISD at the specified interval.</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; ">
+            </col>
+            <col style="width: 849px; ">
+            </col>
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Clear Bags</p>
+                </td>
+                <td class="td_4">Total number of OSR (Level 1) clear decisions made by a user for the ISD machine. This count is incremented and maintained in the upper level database based on messages received from the ISD (relayed through the PLC).</td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Clear %</p>
+                </td>
+                <td class="td_4">The percentage of OSR Total Decisions that received an OSR (Level 2) clear decision from that ISD machine.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Alarm Bags</td>
+                <td class="td_4">Total number of OSR (Level 1) alarm decisions made by a user for the ISD machine. This count is incremented and maintained in the upper level database based on messages received from the ISD (relayed through the PLC).</td>
+            </tr>
+            <tr>
+                <td class="td_3">Alarm %</td>
+                <td class="td_4">The percentage of OSR Total Decisions that received an OSR (Level 2) alarm decision from that ISD machine.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Error Bags</td>
+                <td class="td_4">Total number of machine (Level 1) error decisions made by a user for the ISD machine. This count is incremented and maintained in the upper level database based on messages received from the ISD (relayed through the PLC).</td>
+            </tr>
+            <tr>
+                <td class="td_3">Error %</td>
+                <td class="td_4">The percentage of OSR Total Decisions that received an OSR (Level 2) error decision from that ISD machine.</td>
+            </tr>
+            <tr>
+                <td class="td_3">No Decision Bags</td>
+                <td class="td_4">Total number of OSR (Level 2) bags for which no decision was received. This count is incremented and maintained in the upper level database based on messages received from the ISD (relayed through the PLC).</td>
+            </tr>
+            <tr>
+                <td class="td_3">No Decision %</td>
+                <td class="td_4">The percentage of OSR total bags that did not receive an OSR (Level 1) decision.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Total Bags</td>
+                <td class="td_4">The total number of OSR (Level 2) decisions made by a user for that ISD machine.</td>
+            </tr>
+            <tr>
+                <td class="td_3">Average Processing Time </td>
+                <td class="td_4">The amount of time required on average for the user to reach a level 2 decision. Measured in seconds.</td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Understanding Web Client Reports.htm">9 Understanding Web Client Reports</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Generating Web Client Reports.htm">9.1 Generating Web Client Reports</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

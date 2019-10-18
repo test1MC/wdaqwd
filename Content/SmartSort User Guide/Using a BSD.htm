@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h3 class="Heading3">Using a BSD</h3>
+        <p class="BodyText">When a BSD station first starts, the BSD screen displays "Station Disabled." Until a user enables the BSD station, the BSD station remains disabled. If a bag stops at the queue belt for the disabled BSD station, the status of the bag displays, but no action can be taken until a user enables the BSD station.</p>
+        <p class="Image">
+            <img src="../Resources/Images/SmartSort User Guide/BSD - Station Disabled Screen.png" class="img_1" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 60:</MadCap:conditionalText>&#160;BSD - Station Disabled Screen</p>
+        <p class="BodyText">Once a user taps the <span class="Bold">Enable</span> button, the BSD is considered enabled and the user can begin processing bags.</p>
+        <p class="BodyText">When a bag enters CBRA, the bag is conveyed to the furthest downstream station available on the alarm line. When a BSD station is available, it will indicate a "Waiting for Bag" state using an on-screen message.</p>
+        <p class="Image">
+            <img src="../Resources/Images/SmartSort User Guide/BSD - Waiting for Bag Screen.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 61: </MadCap:conditionalText>BSD - Waiting for Bag Screen</p>
+        <p class="BodyText">When a bag arrives and stops at a BSD station, the state of the BSD station changes depending on the status of the bag, and the bag information along with the Bag Security Status displays on the BSD screen.</p>
+        <p class="BodyText">The <MadCap:annotation MadCap:createDate="2019-09-19T13:04:19.8908902-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="The Bag ID is project specific. \r\nIf an ATR is being used upstream of the ISD machines, the IATA number will be displayed in this field. \r\nIf an RFID system is being used, the RFID ID will be displayed. \r\nOtherwise, the generated pseudo ID (either by the BHS or the ISD) will be displayed.\r\n" MadCap:editor="JBerwick" MadCap:editDate="2019-09-19T13:04:45.9433828-04:00">bag information</MadCap:annotation> that displays on the BSD main screen includes:</p>
+        <ul>
+            <li class="Bullet_1"><span class="Bold">Bag Status</span> &#8209; The status us of the bag (for example, Alarmed, Cleared, etc.).</li>
+            <li class="Bullet_1"><span class="Bold">Bag ID</span>
+            </li>
+            <li class="Bullet_1"><span class="Bold">ISD ID</span> - The ISD machine name or the screening line at which the bag was processed.</li>
+            <li class="Bullet_1"><span class="Bold">Found at PE</span> - The location where the system began tracking the bag. This information is only displayed for bags in the BHS Unknown state.</li>
+        </ul>
+        <p class="BodyText">The Bag Security Status is indicated with a color associated with the security status. These colors and statuses include.</p>
+        <ul>
+            <li class="Bullet_1"><span class="Bold">Alarmed (Red)</span>&#160;- The bag was not cleared by the ISD machine and/or OSR.</li>
+            <li class="Bullet_1"><span class="Bold">Cleared (Green)</span> - The bag was cleared by the ISD machine or OSR. Bags should rarely arrive in CBRA with a Cleared status.</li>
+            <li class="Bullet_1"><span class="Bold">Out of Gauge (Orange)</span> - The bag was too large to go through the ISD machine.</li>
+            <li class="Bullet_1"><span class="Bold">ISD Error (Yellow)</span> - The bag could not be properly processed by the ISD machine.</li>
+            <li class="Bullet_1"><span class="Bold">BHS Unknown (Blue)</span> - The bag was lost in tracking after the ISD machine.</li>
+            <li class="Bullet_1"><span class="Bold">Timeout (Brown)</span> - The bag required OSR and no decision was made in the time allotted.</li>
+            <li class="Bullet_1"><span class="Bold">Communication Error (Black)</span> - The bag did not receive a decision from the ISD machine.</li>
+        </ul>
+        <p class="BodyText">Depending on the Bag Security Status, the BSD displays different processing options. The processes for each security status type are outlined below.</p>
+        <p class="Subheading">To process an Alarmed bag:&#160;</p>
+        <ol>
+            <li class="List">Tap the red <span class="Bold">Inspect</span> button. The Bag ID is transferred to the Secondary Viewing Station (SVS) and the BPT is started.<br /><img src="../Resources/Images/SmartSort User Guide/BSD - Inspect.png" /></li>
+            <li class="List">Manually remove the bag from the queue conveyor and transfer it to the BIT. The BSD screen displays <span class="Bold">Clear</span> and <span class="Bold">Resend</span> buttons.</li>
+            <li class="List">If the Bag ID was not transferred successfully to the SVS, press <span class="Bold">Resend</span> to try transferring the information again.<br /><img src="../Resources/Images/SmartSort User Guide/BSD- Clear.png" /></li>
+            <li class="List">Inspect the bag, and then do one of the following:</li>
+        </ol>
+        <ul>
+            <li class="SubBullet_1">If the bag is clear, place the bag on the clear line and then press the Clear button on the BSD screen. The BPT stops and the bag is reinserted into the BHS.</li>
+            <li class="SubBullet_1">If the bag is not clear, follow Standard Operating Procedures (SOP).</li>
+        </ul>
+        <p class="Subheading">To process a Cleared bag:&#160;</p>
+        <ol>
+            <li class="List">Tap the green <span class="Bold">Remove</span> button. The Bag ID is transferred to the SVS and the BPT is started.<br /><img src="../Resources/Images/SmartSort User Guide/BSD-Remove.png" /></li>
+            <li class="List">Manually remove the bag from the queue conveyor and transfer it to the BIT. The BSD screen displays <span class="Bold">Clear</span> and <span class="Bold">Resend</span> buttons.</li>
+            <li class="List">If the Bag ID was not transferred successfully to the SVS, tap <span class="Bold">Resend</span> to try transferring the information again.</li>
+            <li class="List">Place the bag on the clear line and then tap the <span class="Bold">Clear</span> button on the BSD screen. The BPT stops and the bag is reinserted into the BHS.</li>
+        </ol>
+        <p class="Subheading">To process an Out of Gauge (OOG) bag:&#160;</p>
+        <ol start="1" class="ol_1">
+            <li class="List">To inspect the bag, tap the orange Remove &amp; Inspect button. The Bag ID is transferred to the SVS and the BPT is started.<br /><img src="../Resources/Images/SmartSort User Guide/BSD-Remove and Inspect.png" /></li>
+            <li class="SubBullet_1">Tapping <MadCap:annotation MadCap:createDate="2019-09-19T13:41:46.8215932-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Project-specific. Only available for systems with automatic reinsertion.\r\n\r\nOther systems may have manual reinsert. In which case:\r\nA &quot;MANUAL REINSERT&quot; button displays. When selected, a &quot;BAG REINSERTED&quot; button will be displayed. When the bag is removed from the conveyor (BRP photo eye), the BPT will start. Once the user has manually re-inserted the bag, they will select the &quot;BAG REINSERTED&quot; button and the BPT will stop and the BSD station will become available.\r\n\r\nThis applies in all instances of Reinsert button below.\r\n" MadCap:editor="JBerwick" MadCap:editDate="2019-09-19T13:41:56.3409897-04:00">the <span class="Bold">Reinsert</span> button will move the bag downstream for automatic reinsertion. The BPT will not start and the BSD station will become available again</MadCap:annotation>.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li>Manually remove the bag from the queue conveyor and transfer it to the BIT. The BSD screen displays <span class="Bold">Clear</span> and <span class="Bold">Resend</span> buttons.<br /><img src="../Resources/Images/SmartSort User Guide/BSD-OOG Clear and Resend.png" /></li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li>If the Bag ID was not transferred successfully to the SVS, tap <span class="Bold">Resend</span> to try transferring the information again.</li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li>Inspect the bag, and then do one of the following:</li>
+        </ol>
+        <ul>
+            <li class="SubBullet_1">If the Bag ID was not transferred successfully to the SVS, tap <span class="Bold">Resend</span> to try transferring the information again.</li>
+            <li class="SubBullet_1">If the bag is not clear, follow Standard Operating Procedures (SOP).</li>
+        </ul>
+        <p class="Subheading">To process an ISD Error bag:&#160;</p>
+        <ol start="1" class="ol_1">
+            <li class="List">To inspect the bag, tap the red <span class="Bold">Inspect</span> button. The Bag ID is transferred to the SVS and the BPT is started.<br /><img src="../Resources/Images/SmartSort User Guide/BSD-EDS Error.png" /></li>
+            <li class="SubBullet_1">T<MadCap:annotation MadCap:createDate="2019-09-19T14:02:54.5868859-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Project specific. See above." MadCap:editor="JBerwick" MadCap:editDate="2019-09-19T14:03:02.8425904-04:00">apping the <span class="Bold">Reinsert</span> button will move the bag downstream for automatic reinsertion. The BPT will not start and the BSD station will become availabl</MadCap:annotation>e again.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Manually remove the bag from the queue conveyor and transfer it to the BIT. The BSD screen displays <span class="Bold">Clear</span> and <span class="Bold">Resend</span> buttons.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">If the Bag ID was not transferred successfully to the SVS, tap <span class="Bold">Resend</span> to try transferring the information again.</li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="List">Inspect the bag, and then do one of the following:</li>
+        </ol>
+        <ul>
+            <li class="SubBullet_1">If the bag is clear, place the bag on the clear line and then tap the <span class="Bold">Clear</span> button on the BSD screen. The BPT stops and the bag is reinserted into the BHS.</li>
+            <li class="SubBullet_1">If the bag is not clear, follow Standard Operating Procedures (SOP).</li>
+        </ul>
+        <p class="Subheading">To process a BHS Unknown bag:&#160;</p>
+        <p class="BodyText">If the photo eye was accidentally flagged and no bag is present at the queue conveyor, tap the orange Reset BSD button. The BSD station is reset and indicates a "Waiting for Bag" state.</p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BSD - BHS Unknown Bag.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 62:&#160;</MadCap:conditionalText>BSD - BHS Unknown Bag</p>
+        <p class="BodyText">If a bag is present at the queue conveyor, scan the bag tag using the hand scanner.</p>
+        <p class="BodyText">Note that moving the bag to access the tag will not cause the conveyor to move, nor will it trigger any events or alarms. When a tag is scanned, one of the following will occur:</p>
+        <ol>
+            <li class="List">If information is available for the bag, the BSD screen displays the applicable processing buttons according to the bag status. Follow the appropriate process.</li>
+            <li class="List">If no information is available for the bag, tap the purple <span class="Bold">Failed Scan</span> button. The BSD screen displays <span class="Bold"><MadCap:annotation MadCap:createDate="2019-09-19T14:10:13.4088313-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Project specific, see above." MadCap:editor="JBerwick" MadCap:editDate="2019-09-19T14:10:22.3948109-04:00">Reinsert</MadCap:annotation></span>  and <span class="Bold">Inspect</span> buttons.<br /><img src="../Resources/Images/SmartSort User Guide/BSD-EDS Error reinsert.png" /></li>
+            <li class="SubBullet_1">Scanning other tags on the bag will automatically refresh the screen if there is a successful scan. The applicable processing buttons display according to the bag status.</li>
+            <li class="SubBullet_1">Tapping <span class="Bold">Reinsert</span> will move the bag downstream for automatic reinsertion.</li>
+            <li class="SubBullet_1">Tapping <span class="Bold">Inspect</span> will process the bag as an Alarmed bag (see process above).</li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Baggage Status Display BSD.htm">6.1 Baggage Status Display (BSD)</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

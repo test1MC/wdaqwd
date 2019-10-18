@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">Individual Flight Summary Report</h2>
+        <p class="BodyText">The Individual Flight Report displays information for specific flights in the system. The information is divided into two sections. The first section provides a summary of the flight information and counts of bags in the system. The second section provides information about each of the bags that was sorted to this flight.</p>
+        <p class="Subheading">The following selection criteria are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Flight Carrier and Number</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">Depart Date</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Sample Individual Flight Summary Report.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 1086px;height: 410px;" MadCap:mediastyle="@media print { width: 7in; }" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 9&#8209;7: </MadCap:conditionalText>
+            <MadCap:annotation MadCap:createDate="2019-09-24T15:42:41.5835652-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Updated screenshot required" MadCap:editor="JBerwick" MadCap:editDate="2019-09-24T15:42:43.1971260-04:00">Sample Individual Flight Report</MadCap:annotation>
+        </p>
+        <p class="Subheading">The following information is included in this report:</p>
+        <p class="Subheading">Flight Summary section:</p>
+        <table align="center" class="table_1" style="width: 1000px;margin-left: auto;margin-right: auto;">
+            <col style="width: 151px;" />
+            <col style="width: 849px;" />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Airline</p>
+                </td>
+                <td class="td_4">
+                    <p>The name of the flight airline.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Schedule</p>
+                </td>
+                <td class="td_4">
+                    <p>What schedule template the flight belongs to.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Depart Time</p>
+                </td>
+                <td class="td_4">
+                    <p>The scheduled departure time of the flight.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Route</p>
+                </td>
+                <td class="td_4">
+                    <p>The airport code destination(s) for the flight.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Gate</p>
+                </td>
+                <td class="td_4">
+                    <p>Which gate the flight departs from.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Aircraft</p>
+                </td>
+                <td class="td_4">
+                    <p>The equipment that the aircraft is flying.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Early Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags destined to the flight that were seen in the system early.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>On-Time Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags destined to the flight that were seen in the system on time.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Late Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags destined to the flight that were seen in the system late.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Missed Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags destined to the flight that were seen in the system after the flight has departed.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Bags not Seen</p>
+                </td>
+                <td class="td_4">
+                    <p>Bags for the flight which BSMs were received for but were not seen by the system.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Bags in System</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags for the flight that are still working their way through the system. This only includes bags which have not yet been sorted or handled by the MEC.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>BSMs Received</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of BSMs received for the flight.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Bag Details section:</p>
+        <table align="center" class="table_1" style="width: 1000px;margin-left: auto;margin-right: auto;">
+            <col style="width: 151px;" />
+            <col style="width: 849px;" />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Bag Tag</p>
+                </td>
+                <td class="td_4">
+                    <p>The bag barcode data.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Passenger Name</p>
+                </td>
+                <td class="td_4">
+                    <p>The name of the passenger that the bag belongs to.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Scanner</p>
+                </td>
+                <td class="td_4">
+                    <p>The last ATR or MEC associated with the bag.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Sort Pier</p>
+                </td>
+                <td class="td_4">
+                    <p>Where the bag was sorted to.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Time Status</p>
+                </td>
+                <td class="td_4">
+                    <p>Whether the bag was early, on time, late or missed.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>BSM Received</p>
+                </td>
+                <td class="td_4">
+                    <p>The time when the BSM for this bag was received.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Scan Time</p>
+                </td>
+                <td class="td_4">
+                    <p>When the bag was last scanned at an ATR or MEC.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Sort Time</p>
+                </td>
+                <td class="td_4">
+                    <p>When the bag was sorted to a Make-Up Unit.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText">&#160;</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Understanding Web Client Reports.htm">9 Understanding Web Client Reports</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Generating Web Client Reports.htm">9.1 Generating Web Client Reports</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

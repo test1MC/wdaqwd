@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h5 class="Heading5">Settings Pane</h5>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">System Status</span> – Allows users to turn enable or disable the System Status function. When System Status is 'enabled, users can access either Mechanical or Operational System Status.</li>
+            <li class="SubBullet_1"><span class="Bold">Mechanical System Status</span> – Displays the Running/Faulted State of each segment (similar to what is seen in the SmartVision HMI application). Mechanical Status shows segment status according to the following legend:</li>
+        </ul>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BHS Map - Mechanical System Status Legend.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 131: </MadCap:conditionalText>BHS Map - Mechanical System Status Legend</p>
+        <ul class="ul_1">
+            <li class="SubBullet_1"><span class="Bold">Operation System Status</span> – Displays an indication of how well bags are flowing through segments based on averaged data from the last few minutes of Mechanical System Status (like traffic maps). Typically, the data is sampled (for run/stop status) every 30 seconds over the last 15 minutes. Note that an idle status is considered running since when in an Idle state, the system should be capable of running and processing bags. Operational Status shows segment status according to the following legend:</li>
+        </ul>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BHS Map - Operational System Status Legend.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 132: </MadCap:conditionalText>BHS Map - Operational System Status Legend</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><b>Live Bags</b> – Allows users to enable or disable Live Bags to. By default, this setting is enabled. Note that since this system runs in real time, no bags will display if this setting is disabled.</li>
+            <li class="Bullet_1"><b>Bag Modes</b> – Allows users to choose how to filter bags in the system.</li>
+            <li class="SubBullet_1"><b>Normal</b> – Displays bags as Tracked, Untracked, or Uncategorizable. Uncategorizable bags are bags where information about them is unknown, e.g. No Read, a bag that was previously lost in tracking and re-acquired, etc. Normal Legend displays:</li>
+        </ul>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BHS Map - Normal Bag Mode Legend.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 133: </MadCap:conditionalText>BHS Map - Normal Bag Mode Legend</p>
+        <ul class="ul_1">
+            <li class="SubBullet_1"><span class="Bold">Time to Departure</span> – Displays bags as Early, On-Time, Late, Missed, Uncategorizable, and Untracked. These statuses are based on flight times as listed in the flight schedule. Time to departure Legend displays:</li>
+        </ul>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BHS Map - Time to Departure Legend.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 134: </MadCap:conditionalText>BHS Map - Time to Departure Legend</p>
+        <ul class="ul_1">
+            <li class="SubBullet_1"><span class="Bold">Time in&#160;System</span> – Displays bags as Good, Warning, Bad, Uncategorizable, and Untracked. These statuses are based on system settings. By default, the system settings are set to 10 - 15 minutes in system. Users can change these settings by dragging the yellow and red bag to the desired time frames<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see Figure 136)</MadCap:conditionalText>. Time in System Legend displays:</li>
+        </ul>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BHS Map - Time in System Legend.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 135: </MadCap:conditionalText>BHS Map - Time in System Legend</p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BHS - Time in System Settings.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 136: </MadCap:conditionalText>BHS - Time in System Settings</p>
+        <ul class="ul_1">
+            <li class="SubBullet_1"><span class="Bold">Security Status</span> – Displays bags as Alarmed, Cleared, EDS Error, Pending Decision, Timeout, Out of Gauge, BHS Unknown, Communication Error, Uncategorizable, and Unknown. Uncategorizable are bags where the security status of the bag is not known. All bags prior to the ISD machines would be considered Uncategorizable. Note: only authorized users will have access. Security Status Legend displays:</li>
+        </ul>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BHS Map - Security Status Legend.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 137: </MadCap:conditionalText>BHS Map - Security Status Legend</p>
+        <ul class="ul_1">
+            <li class="SubBullet_1"><span class="Bold">View Exception Bags</span> – Allows user to enable or disable pins for Hot Bags, Rejected Bags, Goal Missed Bags, and Cold Bags on the map. When enabled, only one pin is displayed for each exception bag.</li>
+            <li class="SubBullet_1"><span class="Bold">Key Performance Indicators</span> – Allows user to show or hide KPIs in the system. By enabling KPIs, KPI icons displays near devices, allowing users to view statistics headlines about system performance. Clicking on a headline displays detail cards for the selected KPI.</li>
+        </ul>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/KPI Headlines.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 138: </MadCap:conditionalText>KPI Headlines</p>
+        <ul class="ul_1">
+            <li class="SubBullet_1"><span class="Bold">Labels</span> – Allows users to turn enable labels in the system. These will typically identify devices in the system such as piers, make-up units, ATRs, ISD machines, etc.</li>
+        </ul>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/SmartSort User Guide/BHS Map - Device Labels On.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 139: </MadCap:conditionalText>BHS Map - Device Labels On</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="BHS Map.htm">8.5.1 BHS Map Dashboard</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="BHS Map Tray.htm">8.5.1.2 BHS Map Tray</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="KPIs Pane.htm">8.5.1.2.2 KPIs Pane</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Bags Pane.htm">8.5.1.2.3 Bags Pane</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Flights Pane.htm">8.5.1.2.4 Flights Pane</MadCap:xref>
+            </li>
+        </ul>
+        <p MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

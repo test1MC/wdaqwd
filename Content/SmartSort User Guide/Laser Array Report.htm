@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">Laser Array Report</h2>
+        <p class="BodyText">The Laser Array Report provides a summary of bags that are seen at the ATR. Statistics are provided for both Heads (barcode counts) and for the Scanner (bag counts).</p>
+        <p class="Subheading">The following selection criteria are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Start Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">End Date and Time</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Sample Laser Array Report.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;" MadCap:mediastyle="@media print { width: 7in; }" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 9&#8209;22:</MadCap:conditionalText> <MadCap:annotation MadCap:createDate="2019-10-11T12:58:27.8267968-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="A new screenshot is required here for your project. Since I couldn't get actual data using the test environment, I updated an older report with the new logo. " MadCap:editor="JBerwick" MadCap:editDate="2019-10-11T12:59:16.7124646-04:00">Sample Laser Array Report</MadCap:annotation></p>
+        <p class="Subheading">The following information is included in this report:</p>
+        <p class="BodyText">Note that there is a summary section containing the totals for each ATR following the specific head read rates for each individual ATR. Some values also allow for additional drill-down information (i.e. clicking on the Total Bags value takes you to the Bag Transaction Search).</p>
+        <p class="Subheading">Individual Scanner Array Heads section:</p>
+        <p class="BodyText">The individual scanner array section breaks down the following by read head:</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 127px;" />
+            <col />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Row</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Barcodes Read</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of barcodes read by the particular read head.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Total Barcodes</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of barcodes read by all read heads.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>% of Total</p>
+                </td>
+                <td class="td_4">
+                    <p>The % of total barcodes read by the particular read head. (Barcodes Read / Total Barcodes * 100%)</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>% Nominal Rate</p>
+                </td>
+                <td class="td_4">
+                    <p>The configured nominal read rate for the particular read head. This provides the operator something to compare the actual % percent read against.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Differential</p>
+                </td>
+                <td class="td_4">
+                    <p>The difference between the % Nominal Rate and the actual % of Total read.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Overall Statistics section:</p>
+        <p class="BodyText">The overall statistics section breaks down the following by individual ATR. It is divided into different sections for readability. Note that each row is broken down by actual value and percent of total. There is also a combined total which shows all ATR values together.</p>
+        <p class="Subheading">Read Rate section:</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col />
+            <col />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Row</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Total Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags which passed under the ATR.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Bags Read</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags where at least one valid barcode was successfully read at the ATR.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Timeouts</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags where no barcode information was received within the window of opportunity. </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>No Reads</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags where the ATR was unable to successfully read any valid barcodes.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Read Rate (%)</p>
+                </td>
+                <td class="td_4">
+                    <p>The percent of total bags which were successfully read. (Bags Read / Total Bags * 100%)</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Tag Status section:</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col />
+            <col />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Row</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Rejects</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of tags which were logically rejected by the system.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Conflict Tags</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags where multiple conflicting tags was read. For instance two different valid and sortable IATA tags on the same bag.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Unassigned Flight</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of tags read where the flight that the bag is destined for is not currently configured within the active sort schedule.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>No Matching BSMs</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of tags read where no BSM information could be found. This could indicate an issue with the host BSM connection.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Late Bags</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of tags read from bags which are now considered late.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Valid Tags</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of sortable barcodes read.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Overall Tag Counts section:</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 128px;" />
+            <col />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Row</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Configured Tag Type</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of tags read for the configured tag type (i.e. IATA Tags, IATA Fallback Tags, 2-Digit Pier Tags, etc.).</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Tag Counts by Bag section:</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 127px;" />
+            <col />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Row</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Configured Tag Type Category</p>
+                </td>
+                <td class="td_4">
+                    <p>The total number of tags read for the configured tag type category (i.e. Only IATA Tags, Only 2-Digit Pier Tags, IATA &amp; 2-Digit, etc.).</p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Understanding Web Client Reports.htm">9 Understanding Web Client Reports</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Generating Web Client Reports.htm">9.1 Generating Web Client Reports</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

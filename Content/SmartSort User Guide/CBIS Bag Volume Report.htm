@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">CBIS Bag Volume Report</h2>
+        <p class="BodyText">The CBIS Bag Volume Report provides an overview of the distribution of bags across the various input points. The report also provides information pertaining to the sizing (i.e. In Gauge, Out of Gauge statistics) of the bags entering the CBIS system.</p>
+        <p class="Subheading">The following selection criteria are available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">Start Date and Time</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1">End Date and Time</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Sample CBIS Bag Volume Report.png" style="mc-thumbnail: none;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 1059px;height: 511px;" MadCap:mediastyle="@media print { width: 7in; }" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 9&#8209;26: </MadCap:conditionalText>S<MadCap:annotation MadCap:createDate="2019-09-24T15:10:00.1395530-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="Update screenshot for your proejct. " MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T11:29:43.7928472-04:00">ample CBIS Bag Volume Report</MadCap:annotation></p>
+        <p class="Subheading">The following information is included in this report:</p>
+        <p class="Subheading">Conveyor System Section</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Input Conveyor</p>
+                </td>
+                <td class="td_4">
+                    <p>Identifier of the input conveyor that will ultimately feed into the CBIS system (e.g. Ticket Counter, Curbside, Re-Introduction Lines)</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Bag Count</p>
+                </td>
+                <td class="td_4">
+                    <p>Total number of bags that were seen at the photo eye near the start of the input conveyor (typically near the fire/security door). This count is incremented and maintained in the PLC.</p>
+                    <p>&#160;</p>
+                    <p>Note also that this count may not equal the Total Bags count seen on the CBIS Executive Summary Report<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="CBIS Executive Summary Report.htm#_Ref462319575" class="ParaTextOnly">9.23 CBIS Executive Summary Report</MadCap:xref>)</MadCap:conditionalText>. This can be caused by several factors including re-induction, tracking issues, jams, etc. The Total Bags on the CBIS Executive Summary Report does not include Out of Gauge bags or other bags which would never be sent through any of the EDS machines.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Percentage</p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage bags the input conveyor had over the sum of the bags of all input conveyors.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Subheading">Bag Sizing Section</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">Column</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="td_3">
+                    <p class="p_1">In Gauge</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Bag Count</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags through the dimensioner that were deemed in gauge. This count is incremented and maintained in the PLC based on information received from the dimensioning system.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Percentage</p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of all bags through the dimensioner that were in gauge.</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="td_3">
+                    <p class="p_1">Out of Gauge</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Bag Count</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags through the dimensioner that were deemed out of gauge. This count is incremented and maintained in the PLC based on information received from the dimensioning system.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Percentage</p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of all bags through the dimensioner that were out of gauge.</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="td_3">
+                    <p class="p_1">No Decision</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Bag Count</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags through the dimensioner for which no status of the bag sizing was received from the dimensioning system. This count is incremented and maintained in the PLC.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Percentage</p>
+                </td>
+                <td class="td_4">
+                    <p>The percentage of all bags through the dimensioner that received no decision.</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="td_3">
+                    <p class="p_1">Total</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Bag Count</p>
+                </td>
+                <td class="td_4">
+                    <p>The number of bags through the dimensioner.</p>
+                    <p>&#160;</p>
+                    <p>Note that this count may not equal the Total Bags count seen on the CBIS Executive Summary Report<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see section <MadCap:xref href="CBIS Executive Summary Report.htm#_Ref462319584" class="ParaTextOnly">9.23 CBIS Executive Summary Report</MadCap:xref>)</MadCap:conditionalText>. This can be caused by several factors including re-induction, tracking issues, jams, etc. The Total Bags on the CBIS Executive Summary Report does not include Out of Gauge bags or other bags which would never be sent through any of the EDS machines.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics&#160;</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Understanding Web Client Reports.htm">9 Understanding Web Client Reports</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Generating Web Client Reports.htm">9.1 Generating Web Client Reports</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="CBIS Executive Summary Report.htm">9.23 CBIS Executive Summary Report</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

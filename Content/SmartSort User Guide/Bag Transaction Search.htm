@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3 class="Heading3">Bag Transaction Search</h3>
+        <p class="BodyText">The Baggage Transaction Search screen allows the operator to search for records in the Bag Transaction table on the DHS. This table contains multiple records per bag, one record for every recorded event. Also note that it may contain many sets of records with the same bag tag (because of the roll-over of IATA bag tag numbers). Note that the time zone associated with the timestamp returned in the search results is indicated in the top right corner of the screen. Station-specific data is filtered to only display information the user has permission to view. For example, a user that does not have permission to access information related to any of the stations associated with a bag's itinerary will not be able to successfully query associated baggage transaction records.</p>
+        <p class="BodyText">The following search criteria is available if the applicable data is received from the data interfaces:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">BHS ID (Is In / Not In)</span> – Indicates the BHS ID associated with the returned bag.</li>
+            <li class="Bullet_1"><span class="Bold">Comment (Contains / Is / Is Not / Begins With / Ends With)</span> – Indicates any system generated comments that pertain to the associated baggage transaction.</li>
+            <li class="Bullet_1"><span class="Bold">Destination (Is In / Not In)</span> – Indicates the associated bag's final destination.</li>
+            <li class="Bullet_1"><span class="Bold">Device (Is In / Not In)</span> – Indicates the device used to record the associated baggage transaction.</li>
+            <li class="Bullet_1"><span class="Bold">Device Type (Is In / Not In)</span> – Indicates the device type of the device used to record the associated baggage transaction.</li>
+            <li class="Bullet_1"><span class="Bold">Event (Is In / Not In)</span> – Indicates the event recorded for the baggage transaction.</li>
+            <li class="Bullet_1"><span class="Bold">Flight List (Is In / Not In)</span> – Indicates the flight number associated with the returned baggage transaction.</li>
+            <li class="Bullet_1"><span class="Bold">Physical Pier (Is In / Not In)</span> – Indicates the physical pier the associated bag was diverted to.</li>
+            <li class="Bullet_1"><span class="Bold">Reason (Is In / Not In)</span> – Indicates the reasoning being a sort decision (e.g. Pier Full).</li>
+            <li class="Bullet_1"><span class="Bold">Reject Reason (Is In / Not In)</span> – Indicates the reason for which the associated bag was rejected from sortation.</li>
+            <li class="Bullet_1"><span class="Bold">Security Bag ID (Is In / Not In)</span> – Indicates the ID number given to the associated bag by the screening machine to track the bag as it is being screened.</li>
+            <li class="Bullet_1"><span class="Bold">Sort Method (Is In / Not In)</span> – Indicates which method was used to sort the associated bag.</li>
+            <li class="Bullet_1"><span class="Bold">Tag Number (Is In / Not In)</span> – Indicates the associated bag's tag number.</li>
+            <li class="Bullet_1"><span class="Bold">Timestamp (Current / Fixed Time Range)</span> – Specifies the time range during which the baggage transaction was recorded.</li>
+            <li class="Bullet_1"><span class="Bold">Transaction Type (Is In / Not In)</span> – Indicates the transaction type of the returned baggage transaction record (e.g. Arrived in CBRA, Bag Measured, Bag Sorted, etc.).</li>
+            <li class="Bullet_1"><span class="Bold">Virtual Pier (Is In / Not In)</span> – Indicates the virtual pier destination associated with the returned baggage transaction record.</li>
+        </ul>
+        <p style="text-align: center;">
+            <img src="../Resources/Images/Bag Transaction Search Criteria.png" MadCap:mediastyle="@media print { width: 7in; }" style="border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 1035px;height: 375px;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 221: </MadCap:conditionalText>Bag Transaction Search Criteria</p>
+        <p class="BodyText" style="text-align: center;">
+            <img src="../Resources/Images/Bag Transaction Search Results.png" MadCap:mediastyle="@media print { width: 7in; }" style="border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;width: 1039px;height: 515px;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 222: </MadCap:conditionalText>
+            <MadCap:annotation MadCap:createDate="2019-10-10T07:57:48.8923316-04:00" MadCap:creator="JBerwick" MadCap:initials="JB" MadCap:comment="New screenshot required, asked Leisha to get it for me." MadCap:editor="JBerwick" MadCap:editDate="2019-10-10T07:58:03.7891274-04:00">Bag Transaction Search Results</MadCap:annotation>
+        </p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Understanding Search Results.htm">10 Understanding Search Results</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Using Advanced Searches.htm">10.3 Using Advanced Searches</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

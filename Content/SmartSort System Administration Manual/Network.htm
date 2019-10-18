@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Network</h3>
+        <p class="BodyText">The following <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">sections outline</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">outlines the</MadCap:conditionalText> common network issues, and the probable causes and remedies for those issues. </p>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Lost Connection to Single Device on Network</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Cable, connection, or power problem:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">The Ping command is the easiest troubleshooting tool. If a ping is successful, there are no low-level connectivity problems to the device.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Check for lights on the device network card and any other network devices upstream from the device (fiber transceivers or switches). Lights should be on and blinking if there is activity.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Trace the cables between two devices. This includes connections at junctions or switches. Reset all connectors and wait 30 seconds for lights to appear and turn green.</li>
+        </ol>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Lost Connection to Multiple Devices</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Depending on network segmentation, this indicates a switch or hub problem:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Find the common connection point to all disconnected devices on a network drawing. Troubleshoot that device first using the techniques above.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Use a Maintenance Laptop to confirm connectivity along the path. Some MCPs and have Ethernet ports for this purpose.</li>
+        </ol>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">General Network Communication Faults (One or More Devices)</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Some devices are disconnected or are not powered:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Find a computer with connectivity.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Ping the PLC addresses from the workstation to make sure they are available</li>
+        </ol>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Ethernet cables loose:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check Ethernet cables connections on PC – Cisco Switch – PLC Chassis.</li>
+        </ul>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Ethernet card not working on PC:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Check if activity lights are on.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Check the Windows Event Log to determine if network card has failed.</li>
+        </ol>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Ethernet module not working on PLC Chassis:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Check diagnostic lights on Ethernet Module.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Reset Ethernet Module or cycle power on the rack. </li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Check if activity lights are on Ethernet card. Confirm status or check for errors on front display. </li>
+        </ol>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Confirm redundancy of switches. One switch may be down, but system will still be functional:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check if the core switches are both running and that the status lights are active for the connected Ethernet ports.</li>
+        </ul>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Faulty Cisco Switch; power supply or fan may fail (rare):</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Basic functions will not work. Toggle power first to reboot the switch to see if that clears the errors.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Replace Switch and reconfigure.</li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Troubleshooting Guide.htm">4.3 Troubleshooting Guide</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

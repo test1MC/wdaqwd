@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Host Connections (BSM/FIDS)</h3>
+        <p class="BodyText">The following <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">sections outline</MadCap:conditionalText> <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">outlines the </MadCap:conditionalText>common host connection issues, and the probable causes and remedies for those issues.</p>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">BSM Connection Alarm</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Partial connection to the BSM host</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">One of the redundant BSM connections has failed. This will not affect system performance, but contact the BSM provider for further assistance. </li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">No Bag Data Arriving for Sortation</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Complete disconnection from the BSM host</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Contact the BSM provider for further information and assistance. The Smart Connect Message Broker Service will continue to try to connect as long as it is running.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">During this time, bags will sort in fallback mode based on information that is available.</li>
+        </ul>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Services on the SAC are not running.</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Restart the Bag Message and Smart Connect Message Broker Service services.</li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">BPMs Aren't Being Sent</h5>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">The BHS operators will not notice this problem, but it may be reported to them.</p>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">BPMs for an Carrier have been configured to be turned off:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the <MadCap:xref href="Airline Settings.htm">2.4.2 Airline Settings</MadCap:xref> screen <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">(see section <MadCap:xref href="Airline Settings.htm#_Ref455064707" class="ParaTextOnly">2.4.2 Carrier Settings</MadCap:xref>)</MadCap:conditionalText>to confirm that BPMs are enabled for the appropriate Carriers.</li>
+        </ul>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">A service has encountered an error:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Restart the Bag Message Service on the SAC. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Some queued BPMs may be lost, but processing will resume.</li>
+        </ul>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">The Carrier Host is not accepting messages from the BHS (rare):</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Contact BPM receiver for help. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Queued BPMs will be held by the Smart Connect Message Broker Service until the queue fills up or the service is stopped.</li>
+        </ul>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Troubleshooting Guide.htm">4.3 Troubleshooting Guide</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

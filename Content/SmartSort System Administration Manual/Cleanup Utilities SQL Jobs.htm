@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Cleanup Utilities (SQL Jobs)</h3>
+        <p class="BodyText">Cleanup processes are scheduled to run every night on the system servers while the system is not operational. The majority of these actions are scheduled using SQL Server Agent and managed with SQL Server Management Studio. These processes clean up old data from the database and the servers' file systems. Retention periods for this data are configurable from the Web Client (see <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">section </MadCap:conditionalText><MadCap:xref href="System Settings.htm#_Ref453574105" class="ParaTextOnly">2.3.1 System Management</MadCap:xref>). This process is scheduled to be done during off hours so that any additional load it may impose on the BHS will not affect normal operations, but it is not so strenuous to affect small-scale activity in the BHS. </p>
+        <p class="BodyText">The following activities occur during the cleanup process:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Cleanup and Archive Log Files</span> – All files from the central log file directory are moved to a Log Archive directory. This part of the process is not controlled by any retention period parameters. The intention here is to provide a single compressed file for all processes that ran during one day. These daily archives are retained for a few months for historical log analysis, if required. Each computer that generates log files has a separate log archive directory.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Cleanup Database Tables</span> – Every night, various rows of data are removed from the database tables as determined by the Retention Parameters mentioned above.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Periodic Dynamic Data Cleanup</span> – Some SmartSort services store dynamic data in the database that becomes stale over time. This data is used for reference to bags currently in the system. To keep the system running smoothly, this data may be updated or cleaned up multiple times daily.</li>
+        </ul>
+        <p class="BodyText">The following database retention periods are defined. More can be added to increase the granularity of the data, but the value (number of days) can be modified from within the Web Client by any authorized user. Note that these values represent the retention periods of data on the DHS.</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Bag Data</span> – All bag records for baggage that has already been sorted through the system (maximum 1 year).</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Unused Bag Data</span> – Information about bags where a BSM was received however the bag was never seen in the system (maximum 30 days).</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Transaction History</span> – Bag transactions to match the Bag Data records (maximum 1 year).</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">HMI Alarm History</span> – Alarm data uploaded by the HMI servers (maximum 1 year).</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">PLC Statistics</span> – Any counters recorded from the PLC for equipment or throughput data (maximum three years).</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Upper-Level Statistics</span> – Any internal counters recorded by SmartSort services for ATRs or MECs (maximum 3 years).</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Raw Message Data</span> – All information from Carrier host communications (maximum 30 days).</li>
+        </ul>
+        <p class="BodyText">The jobs configured for this system are shown in the following screenshots and are described below. </p>
+        <p class="Image">
+            <img src="../Resources/Images/SQL JObs on the SAC.png" style="mc-thumbnail: none;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 3&#8209;11: </MadCap:conditionalText>SQL Jobs on the SAC</p>
+        <p class="Image">
+            <img src="../Resources/Images/SQL Jobs on the DHS.png" style="mc-thumbnail: none;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 3&#8209;12: </MadCap:conditionalText>SQL Jobs on the DHS</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Upper Level Software System.htm">3.3 Upper Level Software System</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Replication Jobs.htm">3.3.8.1 Replication Jobs</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Cleanup Jobs.htm">3.3.8.2 Cleanup Jobs</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Miscellaneous Jobs.htm">3.3.8.3 Miscellaneous Jobs</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

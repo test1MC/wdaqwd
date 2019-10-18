@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h4 class="Heading4">Alarm Emails</h4>
+        <p class="BodyText">Administrators can configure HMI alarms to be distributed to multiple users via email. The configuration of which alarms will be emailed is configurable from the Alarm Distribution screen<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see the <span class="Italics">SmartSort System</span><span class="Italics"> Administration Manual</span> for details)</MadCap:conditionalText>.</p>
+        <p class="BodyText">Email groups and alarm settings are configured through the associated Web Client screens<MadCap:conditionalText MadCap:conditions="Default.PrintOnly"> (see the <span class="Italics">SmartSort System</span><span class="Italics"> Administration Manual</span> for details)</MadCap:conditionalText>. Email addresses and groups can be shared with those configured for the Automatic Report distribution groups. Each distribution group can have as many members as desired and can be linked to any number of alarm triggers. Alarm triggers focus on the properties of the alarm tags (e.g. Severity &gt; 1, TagName like "MOL", etc.) An email can be sent when tags that meet the trigger criteria occur or clear. Additionally, alarms can be delayed in sending to ensure that they have been on for a sufficient length of time (filters short spurious alarms). </p>
+        <p class="BodyText">Emailing is handled by a process on the MDS server and relies on the HMI application to update its alarm database at the appropriate intervals. Due to the unreliability of email transmission, receipt of alarms by an email client cannot be guaranteed in any particular timeframe.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Monitoring Alarms with the Web Client.htm">7.2.4 Monitoring Alarms with the Web Client </MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="../SmartSort System Administration Manual/Alarm Distribution.htm">2.1.5 Alarm Distribution Configuration</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="../SmartSort System Administration Manual/Email Accounts.htm">2.1.4 Email Group Configuration</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

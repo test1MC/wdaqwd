@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 class="Heading1">Controlling the System Using the HMI</h1>
+        <p class="BodyText">The HMI provides control functionality for a number of system devices for users with sufficient privileges. <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">This control functionality is described in the following sections.</MadCap:conditionalText></p>
+        <p class="BodyText">On startup, the HMI application is automatically logged in to the "User" account, which has read-only privileges. In order for the HMI to perform any control functions, it must be logged into with a higher privileged user account. Default security for the HMI application is tied to the current Windows Active Directory user, but this can be changed by logging in with a different user account. The following table defines the HMI security levels that are available.</p>
+        <table align="center" class="table_1" style="margin-left: auto;margin-right: auto;width: 1000px;">
+            <col style="width: 151px; " />
+            <col style="width: 849px; " />
+            <tr>
+                <td class="td_5">
+                    <p class="p_1">HMI Access Level</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Read-Only User</p>
+                </td>
+                <td class="td_4">
+                    <p>Ability to view all screens within the application. No control functions available.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Operator</p>
+                </td>
+                <td class="td_4">
+                    <p>Access to most control functions (e.g. Push/Divert All Push/Divert Half).</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p>Administrator/Engineer</p>
+                </td>
+                <td class="td_4">
+                    <p>Access to all functions</p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText">&#160;</p>
+        <p class="BodyText">The HMI application includes a means of logging in directly with one of the HMI access levels. Selecting <span class="Bold">Login</span> from the <span class="Bold">Utilities</span> menu will display the Login window, which allows the user to change accounts with the appropriate credentials.</p>
+        <p class="BodyText">Below is an example of the manual Login window:</p>
+        <p class="Image">
+            <img src="../Resources/Images/Manual HMI Login Window.png" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 8&#8209;1: </MadCap:conditionalText>Manual HMI Login Window</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics&#160;</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Device Status.htm">8.1 Device Status </MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

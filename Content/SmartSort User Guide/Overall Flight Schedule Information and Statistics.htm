@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h4 class="Heading4">Overall Flight Schedule Information and Statistics</h4>
+        <p class="BodyText">Information about the flights currently displayed on the Active Flight Schedule displays beneath the Display Filters. The information available varies depending on which Flight Schedule view is displayed. For example, the number of pending flights, invalid flights, and deleted flights are only available in the Editor View and the Updated Time is only available in the List and Gantt view.</p>
+        <p class="Image">
+            <img src="../Resources/Images/TL6015 SmartSort User Guide/Overall Flight Schedule Information.png" style="mc-thumbnail: none;border-left-style: none;border-left-width: 0px;border-left-color: transparent;border-right-style: none;border-right-width: 0px;border-right-color: transparent;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: none;border-bottom-width: 0px;border-bottom-color: transparent;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 4&#8209;23: </MadCap:conditionalText>Overall Flight Schedule Information and Statistics</p>
+        <p class="BodyText">Note that the information and statistics displayed is only for flights currently displayed on the Active Flight Schedule (the flight's Estimated Departure time is within the Time Range and the flight matches all of the filters that are applied).</p>
+        <p class="BodyText">The following statistical information is available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Updated</span> – Displays on the List and Gantt views only. Updated indicates the last time the flights being shown were refreshed from the server.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Total</span> – Total number of flights.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Open</span> – Total number of flights that are currently in "Open Time" (the time between a flight's open time and a flight's late time<MadCap:conditionalText MadCap:conditions="Default.PrintOnly">, see section <MadCap:xref href="Flight Times.htm#_Ref443913473" class="ParaTextOnly">4.3.1 Flight Times</MadCap:xref> for details</MadCap:conditionalText>). </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Unassigned</span> – Total number of flights that do not have an On Time Pier assignment. In order for a flight to be considered assigned, there must be at least one On Time Pier assignment that does not have any class or city criteria associated with it. For example, if a flight has a pier assignment but it is only for bags for one particular class, some bags for the flight will not have a pier assignment, so the flight is considered unassigned.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Held</span> – Number of flights that have been individually placed On Hold. On Hold means that all bags for the flight will sort to the On Time Pier assignment regardless of time. For example, if a flight is On Hold and has a Missed Pier assignment and the bag is seen after the Missed Time, it will still sort to the On Time Pier. Note that this number does not reflect any flights placed on hold by clicking <span class="Bold">Hold All Flights</span>.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Cancelled</span> – Number of flights that have been cancelled.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Pending</span> – Displays on the Editor view only. Indicates the number of flights that have been changed in the Editor view and not yet saved to the server. Pending changes will be saved to the server when <span class="Bold">Save All</span> is clicked.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Invalid</span> – Displays on the Editor view only. Indicates the number of flights that have been changed in the Editor view and need to be corrected before they will be saved to the server (these flights have an "Invalid" status). Note that if other changes are saved, any flights with an "Invalid" status will not be saved to the server.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Deleted</span> – Displays on the Editor view only. Indicates the number of flights that have been marked for deletion and not yet deleted from the server. Flights will be deleted from the server when <span class="Bold">Save All</span> is clicked.</li>
+        </ul>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Flight Schedule Management.htm">4.3 Flight Schedule Management</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Active Flight Schedule.htm">4.3.2 Active Flight Schedule Management</MadCap:xref>
+            </li>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Flight Times.htm">4.3.1 Flight Times</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

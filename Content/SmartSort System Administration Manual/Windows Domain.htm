@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Windows/Domain</h3>
+        <p class="BodyText">The following <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">sections outline</MadCap:conditionalText> <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">outlines the </MadCap:conditionalText>common Windows issues, and the probable causes and remedies for those issues.</p>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Can't Log onto Computer</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Password not accepted because Caps Lock and/or Num Lock is on:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Make sure that no unexpected keys are pressed that would change the password as it is typed.</li>
+        </ul>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Password expired or was changed:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check with your system administrator for the latest authentication details configurable on the  (<MadCap:conditionalText MadCap:conditions="Default.PrintOnly">see section</MadCap:conditionalText><MadCap:xref href="Managing Users.htm#_Ref384039391" class="ParaTextOnly">2.1.2 Managing Users</MadCap:xref>).</li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Time Synchronization</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Domain is not accessible or time synchronization has failed:</p>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">Note that Windows time can drift up to a couple of minutes before it is fixed.</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Confirm that the domain controllers or time server are functioning correctly.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Use w32tm /resync from a command prompt to force an update. If this update returns an error, further troubleshooting is required.</li>
+        </ol>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Automatic Login Not Functioning</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Shift key held down during boot process:</p>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Log in using the correct password.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Reboot the computer if the password is not known.</li>
+        </ol>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">Automatic login has been disabled or is not configured:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Get a system administrator to update the registry or use the Sysinternals Autologon tool to set the automatic logon credentials. </li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">Named Computers Not Responding When Pinged</h5>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">DNS servers are not available:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Ensure the domain controllers are functional.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Check the Windows Event Logs for errors.</li>
+        </ul>
+        <p class="Subheading" MadCap:conditions="Default.ScreenOnly">DNS is not properly configured on the client computer:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1" MadCap:conditions="Default.ScreenOnly">Make sure the correct IP addresses are used for the DNS servers when using a static IP configuration.</li>
+        </ul>
+        <h5 class="Heading5" MadCap:conditions="Default.ScreenOnly">General Windows Problems</h5>
+        <ol start="1" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Use the Windows Event Log or System Information as a troubleshooting tool. </li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List" MadCap:conditions="Default.ScreenOnly">Contact Brock Solutions for further troubleshooting assistance.</li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul>
+            <li MadCap:conditions="Default.ScreenOnly">
+                <MadCap:xref href="Troubleshooting Guide.htm">4.3 Troubleshooting Guide</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>

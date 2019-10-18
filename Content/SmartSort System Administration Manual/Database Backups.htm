@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3"><span class="span_1" MadCap:conditions="Default.PrintOnly">3.3.10 </span>Database Backups</h3>
+        <p class="BodyText">Each night the complete database is backed up to a file on the local hard drive. Database backups are retained for a two-week period. Scheduling and organization of these nightly backups is handled by the Microsoft SQL Server database software. Incremental backups are not performed. </p>
+        <p class="BodyText">Automated jobs run every morning at the time configured in the Web Client application, and generate a full backup of the SAC, DHS and DHS databases. The backup files are located in subfolders in the following directory:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1">D:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Backup\ </li>
+        </ul>
+        <p class="BodyText">The Database files themselves are located on a separate local disk to reduce the risk if there were a complete disk failure. Live data files are in the directory: </p>
+        <ul class="ul_1">
+            <li class="Bullet_1">D:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Data\</li>
+        </ul>
+        <p class="BodyText">Some changes to the backup job schedules can be made through the Scheduled Jobs tab in the Facility Setup of the Web Client application. </p>
+        <p class="Subheading">Restoring the Database from Backup</p>
+        <p class="BodyText">Do not restore a backup over the existing DHS databases unless directed by Brock Solutions support. </p>
+        <p class="BodyText">The standard SQL Management Studio tools can be used to restore the database. Both the DHS and the SAC must be restored from the same day’s backups if a restore is necessary. Since the DHS database is much larger than the SAC database, the backups of each system will never be perfectly in sync. Replication must be reinitialized once the databases have been restored to clean up the duplicate records.</p>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="Upper Level Software System.htm">3.3 Upper Level Software System</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText">&#160;</p>
+    </body>
+</html>

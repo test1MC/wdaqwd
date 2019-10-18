@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/TL6015 SmartSort User Guide.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3 class="Heading3">Laser Array Rates</h3>
+        <p class="BodyText">The <span class="Bold">Laser Array Rate Configuration</span> screen allows the user to change the nominal read rates and alarm thresholds for all the heads on the ATRs in the system. The nominal rate can be set once the system has run enough for the normal read rate percentage to become apparent. The nominal rate is displayed on the Laser Array Report along with the differential so that maintenance personnel can detect problems more easily.</p>
+        <p class="BodyText">This screen can be used to change nominal rates and alarm thresholds as needed, but laser array head information cannot be changed, added to, or deleted from this screen.</p>
+        <p class="BodyText">The following ATR Thresholds can be configured:</p>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Flight not in Schedule</span> – Occurs when the configured number of bag tags for a particular flight cannot be found in the Active Flight Schedule. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">No BSM</span> – Occurs when the configured number of bag tags for a particular Carrier are seen at an ATR and have no BSM data.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">No Flight Makeup Unit </span>– Occurs when the configured number of bag tags for a particular flight are seen at an ATR and have no assigned flight makeup unit.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Makeup Unit Lookup Failed </span>– Occurs when the configured number of bag tags for a particular flight are seen at an ATR and the makeup unit the bag was assigned to is not configured in the Virtual to Physical Mapping. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Repeated IATA Tags</span> – Occurs when a configured number of IATA tags read at a specific ATR repeat (e.g. 5 out of 50 IATA tags). This alerts the operator to the possibility that a tag is stuck on the conveyor at the ATR.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="Bullet_1"><span class="Bold">Tag Conflict</span> – Occurs when the configured number of bag tags read at an ATR have conflicts (e.g. multiple tags of the same type).</li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Laser Array Rate Configuration Screen.png" style="mc-thumbnail: none;border-left-style: none;border-left-width: 0px;border-left-color: transparent;border-right-style: none;border-right-width: 0px;border-right-color: transparent;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: none;border-bottom-width: 0px;border-bottom-color: transparent;" />
+        </p>
+        <p class="Caption">
+            <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Figure 2&#8209;17: </MadCap:conditionalText>Laser Array Rate Configuration Screen</p>
+        <p class="Subheading">To edit a laser array head's nominal read rate or alarm threshold:</p>
+        <ol start="1" class="ol_1">
+            <li class="List">Select the desired laser array head from the <span class="Bold">Head List</span>. Note that this list can be filtered by typing in the <span class="Bold">Filter</span> field at the top of the list. Clicking a head in the list causes that head's details to be displayed in the <span class="Bold">Laser Head Details </span>section.</li>
+        </ol>
+        <ol start="2" class="ol_1">
+            <li class="List">Using the fields in the <span class="Bold">Laser Head Details </span>section, edit the nominal read rate and the alarm threshold as needed.</li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="List">Click <span class="Bold">Save Changes</span> to save the changes to the laser head. A confirmation dialog displays.</li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="List">Click <span class="Bold">OK</span> to save the changes. Click <span class="Bold">Cancel</span> to abort the save.</li>
+        </ol>
+        <p class="RelatedTopicsSubheading" MadCap:conditions="Default.ScreenOnly">Related Topics</p>
+        <ul MadCap:conditions="Default.ScreenOnly">
+            <li>
+                <MadCap:xref href="SmartSort Management.htm">2.4 SmartSort Management</MadCap:xref>
+            </li>
+        </ul>
+        <p class="BodyText" MadCap:conditions="Default.ScreenOnly">&#160;</p>
+    </body>
+</html>
